@@ -2,4 +2,4 @@
 Name: Suhan
 Credit: me
 """
-from ggame import TextAsset
+problem=input("What is your mathematical word problem?\n\n")
