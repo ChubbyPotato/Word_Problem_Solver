@@ -12,11 +12,11 @@ a=1
 
 quest=(dict(map(lambda letter:(letter,len(problem)-len(problem.replace(letter,''))),problem)))
 converted_quest = list(quest.items())
+while "?" in converted_quest:
+    print("jeff")
 
 sentences = re.split(' *[\.\?!][\'"\)\]]* *', problem)
 num=len(sentences)
 sent_list=list(range(1,num))
 for x in sent_list:
     sents=sentences[x-1]
-    sents.split(word)
-    print(sents)
