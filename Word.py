@@ -19,8 +19,8 @@ real_num=num-1
 el_range=range(0,real_num)
 
 if real_num > 6:
-    print("Word problem too long!")
-    break
+    print("\nWord problem too long!")
+
 
 for x in el_range:
     words=sentences[x].split()
@@ -28,6 +28,3 @@ for x in el_range:
 jeb=len(words)
     
 problem.replace("&", ".")    #reconverting decimals
-
-#Spell checker
-#enchant.Dict("en_US")
