@@ -24,7 +24,7 @@ if real_num > 6:
     new_problem=("Word problem too long!")
 
 for x in el_range:
-        words=sentences[x].split()
+    words=sentences[x].split()
 
 jeb=len(words)
     print(words)
