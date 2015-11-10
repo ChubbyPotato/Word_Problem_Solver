@@ -6,13 +6,11 @@ import re
 
 problem=input("What is your mathematical word problem? (Spelling, grammar, and punctuation count! Also, please have the questions at the end of the word problem!)\n\nYour problem: ")
 
-while problem=="":
-    problem=input("Please enter your mathematical word problem. (Spelling, grammar, and punctuation count! Also, please have questions at the end of the word problem!)\n\nYour problem: ")
-
 problem.replace(".", "&")   #finding the decimals
 
 quest=(dict(map(lambda letter:(letter,len(problem)-len(problem.replace(letter,''))),problem)))
 converted_quest = list(quest.items())
+
 
 sentences = re.split(' *[\.\?!][\'"\)\]]* *', problem)
 
@@ -28,10 +26,6 @@ for x in el_range:
     words=sentences[x].split()
 
 jeb=len(words)
-
-for x in jeb[0]:
-    ind_words=words[x]
-    print(ind_words)
     
 problem.replace("&", ".")    #reconverting decimals
 
