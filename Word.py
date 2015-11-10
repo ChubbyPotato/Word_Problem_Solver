@@ -36,4 +36,4 @@ for x in jeb[0]:
 problem.replace("&", ".")    #reconverting decimals
 
 #Spell checker
- #enchant.Dict("en_US")
+#enchant.Dict("en_US")
