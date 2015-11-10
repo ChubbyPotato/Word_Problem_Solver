@@ -4,10 +4,10 @@
 import re
 #import enchant
 
-problem=input("What is your mathematical word problem? (Spelling, grammar, and punctuation count! Also, please have the questions at the end of the word problem!)\n\n")
+problem=input("What is your mathematical word problem? (Spelling, grammar, and punctuation count! Also, please have the questions at the end of the word problem!)\n\nYour problem: ")
 
-if problem=="":
-    problem=input("Please enter your mathematical word problem. (Spelling, grammar, and punctuation count! Also, please have questions at the end of the word problem!)\n\n")
+while problem=="":
+    problem=input("Please enter your mathematical word problem. (Spelling, grammar, and punctuation count! Also, please have questions at the end of the word problem!)\n\nYour problem: ")
 
 problem.replace(".", "&")   #finding the decimals
 
@@ -19,19 +19,19 @@ sentences = re.split(' *[\.\?!][\'"\)\]]* *', problem)
 num=len(sentences)
 real_num=num-1
 el_range=range(0,real_num)
-        
+
 if real_num > 6:
-    new_problem=("Word problem too long!")
+    print("Word problem too long!")
+    break
 
 for x in el_range:
     words=sentences[x].split()
 
 jeb=len(words)
-    print(words)
 
-for x in jeb:
+for x in jeb[0]:
     ind_words=words[x]
-    print(and_words)
+    print(ind_words)
     
 problem.replace("&", ".")    #reconverting decimals
 
