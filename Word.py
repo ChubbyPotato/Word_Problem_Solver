@@ -4,7 +4,7 @@
 import re
 #import enchant
 
-problem=input("What is your mathematical word problem? (Spelling, grammar, and punctuation count! Also, please have the questions at the end of the word problem!)\n\nYour problem: ")
+problem=input("What is your mathematical word problem? (Spelling, grammar, and punctuation count!!)\n\nYour problem: ")
 
 problem.replace(".", "&")   #finding the decimals
 
@@ -16,15 +16,22 @@ sentences = re.split(' *[\.\?!][\'"\)\]]* *', problem)
 num=len(sentences)
 el_range=range(0,num)
 
-if num > 6:
+while num > 9:
     print("\nWord problem too long!")
     break
 
-for x in el_range:
-    words=sentences[x].split()
+words1=sentences[0].split()
+words2=sentences[1].split()
+words3=sentences[2].split()
+words4=sentences[3].split()
+words5=sentences[4].split()
+words6=sentences[5].split()
+words7=sentences[6].split()
+words8=sentences[7].split()
 
-jeb=len(words)
+
 
 #d = enchant.Dict("en_US")
-
+#if d=False:
+#   
 problem.replace("&", ".")    #reconverting decimals
