@@ -25,11 +25,11 @@ words2=sentences[1].split()
 words3=sentences[2].split()
 words4=sentences[3].split()
 words5=sentences[4].split()
-words6=sentences[5].split()
+words6=sentences[5].split()      #los words
 words7=sentences[6].split()
 words8=sentences[7].split()
 
-
+print(words8)
 
 #d = enchant.Dict("en_US")
 #if d=False:
