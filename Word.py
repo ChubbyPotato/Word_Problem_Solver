@@ -11,20 +11,20 @@ problem.replace(".", "&")   #finding the decimals
 quest=(dict(map(lambda letter:(letter,len(problem)-len(problem.replace(letter,''))),problem)))
 converted_quest = list(quest.items())
 
-
 sentences = re.split(' *[\.\?!][\'"\)\]]* *', problem)
 
 num=len(sentences)
-real_num=num-1
-el_range=range(0,real_num)
+el_range=range(0,num)
 
-if real_num > 6:
+if num > 6:
     print("\nWord problem too long!")
-
+    break
 
 for x in el_range:
     words=sentences[x].split()
 
 jeb=len(words)
-    
+
+#d = enchant.Dict("en_US")
+
 problem.replace("&", ".")    #reconverting decimals
