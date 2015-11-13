@@ -6,7 +6,7 @@ import re
 
 problem=input("What is your mathematical word problem? (Spelling, grammar, and punctuation count!!)\n\nYour problem: ")
 
-problem.replace(".", "&")   #finding the decimals
+problem.replace(".", "&")
 
 quest=(dict(map(lambda letter:(letter,len(problem)-len(problem.replace(letter,''))),problem)))
 converted_quest = list(quest.items())
@@ -40,4 +40,4 @@ print(words8)
 #d = enchant.Dict("en_US")
 #if d=False:
 #   
-problem.replace("&", ".")    #reconverting decimals
+problem.replace("&", ".")
