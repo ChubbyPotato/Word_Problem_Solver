@@ -20,34 +20,30 @@ while num > 9:
     print("\nWord problem too long!")
     break
 
-x="jeff"
-while x!="":
-    words1=sentences[0].split()
-    words2=sentences[1].split()
-    if num>2:
-        words3=sentences[2].split()
-        if num=4:
-            break
-    elif num>3:
-        words4=sentences[3].split()
-        if num=4:
-            break
-    elif num>4:
-        words5=sentences[4].split()
-        if num=4:
-            break
-    elif num>5:
-        words6=sentences[5].split()
-        if num=4:
-            break
-    elif num>6:
-        words7=sentences[6].split()
-        if num=4:
-            break
-    elif num=7:
-        words8=sentences[7].split()
-        if num=4:
-            break
+words1=sentences[0].split()
+words2=sentences[1].split()
+if num>2:
+    words3=sentences[2].split()
+    if num==3:
+elif num>3:
+    words4=sentences[3].split()
+    if num==4:
+        break
+elif num>4:
+    words5=sentences[4].split()
+    if num==5:
+        break
+elif num>5:
+    words6=sentences[5].split()
+    if num==6:
+        break
+elif num>6:
+    words7=sentences[6].split()
+    if num==7:
+        break
+elif num==8:
+    words8=sentences[7].split()
+    break
 
 print(words8)
 
