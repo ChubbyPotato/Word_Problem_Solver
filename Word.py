@@ -35,8 +35,6 @@ elif num==7:
 elif num==8:
     words8=sentences[7].split()
 
-print(words8)
-
 #d = enchant.Dict("en_US")
 #if d=False:
 #   
