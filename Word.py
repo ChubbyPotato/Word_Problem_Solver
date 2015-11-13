@@ -22,24 +22,18 @@ while num > 9:
 
 words1=sentences[0].split()
 words2=sentences[1].split()
-if num>2:
+if num==3:
     words3=sentences[2].split()
-    if num==3:
-elif num>3:
+elif num==4:
     words4=sentences[3].split()
-    if num==4:
-elif num>4:
+elif num==5:
     words5=sentences[4].split()
-    if num==5:
-elif num>5:
+elif num==6:
     words6=sentences[5].split()
-elif num>6:
+elif num==7:
     words7=sentences[6].split()
-    if num==7:
-        break
 elif num==8:
     words8=sentences[7].split()
-    break
 
 print(words8)
 
