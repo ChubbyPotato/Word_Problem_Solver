@@ -8,9 +8,6 @@ problem=input("What is your mathematical word problem? (Spelling, grammar, and p
 
 problem.replace(".", "&")
 
-quest=(dict(map(lambda letter:(letter,len(problem)-len(problem.replace(letter,''))),problem)))
-converted_quest = list(quest.items())
-
 sentences = re.split(' *[\.\?!][\'"\)\]]* *', problem)
 
 num=len(sentences)
@@ -20,19 +17,34 @@ while num > 9:
     print("\nWord problem too long!")
     break
 
-words1=sentences[0].split()
-words2=sentences[1].split()
-if num==3:
+if num==1:
+    words1=sentences[0].split()
+elif num==2:
+    words1=sentences[0].split()
+    words2=sentences[1].split()
+elif num==2:
+    words1=sentences[0].split()
+    words2=sentences[1].split()
     words3=sentences[2].split()
-elif num==4:
+elif num==2:
+    words1=sentences[0].split()
+    words2=sentences[1].split()
     words4=sentences[3].split()
-elif num==5:
+elif num==2:
+    words1=sentences[0].split()
+    words2=sentences[1].split()
     words5=sentences[4].split()
-elif num==6:
+elif num==2:
+    words1=sentences[0].split()
+    words2=sentences[1].split()
     words6=sentences[5].split()
-elif num==7:
+elif num==2:
+    words1=sentences[0].split()
+    words2=sentences[1].split()
     words7=sentences[6].split()
-elif num==8:
+else:
+    words1=sentences[0].split()
+    words2=sentences[1].split()
     words8=sentences[7].split()
 
 #d = enchant.Dict("en_US")
