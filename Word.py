@@ -29,22 +29,27 @@ elif num==2:
 elif num==2:
     words1=sentences[0].split()
     words2=sentences[1].split()
+    words3=sentences[2].split()
     words4=sentences[3].split()
 elif num==2:
     words1=sentences[0].split()
     words2=sentences[1].split()
+    words3=sentences[2].split()
     words5=sentences[4].split()
 elif num==2:
     words1=sentences[0].split()
     words2=sentences[1].split()
+    words3=sentences[2].split()
     words6=sentences[5].split()
 elif num==2:
     words1=sentences[0].split()
     words2=sentences[1].split()
+    words3=sentences[2].split()
     words7=sentences[6].split()
 else:
     words1=sentences[0].split()
     words2=sentences[1].split()
+    words3=sentences[2].split()
     words8=sentences[7].split()
 
 #d = enchant.Dict("en_US")
