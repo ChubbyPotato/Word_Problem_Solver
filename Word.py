@@ -25,6 +25,7 @@ elif num==2:
 elif num==2:
     words1=sentences[0].split()
     words2=sentences[1].split()
+    print(words2)
     words3=sentences[2].split()
 elif num==2:
     words1=sentences[0].split()
@@ -59,9 +60,7 @@ else:
     words4=sentences[3].split()
     words5=sentences[4].split()
     words6=sentences[5].split()
+    words7=sentences[6].split()
     words8=sentences[7].split()
 
-#d = enchant.Dict("en_US")
-#if d=False:
-#   
 problem.replace("&", ".")
