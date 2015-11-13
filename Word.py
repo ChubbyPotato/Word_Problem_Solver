@@ -6,7 +6,11 @@ import re
 
 problem=input("What is your mathematical word problem? (Spelling, grammar, and punctuation count!!)\n\nYour problem: ")
 
-problem.replace(".", "&")
+numbers=['1','2','3','4','5','6','7','8','9','0']
+problem2=problem.split()
+problem.replace("{0}.{0}", "&".format(numbers))
+
+print(problem)
 
 sentences = re.split(' *[\.\?!][\'"\)\]]* *', problem)
 
