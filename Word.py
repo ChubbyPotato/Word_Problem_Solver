@@ -10,7 +10,8 @@ problem.replace(".", "&")
 
 sentences = re.split(' *[\.\?!][\'"\)\]]* *', problem)
 
-num=len(sentences)
+um=len(sentences)
+num=um-1
 el_range=range(0,num)
 
 while num > 9:
@@ -22,30 +23,30 @@ if num==1:
 elif num==2:
     words1=sentences[0].split()
     words2=sentences[1].split()
-elif num==2:
+elif num==3:
     words1=sentences[0].split()
     words2=sentences[1].split()
     print(words2)
     words3=sentences[2].split()
-elif num==2:
+elif num==4:
     words1=sentences[0].split()
     words2=sentences[1].split()
     words3=sentences[2].split()
     words4=sentences[3].split()
-elif num==2:
+elif num==5:
     words1=sentences[0].split()
     words2=sentences[1].split()
     words3=sentences[2].split()
     words4=sentences[3].split()
     words5=sentences[4].split()
-elif num==2:
+elif num==6:
     words1=sentences[0].split()
     words2=sentences[1].split()
     words3=sentences[2].split()
     words4=sentences[3].split()
     words5=sentences[4].split()
     words6=sentences[5].split()
-elif num==2:
+elif num==7:
     words1=sentences[0].split()
     words2=sentences[1].split()
     words3=sentences[2].split()
