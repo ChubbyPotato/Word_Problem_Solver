@@ -26,16 +26,28 @@ while x!="":
     words2=sentences[1].split()
     if num>2:
         words3=sentences[2].split()
+        if num=4:
+            break
     elif num>3:
         words4=sentences[3].split()
+        if num=4:
+            break
     elif num>4:
         words5=sentences[4].split()
+        if num=4:
+            break
     elif num>5:
         words6=sentences[5].split()
+        if num=4:
+            break
     elif num>6:
         words7=sentences[6].split()
-    elif num>7:
+        if num=4:
+            break
+    elif num=7:
         words8=sentences[7].split()
+        if num=4:
+            break
 
 print(words8)
 
