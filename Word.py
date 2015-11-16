@@ -20,13 +20,13 @@ while num > 11:
     break
 
 if num==0:
-    print(
+    print("You forgot a period somewhere pal")
+
 if num<=1:
     words1=sentences[0].split()
 if num<=2:
     words2=sentences[1].split()
 if num<=3:
-    print(words2)
     words3=sentences[2].split()
 if num<=4:
     words4=sentences[3].split()
