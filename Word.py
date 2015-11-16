@@ -19,8 +19,9 @@ while num > 11:
     print("\nWord problem too long!")
     break
 
-if num==0:
+while num==0:
     print("You forgot a period somewhere pal")
+    break
 
 if num<=1:
     words1=sentences[0].split()
