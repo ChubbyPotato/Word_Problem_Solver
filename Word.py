@@ -23,24 +23,23 @@ while um==0:
     print("You forgot a period somewhere pal")
     break
 
-while um != "":
-    if num>=1:
-        words1=sentences[0].split()
-    if num>=2:
-        words2=sentences[1].split()
-    if num>=3:
-        words3=sentences[2].split()
-    if num>=4:
-        words4=sentences[3].split()
-    if num>=5:
-        words5=sentences[4].split()
-    if num>=6:
-        words6=sentences[5].split()
-    if num>=7:
-        words7=sentences[6].split()
-    if num>=8:
-        words8=sentences[7].split()
-    if num>=9:
-        words9=sentences[8].split()
-    if num==10:
-        words10=sentences[10].split()
+if num>=1:
+    words1=sentences[0].split()
+if num>=2:
+    words2=sentences[1].split()
+if num>=3:
+    words3=sentences[2].split()
+if num>=4:
+    words4=sentences[3].split()
+if num>=5:
+    words5=sentences[4].split()
+if num>=6:
+    words6=sentences[5].split()
+if num>=7:
+    words7=sentences[6].split()
+if num>=8:
+    words8=sentences[7].split()
+if num>=9:
+    words9=sentences[8].split()
+if num==10:
+    words10=sentences[10].split()
