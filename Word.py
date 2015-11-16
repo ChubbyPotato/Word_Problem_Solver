@@ -4,7 +4,7 @@ Credit-Stack Overflow, Alexandru Munteanu
 
 Jane spent $42 for shoes.  This was $14 less than twice what she spent for a blouse.  How much was the blouse?
 """
-import math
+from math import sin, cos, radians
 import re
 #import enchant
 
@@ -13,14 +13,15 @@ problem=input("What is your mathematical word problem? (Spelling, grammar, and p
 words_of_problem=problem.split()  #exterminate the decimals!
 deci=re.findall("\d+.\d+", problem)
 len_dec=len(deci)
-len_tru=len_dec-1
 dec_range=range(0,len_dec)
 dec=deci[1:-1]
-bush=abs(dec)
-print(bush)
-while deci > 0:
-    jeff=problem.remove(de)
-    print(jeff)
+
+while len_dec > 0:
+    for x in dec_range:
+        jeff=problem.remove(de)
+        print(jeff)
+    
+while 
 
 sentences = re.split(' *[\.\?!][\'"\)\]]* *', problem) #split the sentences!
 
