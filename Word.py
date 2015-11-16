@@ -19,7 +19,7 @@ while num > 11:
     print("\nWord problem too long!")
     break
 
-while num==0:
+while um==0:
     print("You forgot a period somewhere pal")
     break
 
