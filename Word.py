@@ -15,13 +15,15 @@ deci=re.findall("\d+.\d+", problem)
 len_dec=len(deci)
 dec_range=range(0,len_dec)
 dec=deci[1:-1]
+test=dec[-1]
+print(test)
 
 while len_dec > 0:
     for x in dec_range:
+        de=dec
         jeff=problem.remove(de)
         print(jeff)
-    
-while 
+
 
 sentences = re.split(' *[\.\?!][\'"\)\]]* *', problem) #split the sentences!
 
