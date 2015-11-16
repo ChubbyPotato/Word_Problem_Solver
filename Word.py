@@ -1,15 +1,27 @@
-# Name-Suhan
-# Credit-Stack Overflow, Alexandru Munteanu
+"""
+Name-Suhan
+Credit-Stack Overflow, Alexandru Munteanu
+
+Jane spent $42 for shoes.  This was $14 less than twice what she spent for a blouse.  How much was the blouse?
+"""
 
 import re
 #import enchant
 
 problem=input("What is your mathematical word problem? (Spelling, grammar, and punctuation count!!)\n\nYour problem: ")
 
+words_of_problem=problem.split()  #exterminate the decimals!
 deci=re.findall("\d+.\d+", problem)
+dec=str(deci)[1:-1]
+print(dec)
 print(deci)
+bush=abs(dec)
+print(bush)
+while deci > 0:
+    jeff=words_of_problem.remove(dec)
+    print(jeff)
 
-sentences = re.split(' *[\.\?!][\'"\)\]]* *', problem)
+sentences = re.split(' *[\.\?!][\'"\)\]]* *', problem) #split the sentences!
 
 um=len(sentences)
 num=um-1
