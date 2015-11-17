@@ -19,10 +19,12 @@ dec_range=range(0,len_dec-1)
 dci=str(deci)
 dec=dci[1:-1]
 print(dec)
+d=dec[0]
 
 while len_dec > 0:
     for x in dec_range:
-        problem.remove(dec)
+        jeb=str(dec)
+        problem.remove(jeb[x])
 
 
 sentences = re.split(' *[\.\?!][\'"\)\]]* *', problem) #split the sentences!
