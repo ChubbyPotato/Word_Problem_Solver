@@ -12,15 +12,17 @@ problem=input("What is your mathematical word problem? (Spelling, grammar, and p
 
 words_of_problem=problem.split()  #exterminate the decimals!
 deci=re.findall("\d+.\d+", problem)
+print(deci)
 len_dec=len(deci)
+print(len_dec)
 dec_range=range(0,len_dec-1)
-dec=deci[1:-1]
+dci=str(deci)
+dec=dci[1:-1]
 print(dec)
 
 while len_dec > 0:
     for x in dec_range:
-        de=int(dec)
-        problem.remove(de)
+        problem.remove(dec)
 
 
 sentences = re.split(' *[\.\?!][\'"\)\]]* *', problem) #split the sentences!
