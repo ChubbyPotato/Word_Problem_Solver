@@ -2,28 +2,30 @@
 Name-Suhan
 Credit-Stack Overflow, Alexandru Munteanu
 
-Jane spent $4.2 for shoes.  This was $1.4 less than twice what she spent for a blouse.  How much was the blouse?
+Jane spent 4.2 for shoes.  This was 1.4 less than twice what she spent for a blouse.  How much was the blouse?
 """
-from math import sin, cos, radians
+import math
 import re
 #import enchant
 
 problem=input("What is your mathematical word problem? (Spelling, grammar, and punctuation count!!)\n\nYour problem: ")
 
 doge=(dict(map(lambda letter:(letter,len(problem)-len(problem.replace(letter,''))),problem)))
-converted_doge = list(doge.items())
+converted_doge = list(doge.items())#exterminate all of the dollar signs!
+
 words_of_problem=problem.split()  #exterminate the decimals!
 deci=re.findall("\d+.\d+", problem)
-print(deci)
 len_dec=len(deci)
-dec_range=range(0,len_dec-1)
+dec_range=list(range(0,len_dec))
+print(dec_range)
 dci=str(deci)
 
 while len_dec > 0:
     for x in dec_range:
         j=deci[x]
-        yo=j[1:-1]
-        problem.remove(yo)
+        jo=str(j)
+        print(jo)
+        n_problem=remove(jo,n_problem)
 
 sentences = re.split(' *[\.\?!][\'"\)\]]* *', problem) #split the sentences!
 
