@@ -10,22 +10,20 @@ import re
 
 problem=input("What is your mathematical word problem? (Spelling, grammar, and punctuation count!!)\n\nYour problem: ")
 
+doge=(dict(map(lambda letter:(letter,len(problem)-len(problem.replace(letter,''))),problem)))
+converted_doge = list(doge.items())
 words_of_problem=problem.split()  #exterminate the decimals!
 deci=re.findall("\d+.\d+", problem)
 print(deci)
 len_dec=len(deci)
-print(len_dec)
 dec_range=range(0,len_dec-1)
 dci=str(deci)
-dec=dci[1:-1]
-print(dec)
-d=dec[0]
 
 while len_dec > 0:
     for x in dec_range:
-        jeb=str(dec)
-        problem.remove(jeb[x])
-
+        j=deci[x]
+        yo=j[1:-1]
+        problem.remove(yo)
 
 sentences = re.split(' *[\.\?!][\'"\)\]]* *', problem) #split the sentences!
 
