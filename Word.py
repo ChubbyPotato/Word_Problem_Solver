@@ -21,8 +21,11 @@ dci=str(deci)
 for x in dec_range:
     j=deci[x]
     jo=str(j)
-    problem.replace(jo,"",1)
-    print(problem)
+    word_=problem.split()
+    word__=word_[1:-1]
+    print(word__)
+    word__.replace(jo)
+    print(word__)
 
 sentences = re.split(' *[\.\?!][\'"\)\]]* *', problem) #split the sentences!
 
