@@ -13,19 +13,16 @@ problem=input("What is your mathematical word problem? (Spelling, grammar, and p
 doge=(dict(map(lambda letter:(letter,len(problem)-len(problem.replace(letter,''))),problem)))
 converted_doge = list(doge.items())#exterminate all of the dollar signs!
 
-words_of_problem=problem.split()  #exterminate the decimals!
 deci=re.findall("\d+.\d+", problem)
 len_dec=len(deci)
 dec_range=list(range(0,len_dec))
-print(dec_range)
 dci=str(deci)
 
-while len_dec > 0:
-    for x in dec_range:
-        j=deci[x]
-        jo=str(j)
-        print(jo)
-        n_problem=remove(jo,n_problem)
+for x in dec_range:
+    j=deci[x]
+    jo=str(j)
+    problem.replace(jo,"",1)
+    print(problem)
 
 sentences = re.split(' *[\.\?!][\'"\)\]]* *', problem) #split the sentences!
 
