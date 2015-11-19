@@ -24,6 +24,7 @@ for x in dec_range:
     j=deci[x]
     putin=[]
     putin.append(j)
+    print(putin)
     #floats = [float(x) for x in s.split()]
     word_=problem.split()
     word_.remove(jo)
