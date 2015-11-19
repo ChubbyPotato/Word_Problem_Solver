@@ -2,7 +2,7 @@
 Name-Suhan
 Credit-Stack Overflow, Alexandru Munteanu
 
-Jane spent 4.2 for shoes.  This was 1.4 less than twice what she spent for a blouse.  How much was the blouse?
+Jane spent 4.2 for shoes.  This was 1.2 less than twice what she spent for a blouse.  How much was the blouse?
 """
 import math
 import re
@@ -13,6 +13,8 @@ problem=input("What is your mathematical word problem? (Spelling, grammar, and p
 doge=(dict(map(lambda letter:(letter,len(problem)-len(problem.replace(letter,''))),problem)))
 converted_doge = list(doge.items())#exterminate all of the dollar signs!
 
+#list3 = [item for item in list1 if item not in list2]
+
 deci=re.findall("\d+.\d+", problem)
 len_dec=len(deci)
 dec_range=list(range(0,len_dec))
@@ -20,9 +22,11 @@ dci=str(deci)
 
 for x in dec_range:
     j=deci[x]
-    jo=str(j)
+    putin=[]
+    putin.append(j)
+    #floats = [float(x) for x in s.split()]
     word_=problem.split()
-    problem.replace(jo)
+    word_.remove(jo)
 
 sentences = re.split(' *[\.\?!][\'"\)\]]* *', problem) #split the sentences!
 
