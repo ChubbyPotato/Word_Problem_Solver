@@ -13,6 +13,9 @@ problem=input("What is your mathematical word problem? (Spelling, grammar, and p
 doge=(dict(map(lambda letter:(letter,len(problem)-len(problem.replace(letter,''))),problem)))
 converted_doge = list(doge.items())#exterminate all of the dollar signs!
 
+bad=['$']
+
+
 deci=re.findall("\d+.\d+", problem)
 len_dec=len(deci)
 dec_range=list(range(0,len_dec))
@@ -24,8 +27,9 @@ for x in dec_range:
     putin.append(j)
     word_=problem.split()
     #floats = [float(x) for x in s.split()]
-    list3 = [item for item in word_ if item not in putin]
-    print(list3)
+
+list3 = [item for item in word_ if item not in putin]
+print(list3)
 
 sentences = re.split(' *[\.\?!][\'"\)\]]* *', problem) #split the sentences!
 
