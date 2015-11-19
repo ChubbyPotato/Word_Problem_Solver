@@ -22,13 +22,12 @@ len_dec=len(deci)
 dec_range=list(range(0,len_dec))
 dci=str(deci)
 
-for x in dec_range:
-    putin=[]
-    putin.append(dci)
-    word_=problem.split()
-    #floats = [float(x) for x in s.split()]
-    list3 = [item for item in word_ if item not in putin]
-    print(list3)
+putin=[]
+putin.append(dci)
+word_=problem.split()
+#floats = [float(x) for x in s.split()]
+list3 = [item for item in word_ if item not in putin]
+print(list3)
 
 sentences = re.split(' *[\.\?!][\'"\)\]]* *', problem) #split the sentences!
 
