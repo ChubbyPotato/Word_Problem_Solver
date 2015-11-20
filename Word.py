@@ -13,11 +13,15 @@ problem=input("What is your mathematical word problem? (Spelling, grammar, and p
 doge=(dict(map(lambda letter:(letter,len(problem)-len(problem.replace(letter,''))),problem)))
 converted_doge = list(doge.items())#exterminate all of the dollar signs!
 
-abb=problem.count('$')
-ab=str(abb)
-a=list(ab)
+abbb=problem.count('$')
+abb=str(abbb)
+ab=list(abb)
+a='[%s]' % ', '.join(map(str, ab))
+print(a)
 bad=['$']
-a_bad=zip(bad,a)
+print(bad)
+a_ba=zip(bad,a)
+a_bad=list(a_ba)
 print(a_bad)
 list0=[item for item in converted_doge if item not in a_bad]
 
