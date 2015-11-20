@@ -24,8 +24,7 @@ a='[%s]' % ', '.join(map(str, ab))
 print(a)
 bad=['$']
 print(bad)
-a_ba=zip(bad,a)
-a_bad=list(a_ba)
+a_bad=list(zip(bad,a))
 print(a_bad)
 list0=[item for item in converted_doge if item not in a_bad]
 
