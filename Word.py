@@ -19,12 +19,11 @@ dci=str(deci)
 word_=problem_.split()
 list0 = [item for item in word_ if item not in deci]
 
-problem__=" ".join(list0)
-
 inte=[int(s) for s in problem__.split() if s.isdigit()]
-print(inte)
-list1 = [item for item in list0 if item not in inte]
-print(list1)
+inte_=str(inte)
+list1 = [item for item in list0 if item not in inte_]
+
+problem__=" ".join(list1)
 
 sentences = re.split(' *[\.\?!][\'"\)\]]* *', problem__) #split the sentences!
 
@@ -43,4 +42,20 @@ while um==0:
 if num>=1:
     words1=sentences[0].split()
 if num>=2:
+    words2=sentences[1].split()
+if num>=3:
+    words1=sentences[0].split()
+if num>=4:
+    words2=sentences[1].split()
+if num>=5:
+    words1=sentences[0].split()
+if num>=6:
+    words2=sentences[1].split()
+if num>=7:
+    words1=sentences[0].split()
+if num>=8:
+    words2=sentences[1].split()
+if num>=9:
+    words1=sentences[0].split()
+if num==10:
     words2=sentences[1].split()
