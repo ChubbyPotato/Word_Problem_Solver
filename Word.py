@@ -2,7 +2,7 @@
 Name-Suhan
 Credit-Stack Overflow, Alexandru Munteanu
 
-Jane spent $42 for shoes.  This was $12 less than twice what she spent for a blouse.  How much was the blouse?
+Jane spent $42 for shoes.  This was $14 less than twice what she spent for a blouse.  How much was the blouse?
 """
 import math
 import re
@@ -20,6 +20,7 @@ while donfail==0:
     break
 
 problem_=''.join( c for c in problem if  c not in '$')
+problem.replace('a','1')
 
 deci=re.findall("\d+.\d+", problem_) #find decimals
 len_dec=len(deci)
@@ -47,8 +48,6 @@ while num > 10:
 while um==0:
     print("You forgot a period somewhere pal")
     break
-
-
 
 if num>=1:
     words1=sentences[0].split()
