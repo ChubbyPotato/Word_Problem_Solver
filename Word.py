@@ -10,6 +10,10 @@ import re
 
 problem=input("What is your mathematical word problem? (Spelling, grammar, and punctuation count!!)\n\nYour problem: ")
 
+while problem=="":
+    print("You forgot to type your problem")
+    break
+
 doge=(dict(map(lambda letter:(letter,len(problem)-len(problem.replace(letter,''))),problem)))
 converted_doge = list(doge.items())#exterminate all of the dollar signs!
 
