@@ -73,23 +73,21 @@ if num==10:
 print("Ok. Lets split your problem into statements
 
 if num_>=1:
-    print("For the first sentece
+    print("For the first sentence,
 if num_>=2:
-    
+    print("For the second sentence,
 if num_>=3:
-    
+    print("For the third sentence,
 if num_>=4:
-    
+    print("For the fourth sentence,
 if num_>=5:
-    
+    print("For the fifth sentence,
 if num_>=6:
-    
+    print("For the sixth sentence,
 if num_>=7:
-    
+    print("For the seventh sentence,
 if num_>=8:
-    
-if num>=9:
-    
-if num==10:
-    
+    print("For the eighth sentence,
+if num==9:
+    print("For the ninth sentence,
 """
