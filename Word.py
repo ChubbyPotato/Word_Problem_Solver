@@ -28,9 +28,10 @@ dci=str(deci)
 word_=problem_.split()
 list0 = [item for item in word_ if item not in deci] #DESTROY THE DECIMALS!
 
-inte=[int(s) for s in problem__.split() if s.isdigit()] #Locate integers
+inte=[int(s) for s in problem_.split() if s.isdigit()]
 inte_=str(inte)
 list1 = [item for item in list0 if item not in inte_] #DESTROY THE INTEGERS!
+print(list1)
 
 problem__=" ".join(list1)
 
@@ -46,6 +47,8 @@ while num > 10:
 while um==0:
     print("You forgot a period somewhere pal")
     break
+
+
 
 if num>=1:
     words1=sentences[0].split()
