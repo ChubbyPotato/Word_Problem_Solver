@@ -10,6 +10,15 @@ import re
 
 problem=input("What is your mathematical word problem? (Spelling, grammar, and punctuation count!!)\n\nYour problem: ")
 
+while problem=="":
+    print("You forgot to put in the problem")
+    break
+
+donfail=problem.count('?')
+while donfail==0:
+    print("You forgot a question mark")
+    break
+
 problem_=''.join( c for c in problem if  c not in '$')
 
 deci=re.findall("\d+.\d+", problem_) #find decimals
@@ -64,21 +73,21 @@ if num==10:
 #Finale!
 print("Ok. Lets split your problem into statements
 
-if num>=1:
-    print("For
-if num>=2:
+if num_>=1:
+    print("For the first sentece
+if num_>=2:
     
-if num>=3:
+if num_>=3:
     
-if num>=4:
+if num_>=4:
     
-if num>=5:
+if num_>=5:
     
-if num>=6:
+if num_>=6:
     
-if num>=7:
+if num_>=7:
     
-if num>=8:
+if num_>=8:
     
 if num>=9:
     
