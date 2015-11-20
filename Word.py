@@ -1,5 +1,5 @@
 """
-Name-Suhan
+Name-Suhan Gui
 Credit-Stack Overflow, Alexandru Munteanu
 
 Jane spent $42 for shoes.  This was $14 less than twice what she spent for a blouse.  How much was the blouse?
