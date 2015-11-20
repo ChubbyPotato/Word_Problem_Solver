@@ -14,29 +14,18 @@ while problem=="":
     print("You forgot to type your problem")
     break
 
-doge=(dict(map(lambda letter:(letter,len(problem)-len(problem.replace(letter,''))),problem)))
-converted_doge = list(doge.items())#exterminate all of the dollar signs!
+problem_=''.join( c for c in problem if  c not in '$')
 
-abbb=problem.count('$')
-abb=str(abbb)
-ab=list(abb)
-a='[%s]' % ', '.join(map(str, ab))
-print(a)
-bad=['$']
-print(bad)
-a_bad=list(zip(bad,a))
-print(a_bad)
-list0=[item for item in converted_doge if item not in a_bad]
-
-deci=re.findall("\d+.\d+", problem)
+deci=re.findall("\d+.\d+", problem_)
 len_dec=len(deci)
 dec_range=list(range(0,len_dec))
 dci=str(deci)
 
-word_=problem.split()
+word_=problem_.split()
 list1 = [item for item in word_ if item not in deci]
+print(list1)
 
-sentences = re.split(' *[\.\?!][\'"\)\]]* *', problem) #split the sentences!
+sentences = re.split(' *[\.\?!][\'"\)\]]* *', problem_) #split the sentences!
 
 um=len(sentences)
 num=um-1
