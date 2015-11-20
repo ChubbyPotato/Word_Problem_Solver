@@ -38,7 +38,8 @@ sentences = re.split(' *[\.\?!][\'"\)\]]* *', problem__) #split the sentences!
 
 um=len(sentences)
 num=um-1
-el_range=range(0,num)
+
+while num != 
 
 while num > 10:
     print("\nWord problem too long!")
