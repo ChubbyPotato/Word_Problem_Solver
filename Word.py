@@ -44,7 +44,7 @@ while um==0:
     print("You forgot a period somewhere pal")
     break
 
-print("Ok. Lets split your problem into statements")
+print("\nOk. Lets split your problem into statements:")
 if num>=1:
     words1=sentences[0].split()
 if num>=2:
