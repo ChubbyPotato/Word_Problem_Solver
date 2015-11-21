@@ -44,7 +44,22 @@ while um==0:
     print("You forgot a period somewhere pal")
     break
 
+additions=
+additions_=
+additions__=
+
+subtractions=
+subtractions_=
+subtractions__=
+
+multiplications=
+multiplications_=
+multiplications__=
+
+divisions
+
 print("\nOk. Lets split your problem into statements:")
+
 if num>=1:
     words1=sentences[0].split()
 if num>=2:
