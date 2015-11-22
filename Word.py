@@ -25,16 +25,13 @@ word_=problem_.split()
 list0 = [item for item in word_ if item not in deci] #DESTROY THE DECIMALS!
 list1=['1' if x=='a' else x for x in list0]#REPLACE TEH 'A's
 
-inte=[int(s) for s in problem_.split() if s.isdigit()]
-inte_=str(inte)
-list2 = [item for item in list1 if item not in inte_] #DESTROY THE INTEGERS!
-
-problem__=" ".join(list2)
+problem__=" ".join(list1)
 
 sentences = re.split(' *[\.\?!][\'"\)\]]* *', problem__) #split the sentences!
 
 um=len(sentences)
 num=um-1
+sentrange=list(range(0,num))
 
 while num > 10:
     print("\nWord problem too long!")
@@ -43,23 +40,33 @@ while num > 10:
 while um==0:
     print("You forgot a period somewhere pal")
     break
+"""
+additions=['plus',added','adds','add','gains','gained','gain','sum'
+additions_=['plus']
+additions__=['+']
 
-additions=
-additions_=
-additions__=
+subtractions=['spent','removed',
+subtractions_=['minus']
+subtractions__=['-']
 
-subtractions=
-subtractions_=
-subtractions__=
+multiplications=['times
+multiplications_=['times']
+multiplications__=['x']
 
-multiplications=
-multiplications_=
-multiplications__=
-
-divisions
-
+divisions=['split
+divisions_=['divided by']
+divisions__=['/']
+"""
 print("\nOk. Lets split your problem into statements:")
 
+for x in sentrange:
+    wordd=sentences[x].split()
+    inte=[int(s) for s in problem_.split() if s.isdigit()]
+    inte_=str(inte)
+    num_of_ints=len(inte_) #for storage
+    list2 = [item for item in wordd if item not in inte_] #DESTROY THE INTEGERS!
+    
+"""
 if num>=1:
     words1=sentences[0].split()
 if num>=2:
@@ -80,3 +87,4 @@ if num>=9:
     words9=sentences[8].split()
 if num==10:
     words10=sentences[9].split()
+    """
