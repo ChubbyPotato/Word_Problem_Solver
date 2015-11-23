@@ -2,7 +2,7 @@
 Name-Suhan Gui
 Credit-Stack Overflow, Alexandru Munteanu
 
-Jane spent $42 for shoes.  This was $14 less than twice what she spent for a blouse.  How much was the blouse?
+Jane spent $42 for shoes. This was $14 less than twice what she spent for a blouse. How much was the blouse?
 """
 import math
 import re
@@ -41,19 +41,26 @@ while um==0:
     print("You forgot a period somewhere pal")
     break
 """
-additions=['plus',added','adds','add','gains','gained','gain','sum'
+additions=['plus',added','adds','add','gains','gained','gain','sum','with','more',
 additions_=['plus']
 additions__=['+']
 
-subtractions=['spent','removed',
+twice=['twice']
+twice_=['2 times']
+twice__=['2x']
+
+sq_root=['root','
+sq_root_=['
+
+subtractions=['spent','removed','remove','removes','takes','gone','less',
 subtractions_=['minus']
 subtractions__=['-']
 
-multiplications=['times
+multiplications=['times','multiplied','multiply','divide',
 multiplications_=['times']
 multiplications__=['x']
 
-divisions=['split
+divisions=['split','splitted',
 divisions_=['divided by']
 divisions__=['/']
 """
@@ -65,7 +72,12 @@ for x in sentrange:
     inte_=str(inte)
     num_of_ints=len(inte_) #for storage
     list2 = [item for item in wordd if item not in inte_] #DESTROY THE INTEGERS!
+    if num_of_ints==0:
+        questionn=True
+    elif num_of_ints>0:
+        questionn=False
     
+
 """
 if num>=1:
     words1=sentences[0].split()
