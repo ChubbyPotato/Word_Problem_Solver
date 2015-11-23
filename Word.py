@@ -50,7 +50,7 @@ twice_=['2 times']
 twice__=['2x']
 
 sq_root=['root','
-sq_root_=['
+sq_root_=['^(-2)']
 
 subtractions=['spent','removed','remove','removes','takes','gone','less',
 subtractions_=['minus']
@@ -76,7 +76,6 @@ for x in sentrange:
         questionn=True
     elif num_of_ints>0:
         questionn=False
-    
 
 """
 if num>=1:
