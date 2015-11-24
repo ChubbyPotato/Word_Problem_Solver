@@ -23,9 +23,9 @@ dec_range=list(range(0,len_dec))
 dci=str(deci)
 word_=problem_.split()
 list0 = [item for item in word_ if item not in deci] #DESTROY THE DECIMALS!
-list1=['1' if x=='a' else x for x in list0]#REPLACE TEH 'A's
+list__1=['1' if x=='a' else x for x in list0]#REPLACE TEH 'A's
 
-problem__=" ".join(list1)
+problem__=" ".join(list__1)
 
 sentences = re.split(' *[\.\?!][\'"\)\]]* *', problem__) #split the sentences!
 
@@ -49,16 +49,14 @@ twice=['twice']
 twice_=['2 times']
 twice__=['2x']
 
-sq_root=['root']
-sq_root_=['^(-2)']
+sq_root={'root of':['root']}
+sq_root_={'root of':['^(-2)']}
 
-subtractions=['spent','removed','remove','removes','takes','gone','less']
-subtractions_=['minus']
-subtractions__=['-']
+subtractions={'minus':['spent','removed','remove','removes','takes','gone','less']}
+subtractions_={'-':['spent','removed','remove','removes','takes','gone','less']}
 
-multiplications=['times','multiplied','multiply']
-multiplications_=['times']
-multiplications__=['x']
+multiplications={'multiplied by':['times','multiplied','multiply']}
+multiplications_={'x'::['times','multiplied','multiply']}
 
 divisions=['split','splitted','divide']
 divisions_=['divided by']
@@ -72,15 +70,18 @@ for x in sentrange:
     inte=[int(s) for s in problem_.split() if s.isdigit()]
     inte_=str(inte)
     num_of_ints=len(inte_) #for storage
-    list2 = [item for item in wordd if item not in inte_] #DESTROY THE INTEGERS!
-    if num_of_ints==0:
-        list3 = [item for item in wordd if item not in inte_]
-        list4 = [item for item in wordd if item not in inte_]
-        list5 = [item for item in wordd if item not in inte_]
-        list6 = [item for item in wordd if item not in inte_]
-        list7 = [item for item in wordd if item not in inte_]
-        list8 = [item for item in wordd if item not in inte_]
-        list9 = [item for item in wordd if item not in inte_]
-        list10 = [item for item in wordd if item not in inte_]
-        list11 = [item for item in wordd if item not in inte_]
-    elif num_of_ints>0:
+    list__ = [item for item in wordd if item not in inte_] #DESTROY THE INTEGERS!
+    if num_of_ints>0:
+        list1=[additions_ if x==additions else x for x in list__]
+        list2=[additions_ if x==additions else x for x in list__]
+        list3=[additions_ if x==additions else x for x in list__]
+        list4=[additions_ if x==additions else x for x in list__]
+        list5=[additions_ if x==additions else x for x in list__]
+        list6=[additions_ if x==additions else x for x in list__]
+        list7=[additions_ if x==additions else x for x in list__]
+        list8=[additions_ if x==additions else x for x in list__]
+        list9=[additions_ if x==additions else x for x in list__]
+        list10=[additions_ if x==additions else x for x in list__]
+        list11=[additions_ if x==additions else x for x in list__]
+        
+        
