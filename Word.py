@@ -40,8 +40,8 @@ while num > 10:
 while um==0:
     print("You forgot a period somewhere pal")
     break
-"""
-additions=['plus',added','adds','add','gains','gained','gain','sum','with','more',
+
+additions=['plus','added','adds','add','gains','gained','gain','sum','more']
 additions_=['plus']
 additions__=['+']
 
@@ -52,50 +52,35 @@ twice__=['2x']
 sq_root=['root']
 sq_root_=['^(-2)']
 
-subtractions=['spent','removed','remove','removes','takes','gone','less',
+subtractions=['spent','removed','remove','removes','takes','gone','less']
 subtractions_=['minus']
 subtractions__=['-']
 
-multiplications=['times','multiplied','multiply','divide',
+multiplications=['times','multiplied','multiply']
 multiplications_=['times']
 multiplications__=['x']
 
-divisions=['split','splitted',
+divisions=['split','splitted','divide']
 divisions_=['divided by']
 divisions__=['/']
-"""
+
 print("\nOk. Lets split your problem into statements:")
 
 for x in sentrange:
     wordd=sentences[x].split()
+    senteeee=sentences[x]
     inte=[int(s) for s in problem_.split() if s.isdigit()]
     inte_=str(inte)
     num_of_ints=len(inte_) #for storage
     list2 = [item for item in wordd if item not in inte_] #DESTROY THE INTEGERS!
     if num_of_ints==0:
-        questionn=True
+        list3 = [item for item in wordd if item not in inte_]
+        list4 = [item for item in wordd if item not in inte_]
+        list5 = [item for item in wordd if item not in inte_]
+        list6 = [item for item in wordd if item not in inte_]
+        list7 = [item for item in wordd if item not in inte_]
+        list8 = [item for item in wordd if item not in inte_]
+        list9 = [item for item in wordd if item not in inte_]
+        list10 = [item for item in wordd if item not in inte_]
+        list11 = [item for item in wordd if item not in inte_]
     elif num_of_ints>0:
-        questionn=False
-
-"""
-if num>=1:
-    words1=sentences[0].split()
-if num>=2:
-    words2=sentences[1].split()
-if num>=3:
-    words3=sentences[2].split()
-if num>=4:
-    words4=sentences[3].split()
-if num>=5:
-    words5=sentences[4].split()
-if num>=6:
-    words6=sentences[5].split()
-if num>=7:
-    words7=sentences[6].split()
-if num>=8:
-    words8=sentences[7].split()
-if num>=9:
-    words9=sentences[8].split()
-if num==10:
-    words10=sentences[9].split()
-    """
