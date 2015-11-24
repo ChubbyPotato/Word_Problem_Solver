@@ -49,7 +49,7 @@ twice=['twice']
 twice_=['2 times']
 twice__=['2x']
 
-sq_root=['root','
+sq_root=['root']
 sq_root_=['^(-2)']
 
 subtractions=['spent','removed','remove','removes','takes','gone','less',
