@@ -68,10 +68,10 @@ for x in sentrange:
     list2 = [item for item in wordd if item not in inte_] #DESTROY THE INTEGERS!
     if num_of_ints=>1: #is der questions?
         if donfail==1:
-            satup=[i for i in list2 if i in L2]
+            satup=[i for i in list2 if i in los_questions]
             sattup=len(satup)
             if sattup=>1:
-                
+                questionhi=True
             else:
                 questionhi=False
         else:
@@ -80,3 +80,6 @@ for x in sentrange:
         questionhi=False
         
     if questionhi==True:
+        
+    if questionhi==False:
+        
