@@ -66,7 +66,7 @@ for x in sentrange:
     inte_=str(inte)
     num_of_ints=len(inte_) #for storage
     list2 = [item for item in wordd if item not in inte_] #DESTROY THE INTEGERS!
-    if num_of_ints=>1:
+    if num_of_ints=>1: #is der questions?
         if donfail==1:
             if 
         else:
@@ -74,4 +74,4 @@ for x in sentrange:
     else:
         questionhi=False
         
-        
+    if questionhi==True:
