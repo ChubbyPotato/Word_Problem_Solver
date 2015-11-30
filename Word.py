@@ -39,12 +39,12 @@ while num > 10:
 while um==0:
     print("You forgot a period somewhere pal")
     break
-"""
-additions=['plus',added','adds','add','gains','gained','gain','sum'
+
+additions=['plus','added','adds','add','gains','gained','gain','sum']
 additions_=['plus']
 additions__=['+']
 
-subtractions=['spent','removed',subtracted','minus','subtract','take','takes','subtracts',
+subtractions=['spent','removed','subtracted','minus','subtract','take','takes','subtracts']
 subtractions_=['minus']
 subtractions__=['-']
 
@@ -55,8 +55,8 @@ multiplications__=['x']
 divisions=['split','divided','divides',
 divisions_=['divided by']
 divisions__=['/']
-"""
-los_questions=['When','What','State','What time',
+
+los_questions=['When','What','when','what','how much','How much',
 
 print("\nOk. Lets split your problem into statements:")
 
@@ -78,8 +78,10 @@ for x in sentrange:
             questionhi=False
     else:
         questionhi=False
-        
+
     if questionhi==True:
-        
-    if questionhi==False:
+        print("This sentence is a question")
+        if satup=
+            print("This question is asking 
+    elif questionhi==False:
         
