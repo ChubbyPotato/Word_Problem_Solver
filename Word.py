@@ -44,28 +44,30 @@ additions=['plus','added','adds','add','gains','gained','gain','sum']
 additions_=['plus']
 additions__=['+']
 
-subtractions=['spent','removed','subtracted','minus','subtract','take','takes','subtracts']
+subtractions=['spent','removed','removes','subtracted','minus','subtract','take','takes','subtracts']
 subtractions_=['minus']
 subtractions__=['-']
 
-multiplications=['times','multiplied','multiplies'
+multiplications=['times','multiplied','multiplies']
 multiplications_=['times']
 multiplications__=['x']
 
-divisions=['split','divided','divides',
+divisions=['split','divided','divides']
 divisions_=['divided by']
 divisions__=['/']
 
-los_questions=['When','What','when','what','how much','How much',
+los_questions=['When','What','when','what','how much','How much']
 
 print("\nOk. Lets split your problem into statements:")
 
 for x in sentrange:
     wordd=sentences[x].split()
     inte=[int(s) for s in wordd.split() if s.isdigit()]
+    rangeinte=list(range(inte))
     inte_=str(inte)
     num_of_ints=len(inte_) #for storage
     list2 = [item for item in wordd if item not in inte_] #DESTROY THE INTEGERS!
+
     if num_of_ints=>1: #is der questions?
         if donfail==1:
             satup=[i for i in list2 if i in los_questions]
@@ -82,6 +84,6 @@ for x in sentrange:
     if questionhi==True:
         print("This sentence is a question")
         if satup=
-            print("This question is asking 
+            print("This question is asking what time the {0} 
     elif questionhi==False:
         
