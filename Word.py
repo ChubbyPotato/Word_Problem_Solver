@@ -40,11 +40,11 @@ while um==0:
     print("You forgot a period somewhere pal")
     break
 
-additions=['plus','added','adds','add','gains','gained','gain','sum']
+additions=['plus','added','adds','add','gains','gained','gain','sum','produces']
 additions_=['plus']
 additions__=['+']
 
-subtractions=['spent','removed','removes','subtracted','minus','subtract','take','takes','subtracts']
+subtractions=['spent','removed','removes','subtracted','minus','subtract','take','takes','subtracts','eats']
 subtractions_=['minus']
 subtractions__=['-']
 
@@ -88,8 +88,8 @@ if num >0 and num <=10:
             print("This sentence is a question")
             if satup=='when':
                 print("This question is asking when it is")
-            elif satup==2:
-                print("")
+            elif satup==:
+                
             elif satup==2:
                 print("")
             elif satup==2:
