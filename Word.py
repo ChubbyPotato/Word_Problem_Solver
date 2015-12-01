@@ -61,38 +61,38 @@ equal__=['=']
 
 los_questions=['When','What','when','what','how much','How much']
 
-print("\nOk. Lets split your problem into statements:")
-
-for x in sentrange:
-    wordd=sentences[x].split()
-    inte=[int(s) for s in wordd.split() if s.isdigit()]
-    rangeinte=list(range(inte))
-    inte_=str(inte)
-    num_of_ints=len(inte_) #for storage
-    list2 = [item for item in wordd if item not in inte_] #DESTROY THE INTEGERS!
-
-    if num_of_ints>=1: #is der questions?
-        if donfail==1:
-            satup=[i for i in list2 if i in los_questions]
-            sattup=len(satup)
-            if sattup>=1:
-                questionhi=True
+if num >0 and num <=10:
+    print("\nOk. Lets split your problem into statements:")
+    for x in sentrange:
+        wordd=sentences[x].split()
+        inte=[int(s) for s in wordd.split() if s.isdigit()]
+        rangeinte=list(range(inte))
+        inte_=str(inte)
+        num_of_ints=len(inte_) #for storage
+        list2 = [item for item in wordd if item not in inte_] #DESTROY THE INTEGERS!
+    
+        if num_of_ints>=1: #is der questions?
+            if donfail==1:
+                satup=[i for i in list2 if i in los_questions]
+                sattup=len(satup)
+                if sattup>=1:
+                    questionhi=True
+                else:
+                    questionhi=False
             else:
                 questionhi=False
         else:
             questionhi=False
-    else:
-        questionhi=False
-
-    if questionhi==True:
-        print("This sentence is a question")
-        if satup=='when':
-            print("This question is asking when it is")
-        elif satup==2:
+    
+        if questionhi==True:
+            print("This sentence is a question")
+            if satup=='when':
+                print("This question is asking when it is")
+            elif satup==2:
+                print("")
+            elif satup==2:
+                print("")
+            elif satup==2:
+                print("")
+        elif questionhi==False:
             print("")
-        elif satup==2:
-            print("")
-        elif satup==2:
-            print("")
-    elif questionhi==False:
-        print("")
