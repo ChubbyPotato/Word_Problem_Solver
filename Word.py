@@ -66,13 +66,13 @@ if num >0 and num <=10:
     for x in sentrange:
         wordd=sentences[x].split()
         #inte=[int(s) for s in wordd.split() if s.isdigit()]
-        inte=4
+        inte=0
         rangeinte=list(range(inte))
         inte_=str(inte)
         num_of_ints=len(inte_) #for storage
         list2 = [item for item in wordd if item not in inte_] #DESTROY THE INTEGERS!
     
-        if num_of_ints==0:
+        if num_of_ints==1:
             if len_dec==0:
                 if donfail==1:
                     satup=[i for i in list2 if i in los_questions]
@@ -81,12 +81,16 @@ if num >0 and num <=10:
                         questionhi=True
                     else:
                         questionhi=False
+                        print("ynah")
                 else:
                     questionhi=False
+                    print("nah")
             else:
                 questionhi=False
+                print("ay")
         else:
             questionhi=False
+            print("HAHA")
 
         if questionhi==True:
             confirmyes=input("Sentence {0} is a question, right? y to confirm. n is reject")
@@ -110,4 +114,4 @@ if num >0 and num <=10:
                 questionhi=False
 
         elif questionhi==False:
-            print("")
+            print("jet")
