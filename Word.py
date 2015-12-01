@@ -65,7 +65,8 @@ if num >0 and num <=10:
     print("\nOk. Lets split your problem into statements:")
     for x in sentrange:
         wordd=sentences[x].split()
-        inte=[int(s) for s in wordd.split() if s.isdigit()]
+        #inte=[int(s) for s in wordd.split() if s.isdigit()]
+        inte=4
         rangeinte=list(range(inte))
         inte_=str(inte)
         num_of_ints=len(inte_) #for storage
@@ -86,7 +87,7 @@ if num >0 and num <=10:
                 questionhi=False
         else:
             questionhi=False
-        
+
         if questionhi==True:
             confirmyes=input("Sentence {0} is a question, right? y to confirm. n is reject")
             confirmyes.lower()
@@ -96,11 +97,11 @@ if num >0 and num <=10:
                     print("This question is asking when it is")
                     
                 elif satup=="how much" or satup=="How much":
-                    print("This is asking how much the is")
+                    print("This is asking how much the  is")
                 elif satup=="what time" or satup=="What time":
                     print("This is asking what time it is")
                 elif satup=="How long" or satup=="how long":
-                    print("This is asking 
+                    print("This is asking how long the  is")    #REMEMBER TO ENTER THE VARIABLE M8 
                 
                 else:
                     print("This is not a question mate")
