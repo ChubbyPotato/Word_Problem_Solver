@@ -56,6 +56,9 @@ divisions=['split','divided','divides']
 divisions_=['divided by']
 divisions__=['/']
 
+equal=['is equal to']
+equal__=['=']
+
 los_questions=['When','What','when','what','how much','How much']
 
 print("\nOk. Lets split your problem into statements:")
@@ -68,11 +71,11 @@ for x in sentrange:
     num_of_ints=len(inte_) #for storage
     list2 = [item for item in wordd if item not in inte_] #DESTROY THE INTEGERS!
 
-    if num_of_ints=>1: #is der questions?
+    if num_of_ints>=1: #is der questions?
         if donfail==1:
             satup=[i for i in list2 if i in los_questions]
             sattup=len(satup)
-            if sattup=>1:
+            if sattup>=1:
                 questionhi=True
             else:
                 questionhi=False
@@ -83,7 +86,13 @@ for x in sentrange:
 
     if questionhi==True:
         print("This sentence is a question")
-        if satup=
-            print("This question is asking what time the {0} 
+        if satup=='when':
+            print("This question is asking when it is")
+        elif satup==2:
+            print("")
+        elif satup==2:
+            print("")
+        elif satup==2:
+            print("")
     elif questionhi==False:
-        
+        print("")
