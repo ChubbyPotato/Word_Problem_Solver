@@ -71,12 +71,15 @@ if num >0 and num <=10:
         num_of_ints=len(inte_) #for storage
         list2 = [item for item in wordd if item not in inte_] #DESTROY THE INTEGERS!
     
-        if num_of_ints>=1: #is der questions?
-            if donfail==1:
-                satup=[i for i in list2 if i in los_questions]
-                sattup=len(satup)
-                if sattup>=1:
-                    questionhi=True
+        if num_of_ints==0:
+            if len_dec==0
+                if donfail==1:
+                    satup=[i for i in list2 if i in los_questions]
+                    sattup=len(satup)
+                    if sattup>=1:
+                        questionhi=True
+                    else:
+                        questionhi=False
                 else:
                     questionhi=False
             else:
