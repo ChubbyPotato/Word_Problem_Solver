@@ -61,11 +61,11 @@ divisions__=['/']
 equal=['is equal to']
 equal__=['=']
 
-los_questions='when'
-los_questions_='how much'
-los_questions__='time what'
-los_questions___='how long did it take'
-los_questions____='how long was'
+AA1='when'
+AA2='how much'
+AA3='time what'
+AA4='how long did it take'
+AA5='how long was'
 
 if num >0 and num <=10:
     print("\nOk. Lets split your problem into statements:")
@@ -77,14 +77,26 @@ if num >0 and num <=10:
         inte_=str(inte)
         num_of_ints=len(inte_) #for storage
         list2 = [item for item in wordd if item not in inte_] #DESTROY THE INTEGERS!
-    
+
+        problem___=" ".join(list2)
         if num_of_ints==1:
             if len_dec==0:
                 if donfail==1:
-                    satup=[i for i in list2 if i in los_questions]
-                    sattup=len(satup)
-                    if sattup>=1:
+                    if AA1 in 
                         questionhi=True
+                        sattup1=True
+                    elif AA2 in problem___:
+                        questionhi=True
+                        sattup2=True
+                    elif AA3 in problem___:
+                        questionhi=True
+                        sattup3=True
+                    elif AA4 in problem___:
+                        questionhi=True
+                        sattup4=True
+                    elif AA5 in problem___:
+                        questionhi=True
+                        sattup5=True
                     else:
                         questionhi=False
                         print("ynah")
@@ -99,20 +111,9 @@ if num >0 and num <=10:
             print("HAHA")
 
         if questionhi==True:
-            confirmyes=input("Sentence {0} is a question, right? y to confirm. n is reject")
-            confirmyes.lower()
+            confirmyes=input("Sentence {0} is a question, right? y to confirm. n to reject")
+            BAB=confirmyes.lower()
             if confirmyes=="y":
-                print("This sentence is a question")
-                if satup=='when' or satup=="When":
-                    print("This question is asking when it is")
-                    
-                elif satup=="how much" or satup=="How much":
-                    print("This is asking how much the  is")
-                elif satup=="what time" or satup=="What time":
-                    print("This is asking what time it is")
-                elif satup=="How long" or satup=="how long":
-                    print("This is asking how long the  is")    #REMEMBER TO ENTER THE VARIABLE M8 
-                
                 else:
                     print("This is not a question mate")
                     questionhi=False
