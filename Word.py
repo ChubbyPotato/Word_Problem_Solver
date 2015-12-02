@@ -59,7 +59,11 @@ divisions__=['/']
 equal=['is equal to']
 equal__=['=']
 
-los_questions=['When','when','how much','How much','What time','what time','how long did it take','How long did it take','How long was','how long was']
+los_questions=['When','when']
+los_questions_=['how','How','much']
+los_questions__=['What','time','what']
+los_questions___=['How','long','did','it','take']
+los_questions____['How','long','was']
 
 if num >0 and num <=10:
     print("\nOk. Lets split your problem into statements:")
