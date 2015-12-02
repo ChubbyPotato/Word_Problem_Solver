@@ -8,7 +8,9 @@ import math
 import re
 #import enchant
 
-problem=input("What is your mathematical word problem? (Spelling, grammar, and punctuation count!!)\n\nYour problem: ")
+shhh=input("What is your mathematical word problem? (Spelling, grammar, and punctuation count!!)\n\nYour problem: ")
+problem=shhh.lower()
+print(problem)
 
 donfail=problem.count('?')
 while donfail==0:
@@ -44,7 +46,7 @@ additions=['plus','added','adds','add','gains','gained','gain','sum','produces']
 additions_=['plus']
 additions__=['+']
 
-subtractions=['spent','removed','removes','subtracted','minus','subtract','take','takes','subtracts','eats']
+subtractions=['spent','removed','removes','subtracted','minus','subtract','take','takes','subtracts','eats','loses','loose']
 subtractions_=['minus']
 subtractions__=['-']
 
@@ -59,11 +61,11 @@ divisions__=['/']
 equal=['is equal to']
 equal__=['=']
 
-los_questions=['When','when']
-los_questions_=['how','How','much']
-los_questions__=['What','time','what']
-los_questions___=['How','long','did','it','take']
-los_questions____['How','long','was']
+los_questions='when'
+los_questions_='how much'
+los_questions__='time what'
+los_questions___='how long did it take'
+los_questions____='how long was'
 
 if num >0 and num <=10:
     print("\nOk. Lets split your problem into statements:")
