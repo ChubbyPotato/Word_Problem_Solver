@@ -6,10 +6,10 @@ Jane spent $42 for shoes.  This was $14 less than twice what she spent for a blo
 """
 import math
 import re
+#import enchant
 
 shhh=input("What is your mathematical word problem? (Spelling, grammar, and punctuation count!!)\n\nYour problem: ")
 problem=shhh.lower()
-print(problem)
 
 donfail=problem.count('?')
 while donfail==0:
@@ -31,7 +31,8 @@ sentences = re.split(' *[\.\?!][\'"\)\]]* *', problem__) #split the sentences!
 
 um=len(sentences)
 num=um-1
-sentrange=int(list(range(0,num)))
+sentrange=str(list(range(0,num)))
+print(sentrange)
 
 while num > 10:
     print("\nWord problem too long!")
@@ -57,7 +58,7 @@ divisions=['split','divided','divides']
 divisions_=['divided by']
 divisions__=['/']
 
-equal=['is equal to']
+equal=['equals']
 equal__=['=']
 
 AA1='when'
@@ -65,7 +66,7 @@ AA2='how much'
 AA3='time what'
 AA4='how long did it take'
 AA5='how long was'
-
+"""
 if num >0 and num <=10:
     print("\nOk. Lets split your problem into statements:")
     for x in sentrange:
@@ -121,3 +122,4 @@ if num >0 and num <=10:
 
         elif questionhi==False:
             print("jet")
+            """
