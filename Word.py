@@ -6,7 +6,6 @@ Jane spent $42 for shoes.  This was $14 less than twice what she spent for a blo
 """
 import math
 import re
-#import enchant
 
 shhh=input("What is your mathematical word problem? (Spelling, grammar, and punctuation count!!)\n\nYour problem: ")
 problem=shhh.lower()
@@ -32,7 +31,7 @@ sentences = re.split(' *[\.\?!][\'"\)\]]* *', problem__) #split the sentences!
 
 um=len(sentences)
 num=um-1
-sentrange=list(range(0,num))
+sentrange=int(list(range(0,num)))
 
 while num > 10:
     print("\nWord problem too long!")
@@ -82,7 +81,7 @@ if num >0 and num <=10:
         if num_of_ints==1:
             if len_dec==0:
                 if donfail==1:
-                    if AA1 in 
+                    if AA1 in problem___:
                         questionhi=True
                         sattup1=True
                     elif AA2 in problem___:
