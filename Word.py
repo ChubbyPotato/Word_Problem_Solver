@@ -23,16 +23,14 @@ len_dec=len(deci)
 dci=str(deci)
 word_=problem_.split()
 list0 = [item for item in word_ if item not in deci] #DESTROY THE DECIMALS!
-list1=['1' if x=='a' else x for x in list0]#REPLACE TEH 'A's
 
-problem__=" ".join(list1)
+problem__=" ".join(list0)
 
 sentences = re.split(' *[\.\?!][\'"\)\]]* *', problem__) #split the sentences!
 
 um=len(sentences)
 num=um-1
 sentrange=list(range(0,num))
-print(sentrange)
 
 while num > 10:
     print("\nWord problem too long!")
@@ -72,13 +70,18 @@ if num >0 and num <=10:
     for x in sentrange:
         wordd=sentences[x].split()
         inte_=[x for x in wordd if x.isdigit()]
-        inte=str(inte)
-        rangeinte=list(range(inte))
-        inte_=str(inte)
         num_of_ints=len(inte_) #for storage
-        list2 = [item for item in wordd if item not in inte_] #DESTROY THE INTEGERS!
+        for x in 
+            inte=inte_[x]
+            list2 = [item for item in wordd if item not in inte] #DESTROY THE INTEGERS!
+            check=len(list2)
+            print(check)
 """
-        problem___=" ".join(list2)
+        if
+            problem___=" ".join(list2)
+        elif 
+            problem___=" ".join(wordd)
+        print(problem___)
         if num_of_ints==1:
             if len_dec==0:
                 if donfail==1:
