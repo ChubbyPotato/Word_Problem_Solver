@@ -20,7 +20,7 @@ problem_=''.join( c for c in problem if  c not in '$')
 
 deci=re.findall("\d+.\d+", problem_) #find decimals
 len_dec=len(deci)
-dci=str(deci)
+dci=int(deci)
 word_=problem_.split()
 list0 = [item for item in word_ if item not in deci] #DESTROY THE DECIMALS!
 
@@ -72,19 +72,19 @@ if num >0 and num <=10:
         inte_=[x for x in wordd if x.isdigit()]
         num_of_ints=len(inte_) #for storage
         rangeinte=list(range(0,num_of_ints))
-        intess=str(num_of_ints)
+        intess=int(num_of_ints)
+        print(intess)
         for x in rangeinte:
             inte=inte_[x]
         list2 = [item for item in wordd if item not in inte] #DESTROY THE INTEGERS!
 
-
         problem___=" ".join(list2)
-        print(problem___)"""
+        print(problem___)
         if intess>=1:
-            if len_dec==0:
+            if dci==0:
                 if donfail==1:
                     if AA1 in problem___:
-                        questionhi=Trued
+                        questionhi=True
                         sattup1=True
                     elif AA2 in problem___:
                         questionhi=True
@@ -123,4 +123,3 @@ if num >0 and num <=10:
 
         elif questionhi==False:
             print("jet")
-            """
