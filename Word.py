@@ -92,7 +92,7 @@ if num >0 and num <=10:
                 elif AA4 in problem___:
                     questionhi=True
                     sattup4=True
-                    print("AY"
+                    print("AY")
                 elif AA5 in problem___:
                     questionhi=True
                     sattup5=True
