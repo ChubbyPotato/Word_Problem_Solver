@@ -72,7 +72,6 @@ if num >0 and num <=10:
         num_of_ints=len(inte_) #for storage
         rangeinte=list(range(0,num_of_ints))
         intess=int(num_of_ints)
-        print(intess)
         for x in rangeinte:
             inte=inte_[x]
         list2 = [item for item in wordd if item not in inte] #DESTROY THE INTEGERS!
@@ -80,6 +79,7 @@ if num >0 and num <=10:
         problem___=" ".join(list2)
         if intess>=1 or dci >= 1:
             if donfail==1:
+                print("ay")
                 if AA1 in problem___:
                     questionhi=True
                     sattup1=True
@@ -92,6 +92,7 @@ if num >0 and num <=10:
                 elif AA4 in problem___:
                     questionhi=True
                     sattup4=True
+                    print("AY"
                 elif AA5 in problem___:
                     questionhi=True
                     sattup5=True
@@ -104,7 +105,7 @@ if num >0 and num <=10:
         else:
             questionhi=False
             print("HAHA")
-
+"""
         if questionhi==True:
             confirmyes=input("Sentence {0} is a question, right? y to confirm. n to reject")
             BAB=confirmyes.lower()
@@ -116,4 +117,4 @@ if num >0 and num <=10:
                 questionhi=False
 
         elif questionhi==False:
-            print("jet")
+            print("jet")"""
