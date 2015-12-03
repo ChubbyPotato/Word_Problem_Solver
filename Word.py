@@ -71,18 +71,16 @@ if num >0 and num <=10:
         wordd=sentences[x].split()
         inte_=[x for x in wordd if x.isdigit()]
         num_of_ints=len(inte_) #for storage
-        for x in 
+        rangeinte=list(range(0,num_of_ints))
+        intess=str(num_of_ints)
+        for x in rangeinte:
             inte=inte_[x]
-            list2 = [item for item in wordd if item not in inte] #DESTROY THE INTEGERS!
-            check=len(list2)
-            print(check)
-"""
-        if
-            problem___=" ".join(list2)
-        elif 
-            problem___=" ".join(wordd)
-        print(problem___)
-        if num_of_ints==1:
+        list2 = [item for item in wordd if item not in inte] #DESTROY THE INTEGERS!
+
+
+        problem___=" ".join(list2)
+        print(problem___)"""
+        if intess>=1:
             if len_dec==0:
                 if donfail==1:
                     if AA1 in problem___:
