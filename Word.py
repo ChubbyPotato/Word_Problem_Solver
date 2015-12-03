@@ -6,7 +6,6 @@ Jane spent $42 for shoes.  This was $14 less than twice what she spent for a blo
 """
 import math
 import re
-#import enchant
 
 shhh=input("What is your mathematical word problem? (Spelling, grammar, and punctuation count!!)\n\nYour problem: ")
 problem=shhh.lower()
@@ -20,7 +19,7 @@ problem_=''.join( c for c in problem if  c not in '$')
 
 deci=re.findall("\d+.\d+", problem_) #find decimals
 len_dec=len(deci)
-dci=int(deci)
+dci=int(len_dec)
 word_=problem_.split()
 list0 = [item for item in word_ if item not in deci] #DESTROY THE DECIMALS!
 
@@ -79,34 +78,29 @@ if num >0 and num <=10:
         list2 = [item for item in wordd if item not in inte] #DESTROY THE INTEGERS!
 
         problem___=" ".join(list2)
-        print(problem___)
-        if intess>=1:
-            if dci==0:
-                if donfail==1:
-                    if AA1 in problem___:
-                        questionhi=True
-                        sattup1=True
-                    elif AA2 in problem___:
-                        questionhi=True
-                        sattup2=True
-                    elif AA3 in problem___:
-                        questionhi=True
-                        sattup3=True
-                    elif AA4 in problem___:
-                        questionhi=True
-                        sattup4=True
-                    elif AA5 in problem___:
-                        questionhi=True
-                        sattup5=True
-                    else:
-                        questionhi=False
-                        print("ynah")
+        if intess>=1 or dci >= 1:
+            if donfail==1:
+                if AA1 in problem___:
+                    questionhi=True
+                    sattup1=True
+                elif AA2 in problem___:
+                    questionhi=True
+                    sattup2=True
+                elif AA3 in problem___:
+                    questionhi=True
+                    sattup3=True
+                elif AA4 in problem___:
+                    questionhi=True
+                    sattup4=True
+                elif AA5 in problem___:
+                    questionhi=True
+                    sattup5=True
                 else:
                     questionhi=False
-                    print("nah")
+                    print("ynah")
             else:
                 questionhi=False
-                print("ay")
+                print("nah")
         else:
             questionhi=False
             print("HAHA")
