@@ -1,4 +1,4 @@
-# Word_Problem_Solver
+# Word Problem Solver :)
 ##                 ▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 ##▬▬▬▬▬▬▬▬This is the best final project ▬▬▬▬▬▬▬▬▬
 ##                 ▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬﻿
