@@ -75,6 +75,16 @@ squ='square'
 rekt='rectangle'
 tri='triangle'
 
+sattup1=False
+sattup2=False
+sattup3=False
+sattup4=False
+sattup5=False
+
+awea0=False
+awea1=False
+awea=False
+
 regg='regular'
 
 bade='base'
@@ -100,7 +110,7 @@ if num >0 and num <=10:
         problem___=" ".join(list2)#ESTA UN PROBLEMA?
         print(problem___)
         if intess<1 or dci < 1:
-            if donfail==1:
+            if donfail>=1:
                 if AA1 in problem___:
                     questionhi=True
                     sattup1=True
@@ -125,6 +135,9 @@ if num >0 and num <=10:
                 elif Baa in problem___:
                     questionhi=True
                     awea=True
+                elif Bacch in problem___:
+                    questionhi=True
+                    volum=True
                 else:
                     questionhi=False
             else:
@@ -134,9 +147,9 @@ if num >0 and num <=10:
 
         if questionhi==True:
             if sattup1 == True:
-                print("problemo")
+                print("It is asking when the {0} is")
             elif sattup2 == True:
-                print("problemo")
+                print("It is asking how much the {0} costs")
             elif sattup3 == True:
                 print("problemo")
             elif sattup4 == True:
@@ -144,7 +157,12 @@ if num >0 and num <=10:
             elif sattup5 == True:
                 print("problemo")
             elif awea0==True:
+                print("It is asking what the length of the {0} is")
+            elif awea==True:
+                if
+            elif aw
+            elif awea1==True:
                 print("area")
 
         elif questionhi==False:
-            print("no")
+            print("\nThis is a statement sayings...")
