@@ -1,5 +1,5 @@
 # Word Problem Solver :)
-##                 ▬▬▬▬▬▬▬▬▬▬▬▬BUENO▬▬▬▬▬▬▬▬▬▬▬▬▬
+##                                                        ▬▬▬▬▬▬▬▬▬▬▬▬BUENO▬▬▬▬▬▬▬▬▬▬▬▬▬
 ##▬▬▬▬▬▬▬▬This is the best final project ▬▬▬▬▬▬▬▬▬
-##                 ▬▬▬▬▬▬▬▬▬▬▬▬BUENO▬▬▬▬▬▬▬▬▬▬▬▬▬﻿
+##                                                        ▬▬▬▬▬▬▬▬▬▬▬▬BUENO▬▬▬▬▬▬▬▬▬▬▬▬▬﻿
 It solves word problems!
