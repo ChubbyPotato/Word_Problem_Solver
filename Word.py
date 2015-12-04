@@ -75,13 +75,14 @@ squ='square'
 rekt='rectangle'
 tri='triangle'
 
+regg='regular'
+
 bade='base'
 spher='sphere'
 spheer='ball'
 cuba='cube'
 idunno='box'
 egypt='triangular pyramid'
-
 
 
 if num >0 and num <=10:
@@ -132,24 +133,18 @@ if num >0 and num <=10:
             questionhi=False #NAH
 
         if questionhi==True:
-            confirmyes=input("Sentence {0} is a question, right? y to confirm. n to reject")
-            BAB=confirmyes.lower()
-            if confirmyes=="y":
-                if sattup1 = True:
-                    
-                elif sattup2 = True:
-                    
-                elif sattup3 = True:
-                    
-                elif sattup4 = True:
-                    
-                elif sattup5 = True:
-                    
-                else:
-                    print("This is not a question mate")
-                    questionhi=False
-            elif confirmyes=="n":
-                questionhi=False
+            if sattup1 == True:
+                print("problemo")
+            elif sattup2 == True:
+                print("problemo")
+            elif sattup3 == True:
+                print("problemo")
+            elif sattup4 == True:
+                print("problemo")
+            elif sattup5 == True:
+                print("problemo")
+            elif awea0==True:
+                print("area")
 
         elif questionhi==False:
-            print("ya")
+            print("no")
