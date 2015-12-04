@@ -55,16 +55,34 @@ divisions=['split','divided','divides']
 divisions_=['divided by']
 divisions__=['/']
 
-possess=['has','of','his','her'
+possess=['has','of','his','her','their','our','my','your']
 
 equal=['equals']
 equal__=['=']
 
 AA1='when'
 AA2='how much'
-AA3='time what'
+AA3='what time is'
 AA4='how long did it take'
 AA5='how long was'
+AA6='what is the length of'
+AA7='what is the width of'
+Baa='what is the area of the'
+bacch='what is the volumn of the'
+
+circ='circle'
+squ='square'
+rekt='rectangle'
+tri='triangle'
+
+bade='base'
+spher='sphere'
+spheer='ball'
+cuba='cube'
+idunno='box'
+egypt='triangular pyramid'
+
+
 
 if num >0 and num <=10:
     print("\nOk. Lets split your problem into statements:")
@@ -78,7 +96,7 @@ if num >0 and num <=10:
             inte=inte_[x]
         list2 = [item for item in wordd if item not in inte] #DESTROY THE INTEGERS!
 
-        problem___=" ".join(list2)
+        problem___=" ".join(list2)#ESTA UN PROBLEMA?
         print(problem___)
         if intess<1 or dci < 1:
             if donfail==1:
@@ -97,17 +115,36 @@ if num >0 and num <=10:
                 elif AA5 in problem___:
                     questionhi=True
                     sattup5=True
+                elif AA6 in problem___:
+                    questionhi=True
+                    awea0=True
+                elif AA7 in problem___:
+                    questionhi=True
+                    awea1=True
+                elif Baa in problem___:
+                    questionhi=True
+                    awea=True
                 else:
                     questionhi=False
             else:
                 questionhi=False
         else:
-            questionhi=False
+            questionhi=False #NAH
 
         if questionhi==True:
             confirmyes=input("Sentence {0} is a question, right? y to confirm. n to reject")
             BAB=confirmyes.lower()
             if confirmyes=="y":
+                if sattup1 = True:
+                    
+                elif sattup2 = True:
+                    
+                elif sattup3 = True:
+                    
+                elif sattup4 = True:
+                    
+                elif sattup5 = True:
+                    
                 else:
                     print("This is not a question mate")
                     questionhi=False
@@ -115,4 +152,4 @@ if num >0 and num <=10:
                 questionhi=False
 
         elif questionhi==False:
-            print("jet")
+            print("ya")
