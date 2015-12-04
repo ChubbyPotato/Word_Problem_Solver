@@ -39,11 +39,11 @@ while um==0:
     print("You forgot a period somewhere pal")
     break
 
-additions=['plus','added','adds','add','gains','gained','gain','sum','produces']
+additions=['plus','added','adds','add','gains','gained','gain','sum','produces','total','more']
 additions_=['plus']
 additions__=['+']
 
-subtractions=['spent','removed','removes','subtracted','minus','subtract','take','takes','subtracts','eats','loses','loose']
+subtractions=['spent','removed','removes','subtracted','minus','subtract','take','takes','subtracts','eats','loses','loose','paid']
 subtractions_=['minus']
 subtractions__=['-']
 
@@ -54,6 +54,8 @@ multiplications__=['x']
 divisions=['split','divided','divides']
 divisions_=['divided by']
 divisions__=['/']
+
+possess=['has','of','his','her'
 
 equal=['equals']
 equal__=['=']
@@ -83,31 +85,24 @@ if num >0 and num <=10:
                 if AA1 in problem___:
                     questionhi=True
                     sattup1=True
-                    print("jeb1")
                 elif AA2 in problem___:
                     questionhi=True
                     sattup2=True
-                    print("jeb6")
                 elif AA3 in problem___:
                     questionhi=True
                     sattup3=True
-                    print("jeb3")
                 elif AA4 in problem___:
                     questionhi=True
                     sattup4=True
-                    print("AY")
                 elif AA5 in problem___:
                     questionhi=True
                     sattup5=True
                 else:
                     questionhi=False
-                    print("ynah")
             else:
                 questionhi=False
-                print("nah")
         else:
             questionhi=False
-            print("HAHA")
 
         if questionhi==True:
             confirmyes=input("Sentence {0} is a question, right? y to confirm. n to reject")
