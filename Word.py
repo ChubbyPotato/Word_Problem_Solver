@@ -92,7 +92,9 @@ spher='sphere'
 spheer='ball'
 cuba='cube'
 idunno='box'
+staneqypt='pyramid'
 egypt='triangular pyramid'
+trueqgypt='rectangular pyramid'
 
 
 if num >0 and num <=10:
@@ -151,9 +153,9 @@ if num >0 and num <=10:
             elif sattup2 == True:
                 print("It is asking how much the {0} costs")
             elif sattup3 == True:
-                print("problemo")
+                print("It is asking what time it is")
             elif sattup4 == True:
-                print("problemo")
+                print("It is asking how long the {0} was")
             elif sattup5 == True:
                 print("problemo")
             elif awea0==True:
@@ -165,4 +167,4 @@ if num >0 and num <=10:
                 print("area")
 
         elif questionhi==False:
-            print("\nThis is a statement sayings...")
+            print("\nThis is a statement saying...")
