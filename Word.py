@@ -84,6 +84,11 @@ sattup5=False
 awea0=False
 awea1=False
 awea=False
+volum=False
+
+bad=False
+rond=False
+
 
 regg='regular'
 
