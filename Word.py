@@ -68,7 +68,7 @@ AA5='how long was'
 AA6='what is the length of'
 AA7='what is the width of'
 Baa='what is the area of the'
-bacch='what is the volumn of the'
+bacch='what is the volume of the'
 
 circ='circle'
 squ='square'
@@ -99,9 +99,9 @@ spher='sphere'
 spheer='ball'
 cuba='cube'
 idunno='box'
-staneqypt='pyramid'
 egypt='triangular pyramid'
-trueqgypt='rectangular pyramid'
+trueegypt='rectangular pyramid'
+
 
 
 if num >0 and num <=10:
