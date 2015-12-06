@@ -88,7 +88,9 @@ volum=False
 
 bad=False
 rond=False
-
+cub=False
+rok=False
+rock=False
 
 regg='regular'
 
