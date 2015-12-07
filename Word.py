@@ -57,7 +57,7 @@ divisions__=['/']
 
 possess=['has','of','his','her','their','our','my','your']
 
-equal=['equals']
+equal=['equals','is']
 equal__=['=']
 
 AA1='when'
@@ -70,6 +70,8 @@ AA7='what is the width of the'
 Baa='what is the area of the'
 bacch='what is the volume of the'
 werd='how wide was'
+heght='what is the hieght of the'
+tallness='how tall is'
 
 circ='circle'
 squ='square'
@@ -81,7 +83,7 @@ sattup2=False
 sattup3=False
 sattup4=False
 sattup5=False
-
+heigh=False
 
 bad=False
 rond=False
@@ -154,6 +156,9 @@ if num >0 and num <=10:
                 elif werd in problem___:
                     questionhi=True
                     widet=True
+                elif heght or tallness in problem___:
+                    heigh=True
+                    questionhi=True
                 else:
                     questionhi=False
             else:
@@ -182,6 +187,8 @@ if num >0 and num <=10:
                 print("It is asking what the area of the {0} is.")
             elif awea==True:
                 print("It is asking for the volume of the {0}.")
+            elif heigh==True:
+                print("It is ask for the hieght of the {0}")
 
         elif questionhi==False:
             print("\nThis is a statement saying...")
