@@ -141,10 +141,7 @@ if num >0 and num <=10:
                     if
                 elif Bacch in problem___:
                     questionhi=True
-                    if spher or spheer in problem___:
-                        spherical=True
-                    elif cuba or idunno in problem___:
-                        cube=True
+                    v
                 else:
                     questionhi=False
             else:
@@ -154,21 +151,21 @@ if num >0 and num <=10:
 
         if questionhi==True:
             if sattup1 == True:
-                print("It is asking when the {0} is")
+                print("It is asking when the {0} is.")
             elif sattup2 == True:
-                print("It is asking how much the {0} costs")
+                print("It is asking how much the {0} costs.")
             elif sattup3 == True:
-                print("It is asking what time it is")
+                print("It is asking what time it is.")
             elif sattup4 == True:
-                print("It is asking how long the {0} was")
+                print("It is asking how long the {0} was.")
             elif sattup5 == True:
-                print("problemo")
+                print("It is asking for the length of the.")
             elif awea0==True:
-                print("It is asking what the length of the {0} is")
+                print("It is asking what the length of the {0} is.")
             elif awea1=True:
-                print("
+                print("It is asking what the width of the {0} is.")
             elif awea=True:
-                print("It is asking for the volume of the {0}")
+                print("It is asking for the volume of the {0}.")
 
         elif questionhi==False:
             print("\nThis is a statement saying...")
