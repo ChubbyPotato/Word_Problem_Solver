@@ -87,6 +87,10 @@ cube=False
 rectpyramid=False
 tripyramid=False
 
+awea=False
+awea1=False
+awea0=False
+
 regg='regular'
 
 bade='base'
@@ -141,7 +145,7 @@ if num >0 and num <=10:
                     if
                 elif Bacch in problem___:
                     questionhi=True
-                    v
+                    awea=True
                 else:
                     questionhi=False
             else:
