@@ -136,13 +136,13 @@ if num >0 and num <=10:
                     sattup5=True
                 elif AA6 in problem___:
                     questionhi=True
-                    
+                    sattup6=True
                 elif AA7 in problem___:
                     questionhi=True
-                    if
+                    if awea0=True
                 elif Baa in problem___:
                     questionhi=True
-                    if
+                    awea1=True
                 elif Bacch in problem___:
                     questionhi=True
                     awea=True
@@ -166,9 +166,11 @@ if num >0 and num <=10:
                 print("It is asking for the length of the.")
             elif awea0==True:
                 print("It is asking what the length of the {0} is.")
-            elif awea1=True:
+            elif awea1==True:
                 print("It is asking what the width of the {0} is.")
-            elif awea=True:
+            elif awea2==True:
+                print("It is asking what the area of the {0} is")
+            elif awea==True:
                 print("It is asking for the volume of the {0}.")
 
         elif questionhi==False:
