@@ -132,7 +132,7 @@ if num >0 and num <=10:
                     sattup5=True
                 elif AA6 in problem___:
                     questionhi=True
-                    if
+                    
                 elif AA7 in problem___:
                     questionhi=True
                     if
@@ -165,11 +165,9 @@ if num >0 and num <=10:
                 print("problemo")
             elif awea0==True:
                 print("It is asking what the length of the {0} is")
-            elif cube==True:
+            elif awea
+            elif awea=True:
                 print("It is asking for the volume of the {0}")
-            elif aw
-            elif awea1==True:
-                print("area")
 
         elif questionhi==False:
             print("\nThis is a statement saying...")
