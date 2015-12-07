@@ -61,12 +61,12 @@ equal=['equals']
 equal__=['=']
 
 AA1='when'
-AA2='how much'
+AA2='how much was'
 AA3='what time is'
 AA4='how long did it take'
-AA5='how long was'
-AA6='what is the length of'
-AA7='what is the width of'
+AA5='how long was the'
+AA6='what is the length of the'
+AA7='what is the width of the'
 Baa='what is the area of the'
 bacch='what is the volume of the'
 werd='how wide was'
@@ -116,6 +116,7 @@ if num >0 and num <=10:
         for x in rangeinte:
             inte=inte_[x]
             list2 = [item for item in wordd if item not in inte] #DESTROY THE INTEGERS!
+        print(list2)
 
         problem___=" ".join(list2)#ESTA UN PROBLEMA?
         print(problem___)
