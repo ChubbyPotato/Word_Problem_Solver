@@ -88,7 +88,7 @@ rectpyramid=False
 tripyramid=False
 
 awea=False
-awea1=False
+awea2=False
 awea0=False
 
 regg='regular'
@@ -139,10 +139,10 @@ if num >0 and num <=10:
                     sattup6=True
                 elif AA7 in problem___:
                     questionhi=True
-                    if awea0=True
+                    awea0=True
                 elif Baa in problem___:
                     questionhi=True
-                    awea1=True
+                    awea2=True
                 elif Bacch in problem___:
                     questionhi=True
                     awea=True
@@ -166,7 +166,7 @@ if num >0 and num <=10:
                 print("It is asking for the length of the.")
             elif awea0==True:
                 print("It is asking what the length of the {0} is.")
-            elif awea1==True:
+            elif sattup6==True:
                 print("It is asking what the width of the {0} is.")
             elif awea2==True:
                 print("It is asking what the area of the {0} is")
