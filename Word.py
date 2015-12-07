@@ -165,8 +165,8 @@ if num >0 and num <=10:
                 print("problemo")
             elif awea0==True:
                 print("It is asking what the length of the {0} is")
-            elif awea==True:
-                if
+            elif cube==True:
+                print("It is asking for the volume of the {0}")
             elif aw
             elif awea1==True:
                 print("area")
