@@ -5,4 +5,4 @@
 It solves word problems!
 
 
-"Give a man a fire, you keep him warm for a day, light a man on fire, you will keep him warm for the rest fhis life"- Confucius, probably
+"Give a man a fire, you keep him warm for a day. Light a man on fire, you will keep him warm for the rest fhis life"- Confucius, probably
