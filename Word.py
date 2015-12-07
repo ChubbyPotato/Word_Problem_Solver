@@ -113,9 +113,9 @@ if num >0 and num <=10:
         num_of_ints=len(inte_)#for storage
         rangeinte=list(range(0,num_of_ints))
         intess=int(num_of_ints)
-        for x in rangeinte:
-            inte=inte_[x]
-            list2 = [item for item in wordd if item not in inte] #DESTROY THE INTEGERS!
+        if num_of_ints>0:
+            for x in rangeinte:
+                list2 = [item for item in wordd if item not in inte_] #DESTROY THE INTEGERS!
         print(list2)
    #     print(list2)
 """
