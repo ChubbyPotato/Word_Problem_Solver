@@ -116,9 +116,10 @@ if num >0 and num <=10:
         if num_of_ints>0:
             for x in rangeinte:
                 list2 = [item for item in wordd if item not in inte_] #DESTROY THE INTEGERS!
+        else:
+            list2=wordd
         print(list2)
-   #     print(list2)
-"""
+
         problem___=" ".join(list2)#ESTA UN PROBLEMA?
         print(problem___)
         if intess<1 or dci < 1:
@@ -183,4 +184,4 @@ if num >0 and num <=10:
                 print("It is asking for the volume of the {0}.")
 
         elif questionhi==False:
-            print("\nThis is a statement saying...")"""
+            print("\nThis is a statement saying...")
