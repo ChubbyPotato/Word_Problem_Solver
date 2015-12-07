@@ -69,6 +69,7 @@ AA6='what is the length of'
 AA7='what is the width of'
 Baa='what is the area of the'
 bacch='what is the volume of the'
+werd='how wide was'
 
 circ='circle'
 squ='square'
@@ -80,6 +81,7 @@ sattup2=False
 sattup3=False
 sattup4=False
 sattup5=False
+
 
 bad=False
 rond=False
@@ -113,7 +115,7 @@ if num >0 and num <=10:
         intess=int(num_of_ints)
         for x in rangeinte:
             inte=inte_[x]
-        list2 = [item for item in wordd if item not in inte] #DESTROY THE INTEGERS!
+            list2 = [item for item in wordd if item not in inte] #DESTROY THE INTEGERS!
 
         problem___=" ".join(list2)#ESTA UN PROBLEMA?
         print(problem___)
@@ -146,6 +148,9 @@ if num >0 and num <=10:
                 elif Bacch in problem___:
                     questionhi=True
                     awea=True
+                elif werd in problem___:
+                    questionhi=True
+                    widet=True
                 else:
                     questionhi=False
             else:
@@ -163,13 +168,15 @@ if num >0 and num <=10:
             elif sattup4 == True:
                 print("It is asking how long the {0} was.")
             elif sattup5 == True:
-                print("It is asking for the length of the.")
+                print("It is asking for the length of the {0} is.")
             elif awea0==True:
-                print("It is asking what the length of the {0} is.")
-            elif sattup6==True:
                 print("It is asking what the width of the {0} is.")
+            elif sattup6==True:
+                print("It is asking what the length of the {0} is.")
+            elif widet==True:
+                print("It is asking for the width of the {0}")
             elif awea2==True:
-                print("It is asking what the area of the {0} is")
+                print("It is asking what the area of the {0} is.")
             elif awea==True:
                 print("It is asking for the volume of the {0}.")
 
