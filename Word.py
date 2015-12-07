@@ -81,28 +81,23 @@ sattup3=False
 sattup4=False
 sattup5=False
 
-awea0=False
-awea1=False
-awea=False
-volum=False
-
 bad=False
 rond=False
-cub=False
-rok=False
-rock=False
+cube=False
+rectpyramid=False
+tripyramid=False
 
 regg='regular'
 
 bade='base'
 spher='sphere'
+radii='radius'
 spheer='ball'
 cuba='cube'
 idunno='box'
 egypt='triangular pyramid'
 trueegypt='rectangular pyramid'
-
-
+longbox='rectangular prism'
 
 if num >0 and num <=10:
     print("\nOk. Lets split your problem into statements:")
@@ -137,16 +132,19 @@ if num >0 and num <=10:
                     sattup5=True
                 elif AA6 in problem___:
                     questionhi=True
-                    awea0=True
+                    if
                 elif AA7 in problem___:
                     questionhi=True
-                    awea1=True
+                    if
                 elif Baa in problem___:
                     questionhi=True
-                    awea=True
+                    if
                 elif Bacch in problem___:
                     questionhi=True
-                    volum=True
+                    if spher or spheer in problem___:
+                        spherical=True
+                    elif cuba or idunno in problem___:
+                        cube=True
                 else:
                     questionhi=False
             else:
