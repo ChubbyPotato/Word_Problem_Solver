@@ -158,9 +158,11 @@ if num >0 and num <=10:
                 elif heght in problem___:
                     heigh=True
                     questionhi=True
+                    print('ya')
                 elif tallness in problem___:
                     heighe=True
                     questionhi=True
+                    print('ya')
                 else:
                     questionhi=False
             else:
@@ -169,30 +171,31 @@ if num >0 and num <=10:
             questionhi=False #NAH
 
         if questionhi==True:
+            print("\nThis statement is saying...")
             if sattup1 == True:
-                print("It is asking when the {0} is.")
+                print("\nIt is asking when the {0} is.")
             elif sattup2 == True:
-                print("It is asking how much the {0} costs.")
+                print("\nIt is asking how much the {0} costs.")
             elif sattup3 == True:
-                print("It is asking what time it is.")
+                print("\nIt is asking what time it is.")
             elif sattup4 == True:
-                print("It is asking how long the {0} was.")
+                print("\nIt is asking how long the {0} was.")
             elif sattup5 == True:
-                print("It is asking for the length of the {0} is.")
+                print("\nIt is asking for the length of the {0} is.")
             elif awea0==True:
-                print("It is asking what the width of the {0} is.")
+                print("\nIt is asking what the width of the {0} is.")
             elif sattup6==True:
-                print("It is asking what the length of the {0} is.")
+                print("\nIt is asking what the length of the {0} is.")
             elif widet==True:
-                print("It is asking for the width of the {0}")
+                print("\nIt is asking for the width of the {0}")
             elif awea2==True:
-                print("It is asking what the area of the {0} is.")
+                print("\nIt is asking what the area of the {0} is.")
             elif awea==True:
-                print("It is asking for the volume of the {0}.")
+                print("\nIt is asking for the volume of the {0}.")
             elif heigh==True:
-                print("It is asking for the hieght of the {0}")
+                print("\nIt is asking for the hieght of the {0}")
             elif heighe==True:
-                print("It is asking for the hieght of the {0}")
+                print("\nIt is asking for the hieght of the {0}")
 
         elif questionhi==False:
             print("\nThis is a statement saying...")
