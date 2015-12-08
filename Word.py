@@ -174,28 +174,40 @@ if num >0 and num <=10:
             print("heighe: ", heighe)
             print("\nThis statement is saying...")
             if sattup1 == True:
+                print("***")
                 print("\nIt is asking when the {0} is.")
             elif sattup2 == True:
+                print("***")
                 print("\nIt is asking how much the {0} costs.")
             elif sattup3 == True:
+                print("***")
                 print("\nIt is asking what time it is.")
             elif sattup4 == True:
+                print("***")
                 print("\nIt is asking how long the {0} was.")
             elif sattup5 == True:
+                print("***")
                 print("\nIt is asking for the length of the {0} is.")
             elif awea0==True:
+                print("***")
                 print("\nIt is asking what the width of the {0} is.")
             elif sattup6==True:
+                print("***")
                 print("\nIt is asking what the length of the {0} is.")
             elif widet==True:
+                print("***")
                 print("\nIt is asking for the width of the {0}")
             elif awea2==True:
+                print("***")
                 print("\nIt is asking what the area of the {0} is.")
             elif awea==True:
+                print("***")
                 print("\nIt is asking for the volume of the {0}.")
             elif heigh==True:
+                print("***")
                 print("\nIt is asking for the hieght of the {0}")
             elif heighe==True:
+                print("***")
                 print("heighe")
                 print("\nIt is asking for the hieght of the {0}")
 
