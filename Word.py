@@ -25,7 +25,7 @@ list0 = [item for item in word_ if item not in deci] #DESTROY THE DECIMALS!
 
 problem__=" ".join(list0)
 
-sentences = re.split(' *[\.\?!][\'"\)\]]* *', problem__) #split the sentences!
+sentences = re.split(' *[\.\?!][\'"\)\]]* *', problem__) #split into sentences!
 
 um=len(sentences)
 num=um-1
@@ -40,38 +40,38 @@ while um==0:
     break
 
 additions=['plus','added','adds','add','gains','gained','gain','sum','produces','total','more']
-additions_=['plus']
-additions__=['+']
+additions_='plus'
+additions__='+'
 
 subtractions=['spent','removed','removes','subtracted','minus','subtract','take','takes','subtracts','eats','loses','loose','paid']
-subtractions_=['minus']
-subtractions__=['-']
+subtractions_='minus'
+subtractions__='-'
 
 multiplications=['times','multiplied','multiplies']
-multiplications_=['times']
-multiplications__=['x']
+multiplications_='times'
+multiplications__='x'
 
 divisions=['split','divided','divides']
-divisions_=['divided by']
-divisions__=['/']
+divisions_='divided by'
+divisions__='/'
 
 possess=['has','of','his','her','their','our','my','your']
 
-equal=['equals','is']
-equal__=['=']
+equal=['equals']
+equal__='='
 
 AA1='when'
-AA2='how much was'
-AA3='what time is'
+AA2='how much'
+AA3='what time'
 AA4='how long did it take'
 AA5='how long was the'
 AA6='what is the length of the'
 AA7='what is the width of the'
 Baa='what is the area of the'
 bacch='what is the volume of the'
-werd='how wide was'
-heght='what is the hieght of the'
-tallness='how tall is'
+werd='how wide'
+heght='what is the height of the'
+tallness='how tall'
 
 circ='circle'
 squ='square'
@@ -84,6 +84,7 @@ sattup3=False
 sattup4=False
 sattup5=False
 heigh=False
+heighe=False
 
 bad=False
 rond=False
@@ -154,8 +155,11 @@ if num >0 and num <=10:
                 elif werd in problem___:
                     questionhi=True
                     widet=True
-                elif heght in problem___ or tallness in problem___:
+                elif heght in problem___:
                     heigh=True
+                    questionhi=True
+                elif tallness in problem___:
+                    heighe=True
                     questionhi=True
                 else:
                     questionhi=False
@@ -186,7 +190,9 @@ if num >0 and num <=10:
             elif awea==True:
                 print("It is asking for the volume of the {0}.")
             elif heigh==True:
-                print("It is ask for the hieght of the {0}")
+                print("It is asking for the hieght of the {0}")
+            elif heighe==True:
+                print("It is asking for the hieght of the {0}")
 
         elif questionhi==False:
             print("\nThis is a statement saying...")
