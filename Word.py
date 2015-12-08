@@ -126,7 +126,7 @@ if num >0 and num <=10:
         print(problem___)
         if intess<1 or dci < 1:
             if donfail>=1:
-                if AA1 in problem___:
+                elif AA1 in problem___:
                     questionhi=True
                     sattup1=True
                 elif AA2 in problem___:
@@ -150,7 +150,7 @@ if num >0 and num <=10:
                 elif Baa in problem___:
                     questionhi=True
                     awea2=True
-                elif Bacch in problem___:
+                elif bacch in problem___:
                     questionhi=True
                     awea=True
                 elif werd in problem___:
