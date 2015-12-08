@@ -158,11 +158,9 @@ if num >0 and num <=10:
                 elif heght in problem___:
                     heigh=True
                     questionhi=True
-                    print('ya')
                 elif tallness in problem___:
                     heighe=True
                     questionhi=True
-                    print('ya')
                 else:
                     questionhi=False
             else:
@@ -171,44 +169,30 @@ if num >0 and num <=10:
             questionhi=False #NAH
 
         if questionhi==True:
-            print("heighe: ", heighe)
             print("\nThis statement is saying...")
             if sattup1:
-                print("***")
                 print("\nIt is asking when the {0} is.")
             elif sattup2:
-                print("***")
                 print("\nIt is asking how much the {0} costs.")
             elif sattup3:
-                print("***")
                 print("\nIt is asking what time it is.")
             elif sattup4:
-                print("***")
                 print("\nIt is asking how long the {0} was.")
             elif sattup5:
-                print("***")
                 print("\nIt is asking for the length of the {0} is.")
             elif awea0:
-                print("***")
                 print("\nIt is asking what the width of the {0} is.")
             elif sattup6:
-                print("***")
                 print("\nIt is asking what the length of the {0} is.")
             elif widet:
-                print("***")
                 print("\nIt is asking for the width of the {0}")
             elif awea2:
-                print("***")
                 print("\nIt is asking what the area of the {0} is.")
             elif awea:
-                print("***")
                 print("\nIt is asking for the volume of the {0}.")
             elif heigh:
-                print("***")
                 print("\nIt is asking for the hieght of the {0}")
             elif heighe:
-                print("***")
-                print("heighe")
                 print("\nIt is asking for the hieght of the {0}")
 
         else:
