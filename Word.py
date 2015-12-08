@@ -171,6 +171,7 @@ if num >0 and num <=10:
             questionhi=False #NAH
 
         if questionhi==True:
+            print("heighe: ", heighe)
             print("\nThis statement is saying...")
             if sattup1 == True:
                 print("\nIt is asking when the {0} is.")
@@ -195,7 +196,8 @@ if num >0 and num <=10:
             elif heigh==True:
                 print("\nIt is asking for the hieght of the {0}")
             elif heighe==True:
+                print("heighe")
                 print("\nIt is asking for the hieght of the {0}")
 
-        elif questionhi==False:
+        else:
             print("\nThis is a statement saying...")
