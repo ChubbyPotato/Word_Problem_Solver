@@ -120,13 +120,11 @@ if num >0 and num <=10:
                 list2 = [item for item in wordd if item not in inte_] #DESTROY THE INTEGERS!
         else:
             list2=wordd
-        print(list2)
 
         problem___=" ".join(list2)#ESTA UN PROBLEMA?
-        print(problem___)
         if intess<1 or dci < 1:
             if donfail>=1:
-                elif AA1 in problem___:
+                if AA1 in problem___:
                     questionhi=True
                     sattup1=True
                 elif AA2 in problem___:
@@ -156,7 +154,7 @@ if num >0 and num <=10:
                 elif werd in problem___:
                     questionhi=True
                     widet=True
-                elif heght or tallness in problem___:
+                elif heght in problem___ or tallness in problem___:
                     heigh=True
                     questionhi=True
                 else:
