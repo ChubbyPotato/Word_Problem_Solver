@@ -15,6 +15,7 @@ while donfail==0:
     print("You forgot a question mark")
     break
 
+folater=problem.count('$')
 problem_=''.join( c for c in problem if  c not in '$')
 
 deci=re.findall("\d+.\d+", problem_) #find decimals
@@ -107,6 +108,10 @@ idunno='box'
 egypt='triangular pyramid'
 trueegypt='rectangular pyramid'
 longbox='rectangular prism'
+teim="o'clock"
+tim='am'
+ti='pm'
+monet='dollar'
 
 if num >0 and num <=10:
     print("\nOk. Lets split your problem into statements:")
@@ -196,4 +201,16 @@ if num >0 and num <=10:
                 print("\nIt is asking for the hieght of the {0}")
 
         else:
-            print("\nThis is a statement saying...")
+            print("\nThis sentence is saying...")
+            if sattup1:
+                if teim in problem___:
+                    
+                elif tim in problem___:
+                    
+                elif ti in problem___:
+                    
+            elif sattup2:
+                if folater > 0:
+                    unit='dollar(s)'
+                if monet in problem___:
+                    unit='dollars(s)'
