@@ -71,7 +71,7 @@ AA7='what is the width of the'
 Baa='what is the area of the'
 bacch='what is the volume of the'
 werd='how wide'
-heght='what is the height of the'
+heght='what is the height of'
 tallness='how tall'
 
 circ='circle'
@@ -268,4 +268,12 @@ if num >0 and num <=10:
                     metric=True
             elif awea2:
                 areaunit=True
-                
+            elif widet:
+                lengthunit=True
+                if jer in problem___:
+                    metric=True
+                elif jerr in problem___:
+                    metric=True
+                elif jerrr in problem___:
+                    merican=True
+            elif 
