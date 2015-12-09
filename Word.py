@@ -174,31 +174,31 @@ if num >0 and num <=10:
             questionhi=False #NAH
 
         if questionhi==True:
-            print("\nThis statement is saying...")
+            print("\nThis question is asking...")
             if sattup1:
-                print("\nIt is asking when the {0} is.")
+                print("\nwhen the {0} is.")
             elif sattup2:
-                print("\nIt is asking how much the {0} costs.")
+                print("\nhow much the {0} costs.")
             elif sattup3:
-                print("\nIt is asking what time it is.")
+                print("\nwhat time it is.")
             elif sattup4:
-                print("\nIt is asking how long the {0} was.")
+                print("\nhow long the {0} was.")
             elif sattup5:
-                print("\nIt is asking for the length of the {0} is.")
+                print("\nfor the length of the {0} is.")
             elif awea0:
-                print("\nIt is asking what the width of the {0} is.")
+                print("\nwhat the width of the {0} is.")
             elif sattup6:
-                print("\nIt is asking what the length of the {0} is.")
+                print("\nwhat the length of the {0} is.")
             elif widet:
-                print("\nIt is asking for the width of the {0}")
+                print("\nfor the width of the {0}")
             elif awea2:
-                print("\nIt is asking what the area of the {0} is.")
+                print("\nwhat the area of the {0} is.")
             elif awea:
-                print("\nIt is asking for the volume of the {0}.")
+                print("\nfor the volume of the {0}.")
             elif heigh:
-                print("\nIt is asking for the hieght of the {0}")
+                print("\nfor the hieght of the {0}")
             elif heighe:
-                print("\nIt is asking for the hieght of the {0}")
+                print("\nfor the hieght of the {0}")
 
         else:
             print("\nThis sentence is saying...")
