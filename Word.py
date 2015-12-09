@@ -114,7 +114,8 @@ ti='pm'
 monet='dollar'
 
 jer='inch'
-jerr="
+jerr='feet'
+jerrr='meter'
 
 if num >0 and num <=10:
     print("\nOk. Lets split your problem into statements:")
@@ -239,13 +240,32 @@ if num >0 and num <=10:
             elif sattup4:
                 timeunit=True
                 timeunit='hour(s)'
-                timeunit1='minute(s)
-                timeunit2='second(s)
+                timeunit1='minute(s)'
+                timeunit2='second(s)'
             elif sattup5:
+                lengthunit=True
                 if jer in problem___:
                     metric=True
                 elif jerr in problem___:
                     metric=True
                 elif jerrr in problem___:
                     merican=True
-                elif jerrrr in problem___:
+            elif sattup6:
+                lengthunit=True
+                if jer in problem___:
+                    metric=True
+                elif jerr in problem___:
+                    metric=True
+                elif jerrr in problem___:
+                    merican=True
+            elif awea0:
+                lengthunit=True
+                if jer in problem___:
+                    merican=True
+                elif jerr in problem___:
+                    merican=True
+                elif jerrr in problem___:
+                    metric=True
+            elif awea2:
+                areaunit=True
+                
