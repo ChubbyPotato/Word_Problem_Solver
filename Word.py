@@ -204,13 +204,34 @@ if num >0 and num <=10:
             print("\nThis sentence is saying...")
             if sattup1:
                 if teim in problem___:
-                    
+                    unit="o'clock"
                 elif tim in problem___:
-                    
+                    if time >12:
+                        unit='PM'
+                    else:
+                        unit='AM'
                 elif ti in problem___:
-                    
+                    if time <12:
+                        unit='PM'
+                    else:
+                        unit='AM'
             elif sattup2:
                 if folater > 0:
                     unit='dollar(s)'
                 if monet in problem___:
                     unit='dollars(s)'
+            elif sattup3:
+                if teim in problem___:
+                    unit="o'clock"
+                elif tim in problem___:
+                    if time >12:
+                        unit='PM'
+                    else:
+                        unit='AM'
+                elif ti in problem___:
+                    if time <12:
+                        unit='PM'
+                    else:
+                        unit='AM'
+            elif sattup 4:
+                
