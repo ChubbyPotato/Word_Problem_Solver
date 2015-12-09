@@ -113,6 +113,9 @@ tim='am'
 ti='pm'
 monet='dollar'
 
+jer='inch'
+jerr="
+
 if num >0 and num <=10:
     print("\nOk. Lets split your problem into statements:")
     for x in sentrange:
@@ -190,15 +193,15 @@ if num >0 and num <=10:
             elif sattup6:
                 print("\nwhat the length of the {0} is.")
             elif widet:
-                print("\nfor the width of the {0}")
+                print("\nfor the width of the {0}.")
             elif awea2:
                 print("\nwhat the area of the {0} is.")
             elif awea:
                 print("\nfor the volume of the {0}.")
             elif heigh:
-                print("\nfor the hieght of the {0}")
+                print("\nfor the hieght of the {0}.")
             elif heighe:
-                print("\nfor the hieght of the {0}")
+                print("\nfor the hieght of the {0}.")
 
         else:
             print("\nThis sentence is saying...")
@@ -233,5 +236,16 @@ if num >0 and num <=10:
                         unit='PM'
                     else:
                         unit='AM'
-            elif sattup 4:
-                
+            elif sattup4:
+                timeunit=True
+                timeunit='hour(s)'
+                timeunit1='minute(s)
+                timeunit2='second(s)
+            elif sattup5:
+                if jer in problem___:
+                    metric=True
+                elif jerr in problem___:
+                    metric=True
+                elif jerrr in problem___:
+                    merican=True
+                elif jerrrr in problem___:
