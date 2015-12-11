@@ -2,7 +2,6 @@
 Name-Suhan Gui
 Credit-Stack Overflow, Alexandru Munteanu
 
-Jane spent $42 for shoes.  This was $14 less than twice what she spent for a blouse. How much was the blouse?
 """
 import math
 import re
@@ -289,6 +288,8 @@ if num >0 and num <=10:
             je=[item for item in list3 if item not in subtractions]
             jef=[item for item in list3 if item not in multiplications]
             jeff=[item for item in list3 if item not in divisions]
+            
+            int1=
             
             if j != list3:
                 print("that there are {0} {1}".format(
