@@ -276,4 +276,19 @@ if num >0 and num <=10:
                     metric=True
                 elif jerrr in problem___:
                     merican=True
-            elif 
+            elif heght:
+                lengthunit=True
+                if jer in problem___:
+                    metric=True
+                elif jerr in problem___:
+                    metric=True
+                elif jerrr in problem___:
+                    merican=True
+            elif tallness:
+                lengthunit=True
+                if jer in problem___:
+                    metric=True
+                elif jerr in problem___:
+                    metric=True
+                elif jerrr in problem___:
+                    merican=True
