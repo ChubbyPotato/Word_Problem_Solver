@@ -208,7 +208,7 @@ if num >0 and num <=10:
                 break
 
         else:
-            print("\nSentence {0} is saying...".format(x+1))
+            print("\nSentence {0} is saying...".format(x+2))
             if sattup1:
                 if teim in problem___:
                     unit="o'clock"
@@ -282,17 +282,18 @@ if num >0 and num <=10:
             elif heght:
                 lengthunit=True
                 if jer in problem___:
-                    metric=True
-                elif jerr in problem___:
-                    metric=True
-                elif jerrr in problem___:
                     merican=True
+                elif jerr in problem___:
+                    merican=True
+                elif jerrr in problem___:
+                    metric=True
             elif tallness:
                 lengthunit=True
                 if jer in problem___:
-                    metric=True
-                elif jerr in problem___:
-                    metric=True
-                elif jerrr in problem___:
                     merican=True
-            
+                elif jerr in problem___:
+                    merican=True
+                elif jerrr in problem___:
+                    metric=True
+            list3= problem___.split()
+            j=[item for item in wordd if item not in inte_]
