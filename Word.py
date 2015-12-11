@@ -191,8 +191,6 @@ if num >0 and num <=10:
                 print("\nfor the hieght of the {0}.")
             elif heighe:
                 print("\nfor the hieght of the {0}.")
-            elif moar:
-                print("\nfor how much 
             else:
                 print("Too complicated")
                 break
@@ -293,7 +291,7 @@ if num >0 and num <=10:
             jeff=[item for item in list3 if item not in divisions]
             
             if j != list3:
-                print("that 
+                print("that there are {0} {1}".format(
             elif je != list3:
                 
             elif jef != list3:
