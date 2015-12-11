@@ -71,12 +71,6 @@ sattup5=False
 heigh=False
 heighe=False
 
-bad=False
-rond=False
-cube=False
-rectpyramid=False
-tripyramid=False
-
 awea=False
 awea2=False
 awea0=False
@@ -231,22 +225,6 @@ if num >0 and num <=10:
                     metric=True
                 elif jerrr in problem___:
                     merican=True
-            elif sattup6:
-                lengthunit=True
-                if jer in problem___:
-                    metric=True
-                elif jerr in problem___:
-                    metric=True
-                elif jerrr in problem___:
-                    merican=True
-            elif awea0:
-                lengthunit=True
-                if jer in problem___:
-                    merican=True
-                elif jerr in problem___:
-                    merican=True
-                elif jerrr in problem___:
-                    metric=True
             elif awea2:
                 areaunit=True
             elif heght:
@@ -278,3 +256,5 @@ if num >0 and num <=10:
                 print("that there are {0} {1}".format(int1))
             elif len_dec>0:
                 print("that there are {0} {1}".format(dec1))
+                
+            if 
