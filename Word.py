@@ -205,7 +205,7 @@ if num >0 and num <=10:
                 print("\nfor the hieght of the {0}.")
 
         else:
-            print("\nThis sentence is saying...")
+            print("\nSentence {0} is saying...".format(x+1))
             if sattup1:
                 if teim in problem___:
                     unit="o'clock"
@@ -292,3 +292,4 @@ if num >0 and num <=10:
                     metric=True
                 elif jerrr in problem___:
                     merican=True
+            
