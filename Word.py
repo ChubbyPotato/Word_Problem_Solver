@@ -41,25 +41,13 @@ while um==0:
     break
 
 additions=['plus','added','adds','add','gains','gained','gain','sum','produces','total','more']
-additions_='plus'
-additions__='+'
-
 subtractions=['spent','removed','removes','subtracted','minus','subtract','take','takes','subtracts','eats','loses','loose','paid']
-subtractions_='minus'
-subtractions__='-'
-
 multiplications=['times','multiplied','multiplies']
-multiplications_='times'
-multiplications__='x'
-
 divisions=['split','divided','divides']
-divisions_='divided by'
-divisions__='/'
 
 possess=['has','of','his','her','their','our','my','your']
 
 equal=['equals']
-equal__='='
 
 AA1='when'
 AA2='how much'
@@ -296,4 +284,12 @@ if num >0 and num <=10:
                 elif jerrr in problem___:
                     metric=True
             list3= problem___.split()
-            j=[item for item in wordd if item not in inte_]
+            j=[item for item in list3 if item not in inte_]
+            je=[item for item in list3 if item not in inte_]
+            jef=[item for item in list3 if item not in inte_]
+            jeff=[item for item in list3 if item not in inte_]
+            jefff=[item for item in list3 if item not in inte_]
+            jeffff=[item for item in list3 if item not in inte_]
+            jefffff=[item for item in list3 if item not in inte_]
+            jeffffff=[item for item in list3 if item not in inte_]
+            jefffffff=[item for item in list3 if item not in inte_]
