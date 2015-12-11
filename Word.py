@@ -191,6 +191,8 @@ if num >0 and num <=10:
                 print("\nfor the hieght of the {0}.")
             elif heighe:
                 print("\nfor the hieght of the {0}.")
+            elif moar:
+                print("\nfor how much 
             else:
                 print("Too complicated")
                 break
@@ -283,13 +285,18 @@ if num >0 and num <=10:
                     merican=True
                 elif jerrr in problem___:
                     metric=True
+
             list3= problem___.split()
-            j=[item for item in list3 if item not in inte_]
-            je=[item for item in list3 if item not in inte_]
-            jef=[item for item in list3 if item not in inte_]
-            jeff=[item for item in list3 if item not in inte_]
-            jefff=[item for item in list3 if item not in inte_]
-            jeffff=[item for item in list3 if item not in inte_]
-            jefffff=[item for item in list3 if item not in inte_]
-            jeffffff=[item for item in list3 if item not in inte_]
-            jefffffff=[item for item in list3 if item not in inte_]
+            j=[item for item in list3 if item not in additions]
+            je=[item for item in list3 if item not in subtractions]
+            jef=[item for item in list3 if item not in multiplications]
+            jeff=[item for item in list3 if item not in divisions]
+            
+            if j != list3:
+                print("that 
+            elif je != list3:
+                
+            elif jef != list3:
+                
+            elif jeff != list3:
+                
