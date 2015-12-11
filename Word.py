@@ -18,7 +18,6 @@ folater=problem.count('$')
 problem_=''.join( c for c in problem if  c not in '$')
 
 deci=re.findall("\d+.\d+", problem_) #find decimals
-print(deci)
 len_dec=len(deci)
 dci=int(len_dec)
 word_=problem_.split()
