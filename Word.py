@@ -203,6 +203,9 @@ if num >0 and num <=10:
                 print("\nfor the hieght of the {0}.")
             elif heighe:
                 print("\nfor the hieght of the {0}.")
+            else:
+                print("Too complicated")
+                break
 
         else:
             print("\nSentence {0} is saying...".format(x+1))
