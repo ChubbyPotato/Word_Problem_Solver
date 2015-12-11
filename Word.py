@@ -40,7 +40,7 @@ while um==0:
     break
 
 additions=['plus','added','adds','add','gains','gained','gain','sum','produces','total','more']
-subtractions=['spent','removed','removes','subtracted','minus','subtract','take','takes','subtracts','eats','loses','loose','paid']
+subtractions=['spent','removed','removes','subtracted','minus','subtract','take','takes','subtracts','eats','loses','loose','paid','give']
 multiplications=['times','multiplied','multiplies']
 divisions=['split','divided','divides']
 
@@ -53,11 +53,8 @@ AA2='how much'
 AA3='what time'
 AA4='how long did it take'
 AA5='how long was the'
-AA6='what is the length of the'
-AA7='what is the width of the'
 Baa='what is the area of the'
 bacch='what is the volume of the'
-werd='how wide'
 heght='what is the height of'
 tallness='how tall'
 
@@ -136,12 +133,6 @@ if num >0 and num <=10:
                 elif AA5 in problem___:
                     questionhi=True
                     sattup5=True
-                elif AA6 in problem___:
-                    questionhi=True
-                    sattup6=True
-                elif AA7 in problem___:
-                    questionhi=True
-                    awea0=True
                 elif Baa in problem___:
                     questionhi=True
                     awea2=True
@@ -258,14 +249,6 @@ if num >0 and num <=10:
                     metric=True
             elif awea2:
                 areaunit=True
-            elif widet:
-                lengthunit=True
-                if jer in problem___:
-                    metric=True
-                elif jerr in problem___:
-                    metric=True
-                elif jerrr in problem___:
-                    merican=True
             elif heght:
                 lengthunit=True
                 if jer in problem___:
@@ -291,11 +274,7 @@ if num >0 and num <=10:
             
             int1=
             
-            if j != list3:
-                print("that there are {0} {1}".format(
-            elif je != list3:
-                
-            elif jef != list3:
-                
-            elif jeff != list3:
-                
+            if intess>0:
+                print("that there are {0} {1}".format(int1))
+            elif len_dec>0:
+                print("that there are {0} {1}".format(dec1))
