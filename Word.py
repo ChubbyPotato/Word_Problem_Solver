@@ -18,6 +18,7 @@ folater=problem.count('$')
 problem_=''.join( c for c in problem if  c not in '$')
 
 deci=re.findall("\d+.\d+", problem_) #find decimals
+print(deci)
 len_dec=len(deci)
 dci=int(len_dec)
 word_=problem_.split()
@@ -217,16 +218,22 @@ if num >0 and num <=10:
                 timeunit='hour(s)'
                 timeunit1='minute(s)'
                 timeunit2='second(s)'
-            elif sattup5:
-                lengthunit=True
+            elif awea:
+                volumeunit=True
                 if jer in problem___:
-                    metric=True
-                elif jerr in problem___:
-                    metric=True
-                elif jerrr in problem___:
                     merican=True
+                elif jerr in problem___:
+                    merican=True
+                elif jerrr in problem___:
+                    metric=True
             elif awea2:
                 areaunit=True
+                if jer in problem___:
+                    merican=True
+                elif jerr in problem___:
+                    merican=True
+                elif jerrr in problem___:
+                    metric=True
             elif heght:
                 lengthunit=True
                 if jer in problem___:
@@ -250,11 +257,11 @@ if num >0 and num <=10:
             jef=[item for item in list3 if item not in multiplications]
             jeff=[item for item in list3 if item not in divisions]
             
-            int1=
+            int1= inte_[0]
+            dec1= deci[0]
             
             if intess>0:
                 print("that there are {0} {1}".format(int1))
             elif len_dec>0:
                 print("that there are {0} {1}".format(dec1))
                 
-            if 
