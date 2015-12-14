@@ -267,7 +267,6 @@ if num >0 and num <=10:
             
             if sattup2:
                 int1= inte_[0]
-                print(int
                 dec1= deci[0]
                 if intess>0:
                     print("that there are {0} {1}".format(int1,unit))
