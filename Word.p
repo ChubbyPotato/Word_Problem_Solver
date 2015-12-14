@@ -189,7 +189,7 @@ if num >0 and num <=10:
                 break
 
         else:
-            print("\nSentence {0} is saying...".format(x+2))
+            print("\nSentence {0} is saying...".format(x+1))
             if sattup1:
                 if teim in problem___:
                     unit="o'clock"
@@ -258,7 +258,8 @@ if num >0 and num <=10:
                     merican=True
                 elif jerrr in problem___:
                     metric=True
-            elif 
+            elif ayee:
+                print("hi")
 
             list3= problem___.split()
             j=[item for item in list3 if item not in additions]
