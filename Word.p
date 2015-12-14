@@ -9,7 +9,7 @@ import re
 shhh=input("What is your mathematical word problem? (Spelling, grammar, and punctuation count!!)\n\nYour problem: ")
 problem=shhh.lower()
 
-problem.split()
+maybaa=problem.split()
 donfail=problem.count('?')
 while donfail==0:
     print("You forgot a question mark")
@@ -58,6 +58,8 @@ Baa='what is the area of the'
 bacch='what is the volume of the'
 heght='what is the height of'
 tallness='how tall'
+werd='how wide'
+new='how many'
 
 circ='circle'
 squ='square'
@@ -65,6 +67,7 @@ rekt='rectangle'
 tri='triangle'
 
 sattup1=False
+ayee=False
 sattup2=False
 sattup3=False
 sattup4=False
@@ -125,6 +128,9 @@ if num >0 and num <=10:
                 elif AA4 in problem___:
                     questionhi=True
                     sattup4=True
+                elif new in problem___:
+                    questionhi=True
+                    ayee=True
                 elif AA5 in problem___:
                     questionhi=True
                     sattup5=True
@@ -154,6 +160,8 @@ if num >0 and num <=10:
             print("\nThis question is asking...")
             if sattup1:
                 print("\nwhen the {0} is.")
+            if ayee:
+                print("\nit is asking how many {0} there are.")
             elif sattup2:
                 print("\nhow much the {0} costs.")
             elif sattup3:
@@ -257,11 +265,11 @@ if num >0 and num <=10:
             jei=[item for item in list3 if item not in multiplications]
             jeii=[item for item in list3 if item not in divisions]
             
-            int1= inte_[0]
-            dec1= deci[0]
-            if 
-            if intess>0:
-                print("that there are {0} {1}".format(int1))
-            elif len_dec>0:
-                print("that there are {0} {1}".format(dec1))
-                
+            if sattup2:
+                int1= inte_[0]
+                print(int
+                dec1= deci[0]
+                if intess>0:
+                    print("that there are {0} {1}".format(int1,unit))
+                elif len_dec>0:
+                    print("that there are {0} {1}".format(dec1,unit))
