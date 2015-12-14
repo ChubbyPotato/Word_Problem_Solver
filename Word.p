@@ -49,10 +49,7 @@ possess=['has','of','his','her','their','our','my','your']
 
 equal=['equals']
 
-AA1='when'
 AA2='how much'
-AA3='what time'
-AA4='how long did it take'
 AA5='how long was the'
 Baa='what is the area of the'
 bacch='what is the volume of the'
@@ -116,18 +113,9 @@ if num >0 and num <=10:
         problem___=" ".join(list2)#ESTA UN PROBLEMA?
         if intess<1 or dci < 1:
             if donfail>=1:
-                if AA1 in problem___:
-                    questionhi=True
-                    sattup1=True
                 elif AA2 in problem___:
                     questionhi=True
                     sattup2=True
-                elif AA3 in problem___:
-                    questionhi=True
-                    sattup3=True
-                elif AA4 in problem___:
-                    questionhi=True
-                    sattup4=True
                 elif new in problem___:
                     questionhi=True
                     ayee=True
@@ -158,16 +146,10 @@ if num >0 and num <=10:
 
         if questionhi==True:
             print("\nThis question is asking...")
-            if sattup1:
-                print("\nwhen the {0} is.")
             if ayee:
                 print("\nasking how many {0} there are.")
             elif sattup2:
                 print("\nhow much the {0} costs.")
-            elif sattup3:
-                print("\nwhat time it is.")
-            elif sattup4:
-                print("\nhow long the {0} was.")
             elif sattup5:
                 print("\nfor the length of the {0} is.")
             elif awea0:
