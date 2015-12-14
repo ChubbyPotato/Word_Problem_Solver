@@ -101,7 +101,10 @@ if num >0 and num <=10:
     for x in sentrange:
         wordd=sentences[x].split()
         inte_=[x for x in wordd if x.isdigit()]
+        print(inte_)
+        j=len(inte_)
         num_of_ints=len(inte_)#for storage
+
         rangeinte=list(range(0,num_of_ints))
         intess=int(num_of_ints)
         if num_of_ints>0:
@@ -109,11 +112,13 @@ if num >0 and num <=10:
                 list2 = [item for item in wordd if item not in inte_] #DESTROY THE INTEGERS!
         else:
             list2=wordd
+        print(list2)
 
         problem___=" ".join(list2)#ESTA UN PROBLEMA?
+
         if intess<1 or dci < 1:
             if donfail>=1:
-                elif AA2 in problem___:
+                if AA2 in problem___:
                     questionhi=True
                     sattup2=True
                 elif new in problem___:
@@ -144,6 +149,7 @@ if num >0 and num <=10:
         else:
             questionhi=False #NAH
 
+"""
         if questionhi==True:
             print("\nThis question is asking...")
             if ayee:
@@ -168,8 +174,8 @@ if num >0 and num <=10:
                 print("\nfor the hieght of the {0}.")
             else:
                 print("Too complicated")
-                break
-
+                break"""
+"""
         else:
             print("\nSentence {0} is saying...".format(x+1))
             if sattup1:
@@ -241,8 +247,8 @@ if num >0 and num <=10:
                 elif jerrr in problem___:
                     metric=True
             elif ayee:
-                print("hi")
-
+                print("hi")"""
+"""
             list3= problem___.split()
             j=[item for item in list3 if item not in additions]
             je=[item for item in list3 if item not in subtractions]
@@ -255,4 +261,4 @@ if num >0 and num <=10:
                 if intess>0:
                     print("that there are {0} {1}".format(int1,unit))
                 elif len_dec>0:
-                    print("that there are {0} {1}".format(dec1,unit))
+                    print("that there are {0} {1}".format(dec1,unit))"""
