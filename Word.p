@@ -161,7 +161,7 @@ if num >0 and num <=10:
             if sattup1:
                 print("\nwhen the {0} is.")
             if ayee:
-                print("\nit is asking how many {0} there are.")
+                print("\nasking how many {0} there are.")
             elif sattup2:
                 print("\nhow much the {0} costs.")
             elif sattup3:
@@ -258,6 +258,7 @@ if num >0 and num <=10:
                     merican=True
                 elif jerrr in problem___:
                     metric=True
+            elif 
 
             list3= problem___.split()
             j=[item for item in list3 if item not in additions]
@@ -265,7 +266,7 @@ if num >0 and num <=10:
             jei=[item for item in list3 if item not in multiplications]
             jeii=[item for item in list3 if item not in divisions]
             
-            if sattup2:
+            if ayee:
                 int1= inte_[0]
                 dec1= deci[0]
                 if intess>0:
