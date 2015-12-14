@@ -9,6 +9,7 @@ import re
 shhh=input("What is your mathematical word problem? (Spelling, grammar, and punctuation count!!)\n\nYour problem: ")
 problem=shhh.lower()
 
+problem.split()
 donfail=problem.count('?')
 while donfail==0:
     print("You forgot a question mark")
@@ -253,8 +254,8 @@ if num >0 and num <=10:
             list3= problem___.split()
             j=[item for item in list3 if item not in additions]
             je=[item for item in list3 if item not in subtractions]
-            jef=[item for item in list3 if item not in multiplications]
-            jeff=[item for item in list3 if item not in divisions]
+            jei=[item for item in list3 if item not in multiplications]
+            jeii=[item for item in list3 if item not in divisions]
             
             int1= inte_[0]
             dec1= deci[0]
