@@ -48,25 +48,20 @@ possess=['has','of','his','her','their','our','my','your']
 
 equal=['equals']
 
-AA1='when'
 AA2='how much'
-AA3='what time'
-AA4='how long did it take'
 AA5='how long was the'
 Baa='what is the area of the'
 bacch='what is the volume of the'
 heght='what is the height of'
 tallness='how tall'
+new='how many'
 
 circ='circle'
 squ='square'
 rekt='rectangle'
 tri='triangle'
 
-sattup1=False
 sattup2=False
-sattup3=False
-sattup4=False
 sattup5=False
 heigh=False
 heighe=False
@@ -112,18 +107,9 @@ if num >0 and num <=10:
         problem___=" ".join(list2)#ESTA UN PROBLEMA?
         if intess<1 or dci < 1:
             if donfail>=1:
-                if AA1 in problem___:
-                    questionhi=True
-                    sattup1=True
-                elif AA2 in problem___:
+                if AA2 in problem___:
                     questionhi=True
                     sattup2=True
-                elif AA3 in problem___:
-                    questionhi=True
-                    sattup3=True
-                elif AA4 in problem___:
-                    questionhi=True
-                    sattup4=True
                 elif AA5 in problem___:
                     questionhi=True
                     sattup5=True
@@ -142,6 +128,9 @@ if num >0 and num <=10:
                 elif tallness in problem___:
                     heighe=True
                     questionhi=True
+                elif new in problem___:
+                    questionhi=True
+                    amount=True
                 else:
                     questionhi=False
             else:
@@ -181,42 +170,11 @@ if num >0 and num <=10:
 
         else:
             print("\nSentence {0} is saying...".format(x+2))
-            if sattup1:
-                if teim in problem___:
-                    unit="o'clock"
-                elif tim in problem___:
-                    if time >12:
-                        unit='PM'
-                    else:
-                        unit='AM'
-                elif ti in problem___:
-                    if time <12:
-                        unit='PM'
-                    else:
-                        unit='AM'
             elif sattup2:
                 if folater > 0:
                     unit='dollar(s)'
                 if monet in problem___:
                     unit='dollars(s)'
-            elif sattup3:
-                if teim in problem___:
-                    unit="o'clock"
-                elif tim in problem___:
-                    if time >12:
-                        unit='PM'
-                    else:
-                        unit='AM'
-                elif ti in problem___:
-                    if time <12:
-                        unit='PM'
-                    else:
-                        unit='AM'
-            elif sattup4:
-                timeunit=True
-                timeunit='hour(s)'
-                timeunit1='minute(s)'
-                timeunit2='second(s)'
             elif awea:
                 volumeunit=True
                 if jer in problem___:
