@@ -53,8 +53,10 @@ AA5='how long was the'
 Baa='what is the area of the'
 bacch='what is the volume of the'
 heght='what is the height of'
+mil='what is the length of'
 tallness='how tall'
 new='how many'
+werd='what is the width of'
 
 circ='circle'
 squ='square'
@@ -66,6 +68,10 @@ sattup5=False
 heigh=False
 heighe=False
 amount=False
+
+merican=False
+individual=True
+metric=False
 
 awea=False
 awea2=False
@@ -108,7 +114,7 @@ if num >0 and num <=10:
         problem___=" ".join(list2)#ESTA UN PROBLEMA?
         if intess<1 or dci < 1:
             if donfail>=1:
-                if AA2 in problem___:
+                if AA2 in problem:
                     questionhi=True
                     sattup2=True
                 elif AA5 in problem___:
@@ -132,6 +138,9 @@ if num >0 and num <=10:
                 elif new in problem___:
                     questionhi=True
                     amount=True
+                elif mil in problem___:
+                    questionhi=True
+                    sattup6=True
                 else:
                     questionhi=False
             else:
@@ -141,7 +150,7 @@ if num >0 and num <=10:
 
         if questionhi==True:
             print("\nThis question is asking...")
-            elif sattup2:
+            if sattup2:
                 print("\nhow much the {0} costs.")
             elif sattup5:
                 print("\nfor the length of the {0} is.")
@@ -161,13 +170,10 @@ if num >0 and num <=10:
                 print("\nfor the hieght of the {0}.")
             elif amount:
                 print("\nfor the number of {0}.")
-            else:
-                print("Too complicated")
-                break
 
         else:
             print("\nSentence {0} is saying...".format(x+2))
-            elif sattup2:
+            if sattup2:
                 if folater > 0:
                     unit='dollar(s)'
                 if monet in problem___:
@@ -212,18 +218,47 @@ if num >0 and num <=10:
                     merican=True
                 elif jerrr in problem___:
                     metric=True
-
+            elif amount:
+                individual=True
+                
+            sattup2=False
+            sattup5=False
+            heigh=False
+            heighe=False
+            amount=False
+            awea=False
+            awea2=False
+                
+            if AA2 in problem:
+                sattup2i=True
+            elif AA5 in problem:
+                sattup5i=True
+            elif Baa in problem:
+                awea2i=True
+            elif bacch in problem:
+                aweai=True
+            elif werd in problem:
+                wideti=True
+            elif heght in problem:
+                heighi=True
+            elif tallness in problem:
+                heighei=True
+            elif new in problem:
+                amounti=True
+            elif mil in problem:
+                sattup6i=True
+                
             list3= problem___.split()
             j=[item for item in list3 if item not in additions]
             je=[item for item in list3 if item not in subtractions]
             jef=[item for item in list3 if item not in multiplications]
             jeff=[item for item in list3 if item not in divisions]
             
-            int1= inte_[0]
-            dec1= deci[0]
-            
-            if intess>0:
-                print("that there are {0} {1}".format(int1))
-            elif len_dec>0:
-                print("that there are {0} {1}".format(dec1))
+            if amounti:
+                int1= inte_[0]
+                dec1= deci[0]
+                if intess>0:
+                    print("that there are {0} {1}".format(int1))
+                elif len_dec>0:
+                    print("that there are {0} {1}".format(dec1))
                 
