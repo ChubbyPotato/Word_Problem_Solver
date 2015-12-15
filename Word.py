@@ -258,7 +258,10 @@ if num >0 and num <=10:
                 int1= inte_[0]
                 dec1= deci[0]
                 if intess>0:
+                    for 
                     print("that there are {0} {1}".format(int1))
+                    if intess>1:
                 elif len_dec>0:
+                    
                     print("that there are {0} {1}".format(dec1))
                 
