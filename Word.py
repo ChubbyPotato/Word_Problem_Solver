@@ -65,6 +65,7 @@ sattup2=False
 sattup5=False
 heigh=False
 heighe=False
+amount=False
 
 awea=False
 awea2=False
@@ -140,14 +141,8 @@ if num >0 and num <=10:
 
         if questionhi==True:
             print("\nThis question is asking...")
-            if sattup1:
-                print("\nwhen the {0} is.")
             elif sattup2:
                 print("\nhow much the {0} costs.")
-            elif sattup3:
-                print("\nwhat time it is.")
-            elif sattup4:
-                print("\nhow long the {0} was.")
             elif sattup5:
                 print("\nfor the length of the {0} is.")
             elif awea0:
@@ -164,6 +159,8 @@ if num >0 and num <=10:
                 print("\nfor the hieght of the {0}.")
             elif heighe:
                 print("\nfor the hieght of the {0}.")
+            elif amount:
+                print("\nfor the number of {0}.")
             else:
                 print("Too complicated")
                 break
@@ -192,6 +189,14 @@ if num >0 and num <=10:
                 elif jerrr in problem___:
                     metric=True
             elif heght:
+                lengthunit=True
+                if jer in problem___:
+                    merican=True
+                elif jerr in problem___:
+                    merican=True
+                elif jerrr in problem___:
+                    metric=True
+            elif tallness:
                 lengthunit=True
                 if jer in problem___:
                     merican=True
