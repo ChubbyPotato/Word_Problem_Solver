@@ -88,9 +88,6 @@ idunno='box'
 egypt='triangular pyramid'
 trueegypt='rectangular pyramid'
 longbox='rectangular prism'
-teim="o'clock"
-tim='am'
-ti='pm'
 monet='dollar'
 
 jer='inch'
@@ -221,13 +218,13 @@ if num >0 and num <=10:
             elif amount:
                 individual=True
                 
-            sattup2=False
-            sattup5=False
-            heigh=False
-            heighe=False
-            amount=False
-            awea=False
-            awea2=False
+            sattup2i=False
+            sattup5i=False
+            heighi=False
+            heighei=False
+            amounti=False
+            aweai=False
+            awea2i=False
                 
             if AA2 in problem:
                 sattup2i=True
@@ -258,10 +255,9 @@ if num >0 and num <=10:
                 int1= inte_[0]
                 dec1= deci[0]
                 if intess>0:
-                    for 
                     print("that there are {0} {1}".format(int1))
-                    if intess>1:
                 elif len_dec>0:
-                    
                     print("that there are {0} {1}".format(dec1))
+                
+                
                 
