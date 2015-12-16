@@ -20,6 +20,7 @@ problem_=''.join( c for c in problem if  c not in '$')
 deci=re.findall("\d+.\d+", problem_) #find decimals
 len_dec=len(deci)
 dci=int(len_dec)
+rangedci=list(range(dci))
 word_=problem_.split()
 list0 = [item for item in word_ if item not in deci] #DESTROY THE DECIMALS!
 
@@ -99,7 +100,7 @@ if num >0 and num <=10:
     for x in sentrange:
         wordd=sentences[x].split()
         inte_=[x for x in wordd if x.isdigit()]
-        num_of_ints=len(inte_)#for storage
+        num_of_ints=len(inte_)
         rangeinte=list(range(0,num_of_ints))
         intess=int(num_of_ints)
         if num_of_ints>0:
@@ -252,12 +253,22 @@ if num >0 and num <=10:
             jeff=[item for item in list3 if item not in divisions]
             
             if amounti:
-                int1= inte_[0]
-                dec1= deci[0]
                 if intess>0:
-                    print("that there are {0} {1}".format(int1))
+                    for y in rangeinte:
+                        int1= inte_[y]
+                        meh= sentences[x].split
+                        thingy= wordd.index(int1)
+                        print("\nthat there are {0} {1}".format(int1,thingy))
+
                 elif len_dec>0:
-                    print("that there are {0} {1}".format(dec1))
-                
-                
+                    for y in rangedci:
+                        dec1= deci[y]
+                        print(dec1)
+                        meh1= sentences[x].split
+                        print(meh1)
+                        thingy1= wordd.index(dec1)
+                        print("HI")
+                        print("\nthat there are {0} {1}".format(dec1,thingy1))
+
+            
                 
