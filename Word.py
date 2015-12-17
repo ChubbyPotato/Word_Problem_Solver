@@ -94,6 +94,7 @@ monet='dollar'
 jer='inch'
 jerr='feet'
 jerrr='meter'
+print(sentrange)
 
 if num >0 and num <=10:
     print("\nOk. Lets split your problem into statements:")
@@ -147,29 +148,48 @@ if num >0 and num <=10:
             questionhi=False #NAH
 
         if questionhi==True:
-            print("\nThis question is asking...")
+            print("\nSentence {0} is asking...".format(x+1))
+            if intess>0:
+                    for y in rangeinte:
+                        int1= inte_[y]
+                        meh= problem.split()
+                        thingy= meh.index(int1)
+                        jeh=thingy+1
+                        hai=meh[jeh]
+
+            elif len_dec>0:
+                    for y in rangedci:
+                        dec1= deci[y]
+                        meh1= problem.split()
+                        thingy1= meh1.index(dec1)
+                        jeh1=thingy1+1
+                        hai= meh1[jeh1]
+            else:
+                print("No numbers")
+                        
             if sattup2:
-                print("\nhow much the {0} costs.")
+                print("\nhow much the {0} costs.".format(hai))
             elif sattup5:
-                print("\nfor the length of the {0} is.")
+                print("\nfor the length of the {0} is.".format(hai))
             elif awea0:
-                print("\nwhat the width of the {0} is.")
+                print("\nwhat the width of the {0} is.".format(hai))
             elif sattup6:
-                print("\nwhat the length of the {0} is.")
+                print("\nwhat the length of the {0} is.".format(hai))
             elif widet:
-                print("\nfor the width of the {0}.")
+                print("\nfor the width of the {0}.".format(hai))
             elif awea2:
-                print("\nwhat the area of the {0} is.")
+                print("\nwhat the area of the {0} is.".format(hai))
             elif awea:
-                print("\nfor the volume of the {0}.")
+                print("\nfor the volume of the {0}.".format(hai))
             elif heigh:
-                print("\nfor the hieght of the {0}.")
+                print("\nfor the hieght of the {0}.".format(hai))
             elif heighe:
-                print("\nfor the hieght of the {0}.")
+                print("\nfor the hieght of the {0}.".format(hai))
             elif amount:
-                print("\nfor the number of {0}.")
+                print("\nfor the number of {0}.".format(hai))
 
         else:
+            print(x)
             print("\nSentence {0} is saying...".format(x+1))
             if sattup2:
                 if folater > 0:
@@ -260,7 +280,9 @@ if num >0 and num <=10:
                         int1= inte_[y]
                         meh= problem.split()
                         thingy= meh.index(int1)
-                        print("\nthat there are {0} {1}".format(int1,thingy))
+                        jeh=thingy+1
+                        waer=meh[jeh]
+                        print("\nthat there are {0} {1}".format(int1,waer))
 
                 elif len_dec>0:
                     for y in rangedci:
