@@ -151,21 +151,22 @@ if num >0 and num <=10:
             print("\nSentence {0} is asking...".format(x+1))
             if intess>0:
                     for y in rangeinte:
-                        int1= inte_[y]
-                        meh= problem.split()
-                        thingy= meh.index(int1)
-                        jeh=thingy+1
-                        hai=meh[jeh]
+                        in1= inte_[y]
+                        me= problem.split()
+                        thing= me.index(in1)
+                        je=thingy+1
+                        hai=meh[je]
 
             elif len_dec>0:
                     for y in rangedci:
-                        dec1= deci[y]
-                        meh1= problem.split()
-                        thingy1= meh1.index(dec1)
-                        jeh1=thingy1+1
-                        hai= meh1[jeh1]
+                        de1= deci[y]
+                        me1= problem.split()
+                        thing1= me1.index(de1)
+                        je1=thingy1+1
+                        hai= meh1[je1]
             else:
                 print("No numbers")
+                break
                         
             if sattup2:
                 print("\nhow much the {0} costs.".format(hai))
@@ -184,7 +185,7 @@ if num >0 and num <=10:
             elif heigh:
                 print("\nfor the hieght of the {0}.".format(hai))
             elif heighe:
-                print("\nfor the hieght of the {0}.".format(hai))
+                print("\nfor the hieght of the {0}.")
             elif amount:
                 print("\nfor the number of {0}.".format(hai))
 
