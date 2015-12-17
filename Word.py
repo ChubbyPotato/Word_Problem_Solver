@@ -192,6 +192,8 @@ if num >0 and num <=10:
                     merican=True
                 elif jerrr in problem___:
                     metric=True
+                elif:
+                    unit='square units'
             elif heght:
                 lengthunit=True
                 if jer in problem___:
@@ -256,19 +258,23 @@ if num >0 and num <=10:
                 if intess>0:
                     for y in rangeinte:
                         int1= inte_[y]
-                        meh= sentences[x].split
-                        thingy= wordd.index(int1)
+                        meh= problem.split()
+                        thingy= meh.index(int1)
                         print("\nthat there are {0} {1}".format(int1,thingy))
 
                 elif len_dec>0:
                     for y in rangedci:
                         dec1= deci[y]
                         print(dec1)
-                        meh1= sentences[x].split
+                        meh1= problem.split()
                         print(meh1)
-                        thingy1= wordd.index(dec1)
-                        print("HI")
-                        print("\nthat there are {0} {1}".format(dec1,thingy1))
+                        thingy1= meh1.index(dec1)
+                        print(thingy1)
+                        jeh1=thingy+1
+                        print(jeh1)
+                        waer1= meh[jeh1]
+                        print(waer1)
+                        print("\nthat there are {0} {1}".format(dec1,waer1))
 
             
                 
