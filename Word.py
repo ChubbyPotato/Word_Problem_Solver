@@ -170,7 +170,7 @@ if num >0 and num <=10:
                 print("\nfor the number of {0}.")
 
         else:
-            print("\nSentence {0} is saying...".format(x+2))
+            print("\nSentence {0} is saying...".format(x+1))
             if sattup2:
                 if folater > 0:
                     unit='dollar(s)'
@@ -265,16 +265,11 @@ if num >0 and num <=10:
                 elif len_dec>0:
                     for y in rangedci:
                         dec1= deci[y]
-                        print(dec1)
                         meh1= problem.split()
-                        print(meh1)
                         thingy1= meh1.index(dec1)
-                        print(thingy1)
-                        jeh1=thingy+1
-                        print(jeh1)
-                        waer1= meh[jeh1]
-                        print(waer1)
-                        print("\nthat there are {0} {1}".format(dec1,waer1))
+                        jeh1=thingy1+1
+                        waer1= meh1[jeh1]
+                        print("\nthat there are {0} {1}.".format(dec1,waer1))
 
             
                 
