@@ -153,7 +153,9 @@ if num >0 and num <=10:
                     for y in rangeinte:
                         in1= inte_[y]
                         me= problem.split()
+                        print(me)
                         thing= me.index(in1)
+                        print(thing)
                         je=thingy+1
                         hai=meh[je]
 
