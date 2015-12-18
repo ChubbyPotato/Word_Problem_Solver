@@ -277,10 +277,6 @@ if num >0 and num <=10:
             list3= problem___.split()
             
             if amounti:
-                j=[item for item in list3 if item not in additions]
-                je=[item for item in list3 if item not in subtractions]
-                jef=[item for item in list3 if item not in multiplications]
-                jeff=[item for item in list3 if item not in divisions]
                 if intess>0:
                     for y in rangeinte:
                         int1= inte_[y]
@@ -301,18 +297,25 @@ if num >0 and num <=10:
                         
                 else:
                     print("No numbers")
+    list3= problem.split()
+    if amounti:
+        j=[item for item in list3 if item not in additions]
+        je=[item for item in list3 if item not in subtractions]
+        jef=[item for item in list3 if item not in multiplications]
+        jeff=[item for item in list3 if item not in divisions]
 
-                if j!=list3:
-                    for z in rangeinte:
-                        j=inte_[z]
-                elif je!=list3:
-                    for z in rangeinte:
-                        j=inte_[z]
-                elif jef!=list3:
-                    for z in rangeinte:
-                        j=inte-[z]
-                elif jeff!=list3:
-                    for z in rangeinte:
-                        j=inte-[z]
-                else:
+        if j!=list3:
+            for z in rangeinte:
+                j=inte_[z]
+                
+        elif je!=list3:
+            for z in rangeinte:
+                j=inte_[z]
+        elif jef!=list3:
+            for z in rangeinte:
+                j=inte-[z]
+        elif jeff!=list3:
+            for z in rangeinte:
+                j=inte-[z]
+        else:
                     print("Too complicated")
