@@ -94,7 +94,6 @@ monet='dollar'
 jer='inch'
 jerr='feet'
 jerrr='meter'
-print(sentrange)
 
 if num >0 and num <=10:
     print("\nOk. Lets split your problem into statements:")
