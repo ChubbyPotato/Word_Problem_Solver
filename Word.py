@@ -95,11 +95,16 @@ jer='inch'
 jerr='feet'
 jerrr='meter'
 
+jhfdh=problem.split()
+intbut=[x for x in jhfdh if x.isdigit()]
+jeru=len(intbut)
+
 if num >0 and num <=10:
     print("\nOk. Lets split your problem into statements:")
     for x in sentrange:
         wordd=sentences[x].split()
         inte_=[x for x in wordd if x.isdigit()]
+
         num_of_ints=len(inte_)
         rangeinte=list(range(0,num_of_ints))
         intess=int(num_of_ints)
@@ -147,24 +152,24 @@ if num >0 and num <=10:
             questionhi=False #NAH
 
         if questionhi==True:
-            print("\nSentence {0} is asking...".format(x+1))
-            if intess>0:
-                    for y in rangeinte:
-                        in1= inte_[y]
-                        me= problem.split()
-                        print(me)
-                        thing= me.index(in1)
-                        print(thing)
-                        je=thingy+1
-                        hai=meh[je]
+            print("\n-Sentence {0} is asking...".format(x+1))
+            if jeru>0:
+                for y in rangeinte:
+                    in1= inte_[y]
+                    me= problem.split()
+                    print(me)
+                    thing= me.index(in1)
+                    print(thing)
+                    je=thingy+1
+                    hai=meh[je]
 
             elif len_dec>0:
-                    for y in rangedci:
-                        de1= deci[y]
-                        me1= problem.split()
-                        thing1= me1.index(de1)
-                        je1=thingy1+1
-                        hai= meh1[je1]
+                for y in rangedci:
+                    de1= deci[y]
+                    me1= problem.split()
+                    thing1= me1.index(de1)
+                    je1=thingy1+1
+                    hai= meh1[je1]
             else:
                 print("No numbers")
                 break
@@ -186,13 +191,12 @@ if num >0 and num <=10:
             elif heigh:
                 print("\nfor the hieght of the {0}.".format(hai))
             elif heighe:
-                print("\nfor the hieght of the {0}.")
+                print("\nfor the hieght of the {0}.".format(hai))
             elif amount:
                 print("\nfor the number of {0}.".format(hai))
 
         else:
-            print(x)
-            print("\nSentence {0} is saying...".format(x+1))
+            print("\n-Sentence {0} is saying...".format(x+1))
             if sattup2:
                 if folater > 0:
                     unit='dollar(s)'
@@ -271,12 +275,12 @@ if num >0 and num <=10:
                 sattup6i=True
                 
             list3= problem___.split()
-            j=[item for item in list3 if item not in additions]
-            je=[item for item in list3 if item not in subtractions]
-            jef=[item for item in list3 if item not in multiplications]
-            jeff=[item for item in list3 if item not in divisions]
             
             if amounti:
+                j=[item for item in list3 if item not in additions]
+                je=[item for item in list3 if item not in subtractions]
+                jef=[item for item in list3 if item not in multiplications]
+                jeff=[item for item in list3 if item not in divisions]
                 if intess>0:
                     for y in rangeinte:
                         int1= inte_[y]
@@ -294,6 +298,16 @@ if num >0 and num <=10:
                         jeh1=thingy1+1
                         waer1= meh1[jeh1]
                         print("\nthat there are {0} {1}.".format(dec1,waer1))
+                        
+                else:
+                    print("No numbers")
+                
+                if j!=list3:
+                    for z in rangeinte:
+                        j=inte_[y]
+                elif je!=list3:
+                    
+                elif jef!=list3:
 
             
                 
