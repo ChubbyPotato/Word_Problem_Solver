@@ -301,13 +301,18 @@ if num >0 and num <=10:
                         
                 else:
                     print("No numbers")
-                
+
                 if j!=list3:
                     for z in rangeinte:
-                        j=inte_[y]
+                        j=inte_[z]
                 elif je!=list3:
-                    
+                    for z in rangeinte:
+                        j=inte_[z]
                 elif jef!=list3:
-
-            
-                
+                    for z in rangeinte:
+                        j=inte-[z]
+                elif jeff!=list3:
+                    for z in rangeinte:
+                        j=inte-[z]
+                else:
+                    print("Too complicated")
