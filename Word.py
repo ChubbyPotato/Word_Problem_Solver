@@ -154,7 +154,9 @@ if num >0 and num <=10:
         if questionhi==True:
             print("\n-Sentence {0} is asking...".format(x+1))
             if jeru>0:
+                print(True)
                 for y in rangeinte:
+                    print(False)
                     in1= inte_[y]
                     me= problem.split()
                     print(me)
@@ -162,7 +164,6 @@ if num >0 and num <=10:
                     print(thing)
                     je=thingy+1
                     hai=meh[je]
-
             elif len_dec>0:
                 for y in rangedci:
                     de1= deci[y]
@@ -305,9 +306,8 @@ if num >0 and num <=10:
         jeff=[item for item in list3 if item not in divisions]
 
         if j!=list3:
-            for z in rangeinte:
-                j=inte_[z]
-                
+            j=inte_[0]+inte_[1]
+            print(j)
         elif je!=list3:
             for z in rangeinte:
                 j=inte_[z]
