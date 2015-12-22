@@ -256,7 +256,6 @@ if amounti:
     if j!=list3:
         print(jeru)
         if jeru>=1:
-            print(False)
             un=intbut[0]
             uno=int(un)
             do=intbut[1]
@@ -264,28 +263,28 @@ if amounti:
             total=uno+dos
             if jeru==1:
                 print("\nThere are:",total,hai)
-        elif jeru>=2:
-            tre=intbut[2]
+        if jeru>=2:
+            tre=intbut[1]
             tres=int(tre)
             total1=total+tres
-            print(True)
             if jeru==2:
                 print("\nThere are:",total1,hai)
-        elif jeru>=3:
-            cuatr=intbut[3]
+        if jeru>=3:
+            print(True)
+            cuatr=intbut[1]
             cuatro=int(cuatr)
             total2=total1+cuatro
             print(True)
             if jeru==3:
                 print("\nThere are:",total2,hai)
                 print(True)
-        elif jeru>=4:
+        if jeru>=4:
             cinc=intbut[4]
             cinco=int(cinc)
             total3=total2+cinco
             if jeru==4:
                 print("\nThere are:",total3,hai)
-        elif jeru>=6:
+        if jeru>=6:
             sei=intbut[5]
             seis=int(sei)
             total4=total3+seis
