@@ -254,40 +254,44 @@ if amounti:
     jeff=[item for item in list3 if item not in divisions]
 
     if j!=list3:
-        if jujer>=1:
+        print(jeru)
+        if jeru>=1:
             un=intbut[0]
             uno=int(un)
             do=intbut[1]
             dos=int(do)
             total=uno+dos
-        elif jujer>=2:
+            if jeru==1:
+                print("\nThere are:",total,hai)
+        elif jeru>=2:
             tre=intbut[2]
             tres=int(tre)
-            total=uno+dos+tres
-        elif jujer>=3:
+            total1=total+tres
+            if jeru==2:
+                print("\nThere are:",total1,hai)
+        elif jeru>=3:
             cuatr=intbut[3]
             cuatro=int(cuatr)
-            total=uno+dos+tres+cuatro
-        elif jujer>=4:
+            total2=total1+cuatro
+            if jeru==3:
+                print("\nThere are:",total2,hai)
+                print(True)
+        elif jeru>=4:
             cinc=intbut[4]
             cinco=int(cinc)
-            total=uno+dos+tres+cuatro+cinco
-        elif jujer>=5:
+            total3=total2+cinco
+            if jeru==4:
+                print("\nThere are:",total3,hai)
+        elif jeru>=6:
             sei=intbut[5]
             seis=int(sei)
-            total=uno+dos+tres+cuatro+cinco+seis
-        elif jujer>=6:
-            siet=intbut[6]
-            siete=int(siet)
-            total=uno+dos+tres+cuatro+cinco+seis+siete
-        elif jujer>=7:
-            och=intbut[7]
-            ocho=int(och)
-            total=uno+dos+tres+cuatro+cinco+seis+siete+ocho
+            total4=total3+seis
+            if jeru==5:
+                print("\nThere are:",total4,hai)
         else:
             print("Too many")
 
-        print("\nThere are:",total,hai)
+        
     elif je!=list3:
         for z in rangeinte:
             j=inte_[z]
