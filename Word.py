@@ -254,12 +254,38 @@ if amounti:
     jeff=[item for item in list3 if item not in divisions]
 
     if j!=list3:
-        if 
+        if jujer>=1:
             un=intbut[0]
             uno=int(un)
             do=intbut[1]
             dos=int(do)
             total=uno+dos
+        elif jujer>=2:
+            tre=intbut[2]
+            tres=int(tre)
+            total=uno+dos+tres
+        elif jujer>=3:
+            cuatr=intbut[3]
+            cuatro=int(cuatr)
+            total=uno+dos+tres+cuatro
+        elif jujer>=4:
+            cinc=intbut[4]
+            cinco=int(cinc)
+            total=uno+dos+tres+cuatro+cinco
+        elif jujer>=5:
+            sei=intbut[5]
+            seis=int(sei)
+            total=uno+dos+tres+cuatro+cinco+seis
+        elif jujer>=6:
+            siet=intbut[6]
+            siete=int(siet)
+            total=uno+dos+tres+cuatro+cinco+seis+siete
+        elif jujer>=7:
+            och=intbut[7]
+            ocho=int(och)
+            total=uno+dos+tres+cuatro+cinco+seis+siete+ocho
+        else:
+            print("Too many")
 
         print("\nThere are:",total,hai)
     elif je!=list3:
