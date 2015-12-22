@@ -98,7 +98,7 @@ jerrr='meter'
 jhfdh=problem.split()
 intbut=[x for x in jhfdh if x.isdigit()]
 jeru=len(intbut)
-jujer=list(range(1,jeru+1))
+jujer=list(range(jeru))
 
 if num >0 and num <=10:
     print("\nOk. Lets split your problem into statements:")
@@ -155,14 +155,10 @@ if num >0 and num <=10:
         if questionhi==True:
             print("\n-Sentence {0} is asking...".format(x+1))
             if jeru>0:
-                print(True)
-                for y in j:
-                    print(False)
-                    in1= inte_[y]
+                for y in jujer:
+                    in1= intbut[y]
                     me= problem.split()
-                    print(me)
                     thing= me.index(in1)
-                    print(thing)
                     je=thingy+1
                     hai=meh[je]
             elif len_dec>0:
@@ -199,55 +195,6 @@ if num >0 and num <=10:
 
         else:
             print("\n-Sentence {0} is saying...".format(x+1))
-            if sattup2:
-                if folater > 0:
-                    unit='dollar(s)'
-                if monet in problem___:
-                    unit='dollars(s)'
-            elif awea:
-                volumeunit=True
-                if jer in problem___:
-                    merican=True
-                elif jerr in problem___:
-                    merican=True
-                elif jerrr in problem___:
-                    metric=True
-            elif awea2:
-                areaunit=True
-                if jer in problem___:
-                    merican=True
-                elif jerr in problem___:
-                    merican=True
-                elif jerrr in problem___:
-                    metric=True
-                elif:
-                    unit='square units'
-            elif heght:
-                lengthunit=True
-                if jer in problem___:
-                    merican=True
-                elif jerr in problem___:
-                    merican=True
-                elif jerrr in problem___:
-                    metric=True
-            elif tallness:
-                lengthunit=True
-                if jer in problem___:
-                    merican=True
-                elif jerr in problem___:
-                    merican=True
-                elif jerrr in problem___:
-                    metric=True
-            elif tallness:
-                lengthunit=True
-                if jer in problem___:
-                    merican=True
-                elif jerr in problem___:
-                    merican=True
-                elif jerrr in problem___:
-                    metric=True
-            elif amount:
-                individual=True
                 
             sattup2i=False
             sattup5i=False
@@ -307,8 +254,12 @@ if amounti:
     jeff=[item for item in list3 if item not in divisions]
 
     if j!=list3:
-        j=inte_[0]+inte_[1]
-        print(j)
+        un=[0]
+        uno=int(un)
+        do=inte_[1]
+        dos=int(do)
+        total=uno+dos
+        print(total)
     elif je!=list3:
         for z in rangeinte:
             j=inte_[z]
