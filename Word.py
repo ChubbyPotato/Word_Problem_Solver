@@ -254,12 +254,14 @@ if amounti:
     jeff=[item for item in list3 if item not in divisions]
 
     if j!=list3:
-        un=[0]
-        uno=int(un)
-        do=inte_[1]
-        dos=int(do)
-        total=uno+dos
-        print(total)
+        if 
+            un=intbut[0]
+            uno=int(un)
+            do=intbut[1]
+            dos=int(do)
+            total=uno+dos
+
+        print("\nThere are:",total,hai)
     elif je!=list3:
         for z in rangeinte:
             j=inte_[z]
