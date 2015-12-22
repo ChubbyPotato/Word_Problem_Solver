@@ -40,7 +40,7 @@ while um==0:
     print("You forgot a period somewhere pal")
     break
 
-additions=['plus','added','adds','add','gains','gained','gain','sum','produces','total','more']
+additions=['plus','added','adds','add','gains','gained','gain','sum','produces','total','more','total?']
 subtractions=['spent','removed','removes','subtracted','minus','subtract','take','takes','subtracts','eats','loses','loose','paid','give']
 multiplications=['times','multiplied','multiplies']
 divisions=['split','divided','divides']
@@ -98,6 +98,7 @@ jerrr='meter'
 jhfdh=problem.split()
 intbut=[x for x in jhfdh if x.isdigit()]
 jeru=len(intbut)
+jujer=list(range(1,jeru+1))
 
 if num >0 and num <=10:
     print("\nOk. Lets split your problem into statements:")
@@ -155,7 +156,7 @@ if num >0 and num <=10:
             print("\n-Sentence {0} is asking...".format(x+1))
             if jeru>0:
                 print(True)
-                for y in rangeinte:
+                for y in j:
                     print(False)
                     in1= inte_[y]
                     me= problem.split()
@@ -299,23 +300,23 @@ if num >0 and num <=10:
                 else:
                     print("No numbers")
     list3= problem.split()
-    if amounti:
-        j=[item for item in list3 if item not in additions]
-        je=[item for item in list3 if item not in subtractions]
-        jef=[item for item in list3 if item not in multiplications]
-        jeff=[item for item in list3 if item not in divisions]
+if amounti:
+    j=[item for item in list3 if item not in additions]
+    je=[item for item in list3 if item not in subtractions]
+    jef=[item for item in list3 if item not in multiplications]
+    jeff=[item for item in list3 if item not in divisions]
 
-        if j!=list3:
-            j=inte_[0]+inte_[1]
-            print(j)
-        elif je!=list3:
-            for z in rangeinte:
-                j=inte_[z]
-        elif jef!=list3:
-            for z in rangeinte:
-                j=inte-[z]
-        elif jeff!=list3:
-            for z in rangeinte:
-                j=inte-[z]
-        else:
-                    print("Too complicated")
+    if j!=list3:
+        j=inte_[0]+inte_[1]
+        print(j)
+    elif je!=list3:
+        for z in rangeinte:
+            j=inte_[z]
+    elif jef!=list3:
+        for z in rangeinte:
+            j=inte-[z]
+    elif jeff!=list3:
+        for z in rangeinte:
+            j=inte-[z]
+    else:
+        print("Too complicated")
