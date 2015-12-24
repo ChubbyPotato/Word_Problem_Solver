@@ -253,51 +253,45 @@ if amounti:
     jef=[item for item in list3 if item not in multiplications]
     jeff=[item for item in list3 if item not in divisions]
 
-    if j!=list3:
-        print(jeru)
+    if addonly:
         if jeru>=1:
-            un=intbut[0]
-            uno=int(un)
             do=intbut[1]
             dos=int(do)
-            total=uno+dos
+            total=dos
             if jeru==1:
                 print("\nThere are:",total,hai)
         if jeru>=2:
-            tre=intbut[1]
+            tre=intbut[0]
             tres=int(tre)
             total1=total+tres
             if jeru==2:
                 print("\nThere are:",total1,hai)
         if jeru>=3:
-            print(True)
-            cuatr=intbut[1]
+            cuatr=intbut[2]
             cuatro=int(cuatr)
             total2=total1+cuatro
-            print(True)
             if jeru==3:
                 print("\nThere are:",total2,hai)
-                print(True)
         if jeru>=4:
-            cinc=intbut[4]
+            cinc=intbut[3]
             cinco=int(cinc)
             total3=total2+cinco
             if jeru==4:
                 print("\nThere are:",total3,hai)
-        if jeru>=6:
-            sei=intbut[5]
+        if jeru>=5:
+            sei=intbut[4]
             seis=int(sei)
             total4=total3+seis
             if jeru==5:
                 print("\nThere are:",total4,hai)
-        else:
+        elif jeru>5:
             print("Too many")
 
         
-    elif je!=list3:
+    elif subonly:
         for z in rangeinte:
             j=inte_[z]
-    elif jef!=list3:
+    elif multonly:
         for z in rangeinte:
             j=inte-[z]
     elif jeff!=list3:
