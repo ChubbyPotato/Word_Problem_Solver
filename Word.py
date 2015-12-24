@@ -246,13 +246,21 @@ if num >0 and num <=10:
                         
                 else:
                     print("No numbers")
-    list3= problem.split()
+list3= problem.split()
 if amounti:
     j=[item for item in list3 if item not in additions]
     je=[item for item in list3 if item not in subtractions]
     jef=[item for item in list3 if item not in multiplications]
     jeff=[item for item in list3 if item not in divisions]
-
+    
+    addonly=False
+    
+    if list3 != j:
+        if list3==je:
+            if list3==jef:
+                if list3 ==jeff:
+                    addonly=True
+    
     if addonly:
         if jeru>=1:
             do=intbut[1]
