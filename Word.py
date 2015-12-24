@@ -45,10 +45,6 @@ subtractions=['spent','removed','removes','subtracted','minus','subtract','take'
 multiplications=['times','multiplied','multiplies']
 divisions=['split','divided','divides']
 
-possess=['has','of','his','her','their','our','my','your']
-
-equal=['equals']
-
 AA2='how much'
 AA5='how long was the'
 Baa='what is the area of the'
