@@ -37,7 +37,7 @@ while num > 10:
     break
 
 while um==0:
-    print("You forgot a period somewhere pal")
+    print("You forgot a period somewhere")
     break
 
 additions=['plus','added','adds','add','gains','gained','gain','sum','produces','total','more','total?']
@@ -255,6 +255,12 @@ if amounti:
     
     addonly=False
     
+    if list3 != j:
+        if list3==je:
+            if list3==jef:
+                if list3 ==jeff:
+                    addonly=True
+                    
     if list3 != j:
         if list3==je:
             if list3==jef:
