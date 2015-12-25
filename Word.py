@@ -18,6 +18,7 @@ folater=problem.count('$')
 problem_=''.join( c for c in problem if  c not in '$')
 
 deci=re.findall("\d+.\d+", problem_) #find decimals
+print(deci)
 len_dec=len(deci)
 dci=int(len_dec)
 rangedci=list(range(dci))
@@ -171,23 +172,23 @@ if num >0 and num <=10:
             if sattup2:
                 print("\nhow much the {0} costs.".format(hai))
             elif sattup5:
-                print("\nfor the length of the {0} is.".format(hai))
+                print("\nfor the length of the {0} is".format(hai))
             elif awea0:
-                print("\nwhat the width of the {0} is.".format(hai))
+                print("\nwhat the width of the {0} is".format(hai))
             elif sattup6:
-                print("\nwhat the length of the {0} is.".format(hai))
+                print("\nwhat the length of the {0} is".format(hai))
             elif widet:
-                print("\nfor the width of the {0}.".format(hai))
+                print("\nfor the width of the {0}".format(hai))
             elif awea2:
-                print("\nwhat the area of the {0} is.".format(hai))
+                print("\nwhat the area of the {0} is".format(hai))
             elif awea:
-                print("\nfor the volume of the {0}.".format(hai))
+                print("\nfor the volume of the {0}".format(hai))
             elif heigh:
-                print("\nfor the hieght of the {0}.".format(hai))
+                print("\nfor the hieght of the {0}".format(hai))
             elif heighe:
-                print("\nfor the hieght of the {0}.".format(hai))
+                print("\nfor the hieght of the {0}".format(hai))
             elif amount:
-                print("\nfor the number of {0}.".format(hai))
+                print("\nfor the number of {0}".format(hai))
 
         else:
             print("\n-Sentence {0} is saying...".format(x+1))
@@ -238,7 +239,7 @@ if num >0 and num <=10:
                         thingy1= meh1.index(dec1)
                         jeh1=thingy1+1
                         waer1= meh1[jeh1]
-                        print("\nthat there are {0} {1}.".format(dec1,waer1))
+                        print("\nthat there are {0} {1}".format(dec1,waer1))
                         
                 else:
                     print("No numbers")
