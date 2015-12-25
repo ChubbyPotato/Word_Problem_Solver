@@ -258,23 +258,23 @@ if amounti:
                 if list3 ==jeff:
                     addonly=True
                     
-    if list3 != jef:
-        if list3==j:
-            if list3==je:
+    if list3 != je:
+        if list3==je:
+            if list3==jef:
                 if list3 ==jeff:
-                    addonly=True
+                    subonly=True
     
     if list3 != jef:
         if list3==j:
             if list3==je:
                 if list3 ==jeff:
-                    addonly=True
+                    multonly=True
     
-    if list3 != jef:
+    if list3 != jeff:
         if list3==j:
             if list3==je:
-                if list3 ==jeff:
-                    addonly=True
+                if list3 ==jef:
+                    divionly=True
     
     if addonly:
         if jeru>=1:
