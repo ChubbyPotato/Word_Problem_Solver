@@ -243,6 +243,8 @@ if num >0 and num <=10:
                         
                 else:
                     print("No numbers")
+
+print("The answer:")
 list3= problem.split()
 if amounti:
     j=[item for item in list3 if item not in additions]
@@ -301,12 +303,11 @@ if amounti:
             total3=total2+cinco
             if jeru==4:
                 print("\nThere are:",total3,hai)
-        if jeru>=5:
+        if jeru==5:
             sei=intbut[4]
             seis=int(sei)
             total4=total3+seis
-            if jeru==5:
-                print("\nThere are:",total4,hai)
+            print("\nThere are:",total4,hai)
         elif jeru>5:
             print("Too many")
 
