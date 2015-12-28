@@ -127,15 +127,15 @@ if num >0 and num <=10:
                         in1= intbut[y]
                         me= problem.split()
                         thing= me.index(in1)
-                        je=thingy+1
-                        hai=meh[je]
+                        je=thing+1
+                        hai=me[je]
                 elif len_dec>0:
                     for y in rangedci:
                         de1= deci[y]
                         me1= problem.split()
                         thing1= me1.index(de1)
-                        je1=thingy1+1
-                        hai= meh1[je1]
+                        je1=thing1+1
+                        hai= me1[je1]
                 else:
                     print("No numbers")
                     break
