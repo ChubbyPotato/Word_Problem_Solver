@@ -121,24 +121,25 @@ if num >0 and num <=10:
 
         if questionhi==True:
             print("\n-Sentence {0} is asking...".format(x+1))
-            if jeru>0:
-                for y in jujer:
-                    in1= intbut[y]
-                    me= problem.split()
-                    thing= me.index(in1)
-                    je=thingy+1
-                    hai=meh[je]
-            elif len_dec>0:
-                for y in rangedci:
-                    de1= deci[y]
-                    me1= problem.split()
-                    thing1= me1.index(de1)
-                    je1=thingy1+1
-                    hai= meh1[je1]
-            else:
-                print("No numbers")
-                break
-                        
+            if sattup == True or if amount == True:
+                if jeru>0:
+                    for y in jujer:
+                        in1= intbut[y]
+                        me= problem.split()
+                        thing= me.index(in1)
+                        je=thingy+1
+                        hai=meh[je]
+                elif len_dec>0:
+                    for y in rangedci:
+                        de1= deci[y]
+                        me1= problem.split()
+                        thing1= me1.index(de1)
+                        je1=thingy1+1
+                        hai= meh1[je1]
+                else:
+                    print("No numbers")
+                    break
+                    
             if sattup2:
                 print("\nhow much the {0} costs.".format(hai))
             elif awea2:
