@@ -41,7 +41,7 @@ while um==0:
     break
 
 additions=['plus','added','adds','add','gains','gained','gain','sum','produces','total','more','total?']
-subtractions=['spent','removed','removes','subtracted','minus','subtract','take','takes','subtracts','eats','loses','loose','paid','give']
+subtractions=['spent','removed','removes','subtracted','minus','subtract','take','takes','subtracts','eats','loses','loose','paid','give','gave']
 multiplications=['times','multiplied','multiplies']
 divisions=['split','divided','divides']
 
@@ -71,11 +71,8 @@ idunno='box'
 egypt='triangular pyramid'
 trueegypt='rectangular pyramid'
 longbox='rectangular prism'
-monet='dollar'
 
-jer='inch'
-jerr='feet'
-jerrr='meter'
+monet='dollar'
 
 jhfdh=problem.split()
 intbut=[x for x in jhfdh if x.isdigit()]
@@ -222,35 +219,50 @@ if amounti:
                     divionly=True
     
     if addonly:
-        if jeru>=1:
-            do=intbut[0]
-            dos=int(do)
-            total=dos
-        if jeru>=2:
-            tre=intbut[1]
-            tres=int(tre)
-            total+=tres
-            to1=True
-        if jeru>=3:
-            cuatr=intbut[2]
-            cuatro=int(cuatr)
-            total+=cuatro
         if jeru>3:
-            print("Too many")
+            print("Too many integers")
+            break
+        else:
+            if jeru>=1:
+                do=intbut[0]
+                dos=int(do)
+                total=dos
+            if jeru>=2:
+                tre=intbut[1]
+                tres=int(tre)
+                total+=tres
+                to1=True
+            if jeru>=3:
+                cuatr=intbut[2]
+                cuatro=int(cuatr)
+                total+=cuatro
+        
         
         if len_dec>=1:
-            juan=deci[0]
-            total+= deci
-        print(total)
+            un=deci[0]
+            uno=float(un)
+            total+= uno
+            
+        if len_dec>=2:
+            un=deci[0]
+            uno=float(un)
+            total+= uno
+        
+        if len_dec>=3:
+            un=deci[0]
+            uno=float(un)
+            total+= uno
+        else:
+            print("Too many")
+
+        print("There are: {0} {1}".format(total,hai))
 
     elif subonly:
-        for z in rangeinte:
-            j=inte_[z]
+
+
     elif multonly:
-        for z in rangeinte:
-            j=inte-[z]
+
     elif jeff!=list3:
-        for z in rangeinte:
-            j=inte-[z]
+
     else:
         print("Too complicated")
