@@ -18,7 +18,6 @@ folater=problem.count('$')
 problem_=''.join( c for c in problem if  c not in '$')
 
 deci=re.findall("\d+.\d+", problem_) #find decimals
-print(deci)
 len_dec=len(deci)
 dci=int(len_dec)
 rangedci=list(range(dci))
@@ -219,32 +218,28 @@ if num >0 and num <=10:
                 amounti=True
             elif mil in problem:
                 sattup6i=True
-                
-            list3= problem___.split()
             
             if amounti:
                 if intess>0:
-                    for y in rangeinte:
-                        int1= inte_[y]
-                        meh= problem.split()
-                        thingy= meh.index(int1)
-                        jeh=thingy+1
-                        waer=meh[jeh]
-                        print("\nthat there are {0} {1}".format(int1,waer))
+                    int1= inte_[x]
+                    meh= problem.split()
+                    thingy= meh.index(int1)
+                    jeh=thingy+1
+                    waer=meh[jeh]
+                    print("\nthat there are {0} {1}".format(int1,waer))
 
                 elif len_dec>0:
-                    for y in rangedci:
-                        dec1= deci[y]
-                        meh1= problem.split()
-                        thingy1= meh1.index(dec1)
-                        jeh1=thingy1+1
-                        waer1= meh1[jeh1]
-                        print("\nthat there are {0} {1}".format(dec1,waer1))
+                    dec1= deci[x]
+                    meh1= problem.split()
+                    thingy1= meh1.index(dec1)
+                    jeh1=thingy1+1
+                    waer1= meh1[jeh1]
+                    print("\nthat there are {0} {1}".format(dec1,waer1))
                         
                 else:
                     print("No numbers")
 
-print("The answer:")
+print("\nThe answer:")
 list3= problem.split()
 if amounti:
     j=[item for item in list3 if item not in additions]
@@ -283,35 +278,28 @@ if amounti:
             do=intbut[1]
             dos=int(do)
             total=dos
-            if jeru==1:
-                print("\nThere are:",total,hai)
         if jeru>=2:
             tre=intbut[0]
             tres=int(tre)
-            total1=total+tres
-            if jeru==2:
-                print("\nThere are:",total1,hai)
+            total+=tres
+            to1=True
         if jeru>=3:
             cuatr=intbut[2]
             cuatro=int(cuatr)
-            total2=total1+cuatro
-            if jeru==3:
-                print("\nThere are:",total2,hai)
+            total+=cuatro
         if jeru>=4:
             cinc=intbut[3]
             cinco=int(cinc)
-            total3=total2+cinco
-            if jeru==4:
-                print("\nThere are:",total3,hai)
+            total+=cinco
         if jeru==5:
             sei=intbut[4]
             seis=int(sei)
-            total4=total3+seis
-            print("\nThere are:",total4,hai)
-        elif jeru>5:
+            total4+=seis
+        if jeru>5:
             print("Too many")
+            
+        if 
 
-        
     elif subonly:
         for z in rangeinte:
             j=inte_[z]
