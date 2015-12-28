@@ -19,8 +19,8 @@ problem_=''.join( c for c in problem if  c not in '$')
 
 deci=re.findall("\d+.\d+", problem_) #find decimals
 len_dec=len(deci)
-dci=int(len_dec)
-rangedci=list(range(dci))
+dci=int(len_dec) #i dunno wat dis is for
+rangedci=list(range(dci)) #oh
 word_=problem_.split()
 list0 = [item for item in word_ if item not in deci] #DESTROY THE DECIMALS!
 
@@ -45,7 +45,7 @@ subtractions=['spent','removed','removes','subtracted','minus','subtract','take'
 multiplications=['times','multiplied','multiplies']
 divisions=['split','divided','divides']
 
-AA2='how much''
+AA2='how much'
 Baa='what is the area of the'
 bacch='what is the volume of the'
 new='how many'
@@ -121,24 +121,25 @@ if num >0 and num <=10:
 
         if questionhi==True:
             print("\n-Sentence {0} is asking...".format(x+1))
-            if sattup == True or if amount == True:
-                if jeru>0:
-                    for y in jujer:
-                        in1= intbut[y]
+            if sattup2 == True or amount == True:
+                if folater>0:
+                    hai='dollars'
+                else:
+                    if jeru>0:
+                        in1= intbut[0]
                         me= problem.split()
                         thing= me.index(in1)
                         je=thing+1
                         hai=me[je]
-                elif len_dec>0:
-                    for y in rangedci:
-                        de1= deci[y]
+                    elif len_dec>0:
+                        de1= deci[0]
                         me1= problem.split()
                         thing1= me1.index(de1)
                         je1=thing1+1
                         hai= me1[je1]
-                else:
-                    print("No numbers")
-                    break
+                    else:
+                        print("No numbers")
+                        break
                     
             if sattup2:
                 print("\nhow much the {0} costs.".format(hai))
@@ -168,7 +169,7 @@ if num >0 and num <=10:
             
             if amounti:
                 if intess>0:
-                    int1= inte_[x]
+                    int1= inte_[0]
                     meh= problem.split()
                     thingy= meh.index(int1)
                     jeh=thingy+1
@@ -176,7 +177,7 @@ if num >0 and num <=10:
                     print("\nthat there are {0} {1}".format(int1,waer))
 
                 elif len_dec>0:
-                    dec1= deci[x]
+                    dec1= deci[0]
                     meh1= problem.split()
                     thingy1= meh1.index(dec1)
                     jeh1=thingy1+1
@@ -234,18 +235,13 @@ if amounti:
             cuatr=intbut[2]
             cuatro=int(cuatr)
             total+=cuatro
-        if jeru>=4:
-            cinc=intbut[3]
-            cinco=int(cinc)
-            total+=cinco
-        if jeru==5:
-            sei=intbut[4]
-            seis=int(sei)
-            total+=seis
-        if jeru>5:
+        if jeru>3:
             print("Too many")
         
-        if 
+        if len_dec>=1:
+            juan=deci[0]
+            total+= deci
+        print(total)
 
     elif subonly:
         for z in rangeinte:
