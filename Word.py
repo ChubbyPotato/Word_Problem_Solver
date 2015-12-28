@@ -45,15 +45,10 @@ subtractions=['spent','removed','removes','subtracted','minus','subtract','take'
 multiplications=['times','multiplied','multiplies']
 divisions=['split','divided','divides']
 
-AA2='how much'
-AA5='how long was the'
+AA2='how much''
 Baa='what is the area of the'
 bacch='what is the volume of the'
-heght='what is the height of'
-mil='what is the length of'
-tallness='how tall'
 new='how many'
-werd='what is the width of'
 
 circ='circle'
 squ='square'
@@ -61,18 +56,9 @@ rekt='rectangle'
 tri='triangle'
 
 sattup2=False
-sattup5=False
-heigh=False
-heighe=False
 amount=False
-
-merican=False
-individual=True
-metric=False
-
 awea=False
 awea2=False
-awea0=False
 
 regg='regular'
 
@@ -117,30 +103,15 @@ if num >0 and num <=10:
                 if AA2 in problem:
                     questionhi=True
                     sattup2=True
-                elif AA5 in problem___:
-                    questionhi=True
-                    sattup5=True
                 elif Baa in problem___:
                     questionhi=True
                     awea2=True
                 elif bacch in problem___:
                     questionhi=True
                     awea=True
-                elif werd in problem___:
-                    questionhi=True
-                    widet=True
-                elif heght in problem___:
-                    heigh=True
-                    questionhi=True
-                elif tallness in problem___:
-                    heighe=True
-                    questionhi=True
                 elif new in problem___:
                     questionhi=True
                     amount=True
-                elif mil in problem___:
-                    questionhi=True
-                    sattup6=True
                 else:
                     questionhi=False
             else:
@@ -170,22 +141,10 @@ if num >0 and num <=10:
                         
             if sattup2:
                 print("\nhow much the {0} costs.".format(hai))
-            elif sattup5:
-                print("\nfor the length of the {0} is".format(hai))
-            elif awea0:
-                print("\nwhat the width of the {0} is".format(hai))
-            elif sattup6:
-                print("\nwhat the length of the {0} is".format(hai))
-            elif widet:
-                print("\nfor the width of the {0}".format(hai))
             elif awea2:
                 print("\nwhat the area of the {0} is".format(hai))
             elif awea:
                 print("\nfor the volume of the {0}".format(hai))
-            elif heigh:
-                print("\nfor the hieght of the {0}".format(hai))
-            elif heighe:
-                print("\nfor the hieght of the {0}".format(hai))
             elif amount:
                 print("\nfor the number of {0}".format(hai))
 
@@ -193,31 +152,18 @@ if num >0 and num <=10:
             print("\n-Sentence {0} is saying...".format(x+1))
                 
             sattup2i=False
-            sattup5i=False
-            heighi=False
-            heighei=False
             amounti=False
             aweai=False
             awea2i=False
                 
             if AA2 in problem:
                 sattup2i=True
-            elif AA5 in problem:
-                sattup5i=True
             elif Baa in problem:
                 awea2i=True
             elif bacch in problem:
                 aweai=True
-            elif werd in problem:
-                wideti=True
-            elif heght in problem:
-                heighi=True
-            elif tallness in problem:
-                heighei=True
             elif new in problem:
                 amounti=True
-            elif mil in problem:
-                sattup6i=True
             
             if amounti:
                 if intess>0:
