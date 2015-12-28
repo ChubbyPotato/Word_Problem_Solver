@@ -275,11 +275,11 @@ if amounti:
     
     if addonly:
         if jeru>=1:
-            do=intbut[1]
+            do=intbut[0]
             dos=int(do)
             total=dos
         if jeru>=2:
-            tre=intbut[0]
+            tre=intbut[1]
             tres=int(tre)
             total+=tres
             to1=True
@@ -294,10 +294,10 @@ if amounti:
         if jeru==5:
             sei=intbut[4]
             seis=int(sei)
-            total4+=seis
+            total+=seis
         if jeru>5:
             print("Too many")
-            
+        
         if 
 
     elif subonly:
