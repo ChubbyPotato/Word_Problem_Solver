@@ -233,25 +233,25 @@ if amounti:
                 uno=float(un)
                 total=uno
             if jeru>=2:
-                un=allist[1]
-                uno=float(un)
-                total=uno
+                do=allist[1]
+                dos=float(do)
+                total+=dos
             if jeru>=3:
-                un=allist[2]
-                uno=float(un)
-                total=uno
+                tre=allist[2]
+                tres=float(tre)
+                total+=tres
             if jeru>=4:
-                un=allist[3]
-                uno=float(un)
-                total=uno
+                cuatr=allist[3]
+                cuatro=float(cuatr)
+                total+=cuatro
             if jeru>=5:
                 un=allist[4]
                 uno=float(un)
-                total=uno
+                total+=uno
             if jeru==6:
                 un=allist[5]
                 uno=float(un)
-                total=uno
+                total+=uno
 
         print("There are: {0} {1}".format(total,hai))
 
