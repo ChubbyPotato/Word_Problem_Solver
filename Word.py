@@ -262,7 +262,7 @@ if amounti:
 
     elif multonly:
 
-    elif jeff!=list3:
+    elif divionly:
 
     else:
         print("Too complicated")
