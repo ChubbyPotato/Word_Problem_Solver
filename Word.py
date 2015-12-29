@@ -227,33 +227,91 @@ if amounti:
     if addonly:
         if check>4:
             print("Too many numbers!")
-            if jeru>=1:
+        else:
+            if check>=1:
                 un=allist[0]
                 uno=float(un)
                 total=uno
-            if jeru>=2:
+            if check>=2:
                 do=allist[1]
                 dos=float(do)
                 total+=dos
-            if jeru>=3:
+            if check>=3:
                 tre=allist[2]
                 tres=float(tre)
                 total+=tres
-            if jeru==4:
+            if check==4:
                 cuatr=allist[3]
                 cuatro=float(cuatr)
                 total+=cuatro
 
         print("There are: {0} {1}".format(total,hai))
-"""
+
     elif subonly:
-        print("whet")
+        if check>4:
+            print("Too many numbers!")
+            if check>=1:
+                un=allist[0]
+                uno=float(un)
+                total=uno
+            if check>=2:
+                do=allist[1]
+                dos=float(do)
+                total-=dos
+            if check>=3:
+                tre=allist[2]
+                tres=float(tre)
+                total-=tres
+            if check==4:
+                cuatr=allist[3]
+                cuatro=float(cuatr)
+                total-=cuatro
+
+        print("There are: {0} {1}".format(total,hai))
 
     elif multonly:
-        print("whet")
+        if check>4:
+            print("Too many numbers!")
+            if check>=1:
+                un=allist[0]
+                uno=float(un)
+                total=uno
+            if check>=2:
+                do=allist[1]
+                dos=float(do)
+                total=dos*total
+            if check>=3:
+                tre=allist[2]
+                tres=float(tre)
+                total=tres*total
+            if check==4:
+                cuatr=allist[3]
+                cuatro=float(cuatr)
+                total=cuatro*total
+
+        print("There are: {0} {1}".format(total,hai))
 
     elif divionly:
-        print("whet")
+        if check>4:
+            print("Too many numbers!")
+            if check>=1:
+                un=allist[0]
+                uno=float(un)
+                total=uno
+            if check>=2:
+                do=allist[1]
+                dos=float(do)
+                total=dos
+            if check>=3:
+                tre=allist[2]
+                tres=float(tre)
+                total=tres
+            if check==4:
+                cuatr=allist[3]
+                cuatro=float(cuatr)
+                total=cuatro
+
+        print("There are: {0} {1}".format(total,hai))
 
     else:
-        print("Too complicated")"""
+        print("Too complicated")
