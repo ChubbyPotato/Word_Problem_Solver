@@ -225,9 +225,8 @@ if amounti:
                     divionly=True
     
     if addonly:
-        if check>6:
-            print("Too many integers")
-        else:
+        if check>4:
+            print("Too many numbers!")
             if jeru>=1:
                 un=allist[0]
                 uno=float(un)
@@ -240,21 +239,13 @@ if amounti:
                 tre=allist[2]
                 tres=float(tre)
                 total+=tres
-            if jeru>=4:
+            if jeru==4:
                 cuatr=allist[3]
                 cuatro=float(cuatr)
                 total+=cuatro
-            if jeru>=5:
-                cinc=allist[4]
-                cinco=float(cinc)
-                total+=cinco
-            if jeru==6:
-                sei=allist[5]
-                seis=float(sei)
-                total+=seis
-"""
-        print("There are: {0} {1}".format(total,hai))
 
+        print("There are: {0} {1}".format(total,hai))
+"""
     elif subonly:
         print("whet")
 
