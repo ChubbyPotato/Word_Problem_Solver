@@ -193,6 +193,9 @@ if amounti:
     jeff=[item for item in list3 if item not in divisions]
     
     addonly=False
+    subonly=False
+    multonly=False
+    divionly=False
     
     if list3 != j:
         if list3==je:
