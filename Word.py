@@ -186,7 +186,8 @@ if num >0 and num <=10:
 
 print("\nThe answer:")
 list3= problem.split()
-if amounti:
+
+if amounti or sattup2:
     j=[item for item in list3 if item not in additions]
     je=[item for item in list3 if item not in subtractions]
     jef=[item for item in list3 if item not in multiplications]
@@ -207,7 +208,7 @@ if amounti:
                     addonly=True
                     
     if list3 != je:
-        if list3==je:
+        if list3==j:
             if list3==jef:
                 if list3 ==jeff:
                     subonly=True
