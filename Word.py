@@ -249,8 +249,8 @@ if amounti:
                 uno=float(un)
                 total+=uno
             if jeru==6:
-                un=allist[5]
-                uno=float(un)
+                sei=allist[5]
+                seis=float(sei)
                 total+=uno
 
         print("There are: {0} {1}".format(total,hai))
