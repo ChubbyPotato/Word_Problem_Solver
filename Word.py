@@ -185,8 +185,8 @@ if num >0 and num <=10:
                     print("No numbers")
 
 print("\nThe answer:")
-list3= problem.split()
 
+list3= problem.split()
 if amounti or sattup2:
     j=[item for item in list3 if item not in additions]
     je=[item for item in list3 if item not in subtractions]
@@ -251,28 +251,30 @@ if amounti or sattup2:
     elif subonly:
         if check>4:
             print("Too many numbers!")
+        else:
             if check>=1:
                 un=allist[0]
                 uno=float(un)
-                total=uno
+                total1=uno
             if check>=2:
                 do=allist[1]
                 dos=float(do)
-                total-=dos
+                total1-=dos
             if check>=3:
                 tre=allist[2]
                 tres=float(tre)
-                total-=tres
+                total1-=tres
             if check==4:
                 cuatr=allist[3]
                 cuatro=float(cuatr)
-                total-=cuatro
+                total1-=cuatro
 
-        print("There are: {0} {1}".format(total,hai))
+        print("There are: {0} {1}".format(total1,hai))
 
     elif multonly:
         if check>4:
             print("Too many numbers!")
+        else:
             if check>=1:
                 un=allist[0]
                 uno=float(un)
@@ -295,6 +297,7 @@ if amounti or sattup2:
     elif divionly:
         if check>4:
             print("Too many numbers!")
+        else:
             if check>=1:
                 un=allist[0]
                 uno=float(un)
@@ -316,3 +319,11 @@ if amounti or sattup2:
 
     else:
         print("Too complicated")
+
+elif awea:
+    
+
+elif awea2:
+    
+
+#FIN
