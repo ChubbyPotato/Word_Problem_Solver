@@ -245,14 +245,14 @@ if amounti:
                 cuatro=float(cuatr)
                 total+=cuatro
             if jeru>=5:
-                un=allist[4]
-                uno=float(un)
-                total+=uno
+                cinc=allist[4]
+                cinco=float(cinc)
+                total+=cinco
             if jeru==6:
                 sei=allist[5]
                 seis=float(sei)
-                total+=uno
-
+                total+=seis
+"""
         print("There are: {0} {1}".format(total,hai))
 
     elif subonly:
@@ -265,4 +265,4 @@ if amounti:
         print("whet")
 
     else:
-        print("Too complicated")
+        print("Too complicated")"""
