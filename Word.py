@@ -227,43 +227,42 @@ if amounti:
     if addonly:
         if check>6:
             print("Too many integers")
-            break
         else:
             if jeru>=1:
                 un=allist[0]
                 uno=float(un)
                 total=uno
-            if jeru>=1:
+            if jeru>=2:
                 un=allist[1]
                 uno=float(un)
                 total=uno
-            if jeru>=1:
+            if jeru>=3:
                 un=allist[2]
                 uno=float(un)
                 total=uno
-            if jeru>=1:
+            if jeru>=4:
                 un=allist[3]
                 uno=float(un)
                 total=uno
-            if jeru>=1:
+            if jeru>=5:
                 un=allist[4]
                 uno=float(un)
                 total=uno
-            if jeru>=1:
-                un=allist[0]
+            if jeru==6:
+                un=allist[5]
                 uno=float(un)
                 total=uno
 
         print("There are: {0} {1}".format(total,hai))
 
     elif subonly:
-        
+        print("whet")
 
     elif multonly:
-        
+        print("whet")
 
     elif divionly:
-        
+        print("whet")
 
     else:
         print("Too complicated")
