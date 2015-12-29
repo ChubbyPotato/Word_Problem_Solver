@@ -197,6 +197,9 @@ if amounti:
     multonly=False
     divionly=False
     
+    allist=intbut+deci
+    check=len(allist)
+    
     if list3 != j:
         if list3==je:
             if list3==jef:
@@ -222,41 +225,34 @@ if amounti:
                     divionly=True
     
     if addonly:
-        if jeru>3:
+        if check>6:
             print("Too many integers")
             break
         else:
             if jeru>=1:
-                do=intbut[0]
-                dos=int(do)
-                total=dos
-            if jeru>=2:
-                tre=intbut[1]
-                tres=int(tre)
-                total+=tres
-                to1=True
-            if jeru>=3:
-                cuatr=intbut[2]
-                cuatro=int(cuatr)
-                total+=cuatro
-        
-        if len_dec> 3:
-            print("Too many decimals")
-        else:
-            if len_dec>=1:
-                un=deci[0]
+                un=allist[0]
                 uno=float(un)
-                total+= uno
-                
-            if len_dec>=2:
-                un=deci[0]
+                total=uno
+            if jeru>=1:
+                un=allist[1]
                 uno=float(un)
-                total+= uno
-            
-            if len_dec>=3:
-                un=deci[0]
+                total=uno
+            if jeru>=1:
+                un=allist[2]
                 uno=float(un)
-                total+= uno
+                total=uno
+            if jeru>=1:
+                un=allist[3]
+                uno=float(un)
+                total=uno
+            if jeru>=1:
+                un=allist[4]
+                uno=float(un)
+                total=uno
+            if jeru>=1:
+                un=allist[0]
+                uno=float(un)
+                total=uno
 
         print("There are: {0} {1}".format(total,hai))
 
