@@ -240,32 +240,34 @@ if amounti:
                 cuatro=int(cuatr)
                 total+=cuatro
         
-        
-        if len_dec>=1:
-            un=deci[0]
-            uno=float(un)
-            total+= uno
-            
-        if len_dec>=2:
-            un=deci[0]
-            uno=float(un)
-            total+= uno
-        
-        if len_dec>=3:
-            un=deci[0]
-            uno=float(un)
-            total+= uno
+        if len_dec> 3:
+            print("Too many decimals")
         else:
-            print("Too many")
+            if len_dec>=1:
+                un=deci[0]
+                uno=float(un)
+                total+= uno
+                
+            if len_dec>=2:
+                un=deci[0]
+                uno=float(un)
+                total+= uno
+            
+            if len_dec>=3:
+                un=deci[0]
+                uno=float(un)
+                total+= uno
 
         print("There are: {0} {1}".format(total,hai))
 
     elif subonly:
-
+        
 
     elif multonly:
+        
 
     elif divionly:
+        
 
     else:
         print("Too complicated")
