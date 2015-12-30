@@ -164,7 +164,7 @@ if num >0 and num <=10:
             elif new in problem:
                 amounti=True
             
-            if amounti:
+            if amounti or sattup2i:
                 if intess>0:
                     int1= inte_[0]
                     meh= problem.split()
@@ -305,25 +305,25 @@ if amounti or sattup2:
             if check>=2:
                 do=allist[1]
                 dos=float(do)
-                total=dos
+                total=total/dos
             if check>=3:
                 tre=allist[2]
                 tres=float(tre)
-                total=tres
+                total=total/tres
             if check==4:
                 cuatr=allist[3]
                 cuatro=float(cuatr)
-                total=cuatro
+                total=total/cuatro
 
         print("There are: {0} {1}".format(total,hai))
 
     else:
         print("Too complicated")
 
-elif awea:
-    
+elif awea: #IST TEH VOLUME
+    print("The volume of the {0} is {1} units cubed")
 
-elif awea2:
-    
+elif awea2: #ESTA TEH TRU AWEA
+    print("The area of the {0} is {1} squared")
 
 #FIN
