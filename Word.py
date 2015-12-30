@@ -51,6 +51,7 @@ bacch='what is the volume of the'
 new='how many'
 
 circ='circle'
+pie='pie'
 squ='square'
 rekt='rectangle'
 tri='triangle'
@@ -141,9 +142,16 @@ if num >0 and num <=10:
             if sattup2:
                 print("\nhow much the {0} costs.".format(hai))
             elif awea2:
-                print("\nwhat the area of the {0} is".format(hai))
+                if circ in problem___:
+                    hai='circle'
+                elif pie in problem___:
+                    hai='circle'
+                elif rekt in problem___:
+                    hai='rectangle'
+                elif 
+                print("\nwhat the area of a {0} is".format(hai))
             elif awea:
-                print("\nfor the volume of the {0}".format(hai))
+                print("\nfor the volume of a {0}".format(hai))
             elif amount:
                 print("\nfor the number of {0}".format(hai))
 
@@ -183,6 +191,7 @@ if num >0 and num <=10:
                         
                 else:
                     print("No numbers")
+                    
 
 print("\nThe answer:")
 
