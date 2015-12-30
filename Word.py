@@ -40,7 +40,7 @@ while um==0:
     print("You forgot a period somewhere")
     break
 
-additions=['plus','added','adds','add','gains','gained','gain','sum','produces','total','more','total?']
+additions=['plus','added','adds','add','gains','gained','gain','sum','produces','total','more','total?','and','altogether']
 subtractions=['spent','removed','removes','subtracted','minus','subtract','take','takes','subtracts','eats','loses','loose','paid','give','gave']
 multiplications=['times','multiplied','multiplies']
 divisions=['split','divided','divides']
@@ -72,6 +72,7 @@ idunno='box'
 egypt='triangular pyramid'
 trueegypt='rectangular pyramid'
 longbox='rectangular prism'
+side='side'
 
 monet='dollar'
 
@@ -148,7 +149,8 @@ if num >0 and num <=10:
                     hai='circle'
                 elif rekt in problem___:
                     hai='rectangle'
-                elif 
+                elif tri in problem___:
+                    hai='triangle'
                 print("\nwhat the area of a {0} is".format(hai))
             elif awea:
                 print("\nfor the volume of a {0}".format(hai))
