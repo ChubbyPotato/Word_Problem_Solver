@@ -43,7 +43,7 @@ while um==0:
 additions=['plus','added','adds','add','gains','gained','gain','sum','produces','total','more','total?','and','altogether']
 subtractions=['spent','removed','removes','subtracted','minus','subtract','take','takes','subtracts','eats','loses','loose','paid','give','gave']
 multiplications=['times','multiplied','multiplies']
-divisions=['split','divided','divides']
+divisions=['split','divided','divides','splits']
 
 AA2='how much'
 Baa='what is the area of the'
@@ -151,11 +151,13 @@ if num >0 and num <=10:
                     hai='rectangle'
                 elif tri in problem___:
                     hai='triangle'
-                print("\nwhat the area of a {0} is".format(hai))
+                elif squ in problem___:
+                    hai='square'
+                print("\nfor the area of a {0}.".format(hai))
             elif awea:
-                print("\nfor the volume of a {0}".format(hai))
+                print("\nfor the volume of a {0}.".format(hai))
             elif amount:
-                print("\nfor the number of {0}".format(hai))
+                print("\nfor the number of {0}.".format(hai))
 
         else:
             print("\n-Sentence {0} is saying...".format(x+1))
@@ -193,12 +195,11 @@ if num >0 and num <=10:
                         
                 else:
                     print("No numbers")
-                    
 
 print("\nThe answer:")
 
 list3= problem.split()
-if amounti or sattup2:
+if amount==True or sattup2==True:
     j=[item for item in list3 if item not in additions]
     je=[item for item in list3 if item not in subtractions]
     jef=[item for item in list3 if item not in multiplications]
@@ -332,9 +333,16 @@ if amounti or sattup2:
         print("Too complicated")
 
 elif awea: #IST TEH VOLUME
-    print("The volume of the {0} is {1} units cubed")
+    if circl:
+        are=radiu*radiu*3.14
+    elif squar:
+        are=side*side
+    elif cylinde:
+        are=radiu*radiu*3.14*heightt
+        
+    print("The volume of the {0} is {1} units cubed".format(hai,are)
 
 elif awea2: #ESTA TEH TRU AWEA
-    print("The area of the {0} is {1} squared")
+    print("The area of the {0} is {1} units squared")
 
 #FIN
