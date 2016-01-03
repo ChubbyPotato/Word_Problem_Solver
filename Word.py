@@ -153,6 +153,8 @@ if num >0 and num <=10:
                     hai='triangle'
                 elif squ in problem___:
                     hai='square'
+                elif tri in problem___:
+                    hai='triangle'
                 print("\nfor the area of a {0}.".format(hai))
             elif awea:
                 print("\nfor the volume of a {0}.".format(hai))
@@ -198,12 +200,57 @@ if num >0 and num <=10:
 
 print("\nThe answer:")
 
+elsent1=sentences[0]
+elsent2=sentences[1]
+if num>=3:
+    elsent3=sentences[2]
+if num>=4:
+    elsent4=sentences[3]
+if num>=5:
+    elsent5=sentences[4]
+if num>=6:
+    elsent6=sentences[5]
+if num>=7:
+    elsent7=sentences[6]
+if num>=8:
+    elsent8=sentences[7]
+if num>=9:
+    elsent9=sentences[8]
+if num>=10:
+    elsent10=sentences[9]
+
 list3= problem.split()
+
 if amount==True or sattup2==True:
     j=[item for item in list3 if item not in additions]
     je=[item for item in list3 if item not in subtractions]
     jef=[item for item in list3 if item not in multiplications]
     jeff=[item for item in list3 if item not in divisions]
+    
+    j1=[item for item in list3 if item not in additions]
+    je1=[item for item in list3 if item not in subtractions]
+    jef1=[item for item in list3 if item not in multiplications]
+    jeff1=[item for item in list3 if item not in divisions]
+    
+    j2=[item for item in list3 if item not in additions]
+    je2=[item for item in list3 if item not in subtractions]
+    jef2=[item for item in list3 if item not in multiplications]
+    jeff2=[item for item in list3 if item not in divisions]
+    
+    j3=[item for item in list3 if item not in additions]
+    je3=[item for item in list3 if item not in subtractions]
+    jef3=[item for item in list3 if item not in multiplications]
+    jeff3=[item for item in list3 if item not in divisions]
+    
+    j4=[item for item in list3 if item not in additions]
+    je4=[item for item in list3 if item not in subtractions]
+    jef4=[item for item in list3 if item not in multiplications]
+    jeff4=[item for item in list3 if item not in divisions]
+    
+    j5=[item for item in list3 if item not in additions]
+    je5=[item for item in list3 if item not in subtractions]
+    jef5=[item for item in list3 if item not in multiplications]
+    jeff5=[item for item in list3 if item not in divisions]
     
     addonly=False
     subonly=False
@@ -218,24 +265,48 @@ if amount==True or sattup2==True:
             if list3==jef:
                 if list3 ==jeff:
                     addonly=True
+                """else:
+                    
+            else:
+                
+        else:
+            """
                     
     if list3 != je:
         if list3==j:
             if list3==jef:
                 if list3 ==jeff:
                     subonly=True
+                """else:
+                    
+            else:
+                
+        else:
+            """
     
     if list3 != jef:
         if list3==j:
             if list3==je:
                 if list3 ==jeff:
                     multonly=True
+                """else:
+                    
+            else:
+                
+        else:
+            """
     
     if list3 != jeff:
         if list3==j:
             if list3==je:
                 if list3 ==jef:
                     divionly=True
+                """else:
+                    
+            else:
+                
+        else:
+            """
     
     if addonly:
         if check>4:
@@ -335,12 +406,20 @@ if amount==True or sattup2==True:
 elif awea: #IST TEH VOLUME
     if circl:
         are=radiu*radiu*3.14
-    elif squar:
-        are=side*side
+    elif cubee:
+        are=side*side*side
     elif cylinde:
         are=radiu*radiu*3.14*heightt
-        
-    print("The volume of the {0} is {1} units cubed".format(hai,are)
+    elif prism:
+        if basee:
+            base=base
+        else:
+            if nsquare== True or nrekt==True:
+                base=l*w
+            elif ntri:
+                base=0.5*base*heightt
+
+    print("The volume of the {0} is {1} units cubed".format(hai,are))
 
 elif awea2: #ESTA TEH TRU AWEA
     print("The area of the {0} is {1} units squared")
