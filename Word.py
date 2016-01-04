@@ -201,24 +201,23 @@ if num >0 and num <=10:
 ####################################################
 print("\nThe answer:")
 ####################################################
-elsent1=sentences[0]
-elsent2=sentences[1]
+elsent1=sentences[1]
 if num>=3:
-    elsent3=sentences[2]
+    elsent2=sentences[2]
 if num>=4:
-    elsent4=sentences[3]
+    elsent3=sentences[3]
 if num>=5:
-    elsent5=sentences[4]
+    elsent4=sentences[4]
 if num>=6:
-    elsent6=sentences[5]
+    elsent5=sentences[5]
 if num>=7:
-    elsent7=sentences[6]
+    elsent6=sentences[6]
 if num>=8:
-    elsent8=sentences[7]
+    elsent7=sentences[7]
 if num>=9:
-    elsent9=sentences[8]
+    elsent8=sentences[8]
 if num>=10:
-    elsent10=sentences[9]
+    elsent9=sentences[9]
 ####################################################
 list3= problem.split()
 ####################################################
@@ -257,6 +256,22 @@ if amount==True or sattup2==True:
     subonly=False
     multonly=False
     divionly=False
+
+    addsub=False
+    addmult=False
+    adddivi=False
+
+    subadd=False
+    submult=False
+    subdivi=False
+    
+    multadd=False
+    multsub=False
+    multdivi=False
+    
+    diviadd=False
+    divisub=False
+    divimult=False
 ####################################################
     allist=intbut+deci
     check=len(allist)
@@ -267,9 +282,15 @@ if amount==True or sattup2==True:
                 if list3 ==jeff:
                     addonly=True
                 else:
-                    
+                    if elsent1 != je1:
+                        if elsent2 != jef2:
+                            adddivi=True
+                    else:
+                        diviadd=True
             else:
-                
+                if list3==Jeff:
+                    
+                else:
         else:
             
                     
@@ -398,7 +419,9 @@ if amount==True or sattup2==True:
                 cuatr=allist[3]
                 cuatro=float(cuatr)
                 total=total/cuatro
-
+    elif addsub==True or subadd==True:
+        un=allist[0]
+        uno=in
         print("There are: {0} {1}".format(total,hai))
 
     else:
