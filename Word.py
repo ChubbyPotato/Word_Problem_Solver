@@ -147,6 +147,7 @@ if num >0 and num <=10:
                     hai='circle'
                 elif pie in problem___:
                     hai='circle'
+                    print(True)
                 elif rekt in problem___:
                     hai='rectangle'
                 elif tri in problem___:
@@ -404,7 +405,8 @@ if amount==True or sattup2==True:
         print("Too complicated")
 
 elif awea: #IST TEH VOLUME
-    if circl:
+    print(hai)
+    if spheriical:
         are=4/3*3.14*radiu*radiu*radiu
     elif cubee:
         are=side*side*side
