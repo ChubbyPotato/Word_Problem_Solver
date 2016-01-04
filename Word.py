@@ -226,7 +226,7 @@ if amount==True or sattup2==True:
     je=[item for item in list3 if item not in subtractions]
     jef=[item for item in list3 if item not in multiplications]
     jeff=[item for item in list3 if item not in divisions]
-    
+################################################################
     j1=[item for item in list3 if item not in additions]
     je1=[item for item in list3 if item not in subtractions]
     jef1=[item for item in list3 if item not in multiplications]
@@ -251,7 +251,7 @@ if amount==True or sattup2==True:
     je5=[item for item in list3 if item not in subtractions]
     jef5=[item for item in list3 if item not in multiplications]
     jeff5=[item for item in list3 if item not in divisions]
-    
+################################################################
     addonly=False
     subonly=False
     multonly=False
@@ -405,7 +405,7 @@ if amount==True or sattup2==True:
 
 elif awea: #IST TEH VOLUME
     if circl:
-        are=radiu*radiu*3.14
+        are=4/3*3.14*radiu*radiu*radiu
     elif cubee:
         are=side*side*side
     elif cylinde:
