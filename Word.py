@@ -228,30 +228,30 @@ if amount==True or sattup2==True:
     jef=[item for item in list3 if item not in multiplications]
     jeff=[item for item in list3 if item not in divisions]
 ####################################################
-    j1=[item for item in list3 if item not in additions]
-    je1=[item for item in list3 if item not in subtractions]
-    jef1=[item for item in list3 if item not in multiplications]
-    jeff1=[item for item in list3 if item not in divisions]
+    j1=[item for item in elsent1 if item not in additions]
+    je1=[item for item in elsent1 if item not in subtractions]
+    jef1=[item for item in elsent1 if item not in multiplications]
+    jeff1=[item for item in elsent1 if item not in divisions]
     
-    j2=[item for item in list3 if item not in additions]
-    je2=[item for item in list3 if item not in subtractions]
-    jef2=[item for item in list3 if item not in multiplications]
-    jeff2=[item for item in list3 if item not in divisions]
+    j2=[item for item in elsent2 if item not in additions]
+    je2=[item for item in elsent2 if item not in subtractions]
+    jef2=[item for item in elsent2 if item not in multiplications]
+    jeff2=[item for item in elsent2 if item not in divisions]
     
-    j3=[item for item in list3 if item not in additions]
-    je3=[item for item in list3 if item not in subtractions]
-    jef3=[item for item in list3 if item not in multiplications]
-    jeff3=[item for item in list3 if item not in divisions]
+    j3=[item for item in elsent3 if item not in additions]
+    je3=[item for item in elsent3 if item not in subtractions]
+    jef3=[item for item in elsent3 if item not in multiplications]
+    jeff3=[item for item in elsent3 if item not in divisions]
     
-    j4=[item for item in list3 if item not in additions]
-    je4=[item for item in list3 if item not in subtractions]
-    jef4=[item for item in list3 if item not in multiplications]
-    jeff4=[item for item in list3 if item not in divisions]
+    j4=[item for item in elsent4 if item not in additions]
+    je4=[item for item in elsent4 if item not in subtractions]
+    jef4=[item for item in elsent4 if item not in multiplications]
+    jeff4=[item for item in elsent4 if item not in divisions]
     
-    j5=[item for item in list3 if item not in additions]
-    je5=[item for item in list3 if item not in subtractions]
-    jef5=[item for item in list3 if item not in multiplications]
-    jeff5=[item for item in list3 if item not in divisions]
+    j5=[item for item in elsent5 if item not in additions]
+    je5=[item for item in elsent5 if item not in subtractions]
+    jef5=[item for item in elsent5 if item not in multiplications]
+    jeff5=[item for item in elsent5 if item not in divisions]
 ####################################################
     addonly=False
     subonly=False
@@ -266,48 +266,48 @@ if amount==True or sattup2==True:
             if list3==jef:
                 if list3 ==jeff:
                     addonly=True
-                """else:
+                else:
                     
             else:
                 
         else:
-            """
+            
                     
     if list3 != je:
         if list3==j:
             if list3==jef:
                 if list3 ==jeff:
                     subonly=True
-                """else:
+                else:
                     
             else:
                 
         else:
-            """
+            
     
     if list3 != jef:
         if list3==j:
             if list3==je:
                 if list3 ==jeff:
                     multonly=True
-                """else:
+                else:
                     
             else:
                 
         else:
-            """
+            
     
     if list3 != jeff:
         if list3==j:
             if list3==je:
                 if list3 ==jef:
                     divionly=True
-                """else:
+                else:
                     
             else:
                 
         else:
-            """
+            
 ####################################################
     if addonly:
         if check>4:
