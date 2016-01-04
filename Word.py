@@ -39,30 +39,30 @@ while num > 10:
 while um==0:
     print("You forgot a period somewhere")
     break
-
+####################################################
 additions=['plus','added','adds','add','gains','gained','gain','sum','produces','total','more','total?','and','altogether']
 subtractions=['spent','removed','removes','subtracted','minus','subtract','take','takes','subtracts','eats','loses','loose','paid','give','gave']
 multiplications=['times','multiplied','multiplies']
 divisions=['split','divided','divides','splits']
-
+####################################################
 AA2='how much'
 Baa='what is the area of the'
 bacch='what is the volume of the'
 new='how many'
-
+####################################################
 circ='circle'
 pie='pie'
 squ='square'
 rekt='rectangle'
 tri='triangle'
-
+####################################################
 sattup2=False
 amount=False
 awea=False
 awea2=False
-
+####################################################
 regg='regular'
-
+####################################################
 bade='base'
 spher='sphere'
 radii='radius'
@@ -73,9 +73,9 @@ egypt='triangular pyramid'
 trueegypt='rectangular pyramid'
 longbox='rectangular prism'
 side='side'
-
+####################################################
 monet='dollar'
-
+####################################################
 jhfdh=problem.split()
 intbut=[x for x in jhfdh if x.isdigit()]
 jeru=len(intbut)
@@ -164,12 +164,12 @@ if num >0 and num <=10:
 
         else:
             print("\n-Sentence {0} is saying...".format(x+1))
-                
+            #################################################### 
             sattup2i=False
             amounti=False
             aweai=False
             awea2i=False
-                
+            ####################################################
             if AA2 in problem:
                 sattup2i=True
             elif Baa in problem:
@@ -198,9 +198,9 @@ if num >0 and num <=10:
                         
                 else:
                     print("No numbers")
-
+####################################################
 print("\nThe answer:")
-
+####################################################
 elsent1=sentences[0]
 elsent2=sentences[1]
 if num>=3:
@@ -219,15 +219,15 @@ if num>=9:
     elsent9=sentences[8]
 if num>=10:
     elsent10=sentences[9]
-
+####################################################
 list3= problem.split()
-
+####################################################
 if amount==True or sattup2==True:
     j=[item for item in list3 if item not in additions]
     je=[item for item in list3 if item not in subtractions]
     jef=[item for item in list3 if item not in multiplications]
     jeff=[item for item in list3 if item not in divisions]
-################################################################
+####################################################
     j1=[item for item in list3 if item not in additions]
     je1=[item for item in list3 if item not in subtractions]
     jef1=[item for item in list3 if item not in multiplications]
@@ -252,15 +252,15 @@ if amount==True or sattup2==True:
     je5=[item for item in list3 if item not in subtractions]
     jef5=[item for item in list3 if item not in multiplications]
     jeff5=[item for item in list3 if item not in divisions]
-################################################################
+####################################################
     addonly=False
     subonly=False
     multonly=False
     divionly=False
-    
+####################################################
     allist=intbut+deci
     check=len(allist)
-    
+####################################################
     if list3 != j:
         if list3==je:
             if list3==jef:
@@ -308,7 +308,7 @@ if amount==True or sattup2==True:
                 
         else:
             """
-    
+####################################################
     if addonly:
         if check>4:
             print("Too many numbers!")
@@ -403,7 +403,7 @@ if amount==True or sattup2==True:
 
     else:
         print("Too complicated")
-
+####################################################
 elif awea: #IST TEH VOLUME
     print(hai)
     if spheriical:
@@ -422,8 +422,8 @@ elif awea: #IST TEH VOLUME
                 base=0.5*base*heightt
 
     print("The volume of the {0} is {1} units cubed".format(hai,are))
-
+####################################################
 elif awea2: #ESTA TEH TRU AWEA
     print("The area of the {0} is {1} units squared")
-
+####################################################
 #FIN
