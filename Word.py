@@ -225,16 +225,17 @@ if amount==True or sattup2==True:
     jef=[item for item in list3 if item not in multiplications]
     jeff=[item for item in list3 if item not in divisions]
 ####################################################
+
     j1=[item for item in elsent1 if item not in additions]
     je1=[item for item in elsent1 if item not in subtractions]
     jef1=[item for item in elsent1 if item not in multiplications]
     jeff1=[item for item in elsent1 if item not in divisions]
-    
-    j2=[item for item in elsent2 if item not in additions]
-    je2=[item for item in elsent2 if item not in subtractions]
-    jef2=[item for item in elsent2 if item not in multiplications]
-    jeff2=[item for item in elsent2 if item not in divisions]
-####################################################
+    if num>=3:
+        j2=[item for item in elsent2 if item not in additions]
+        je2=[item for item in elsent2 if item not in subtractions]
+        jef2=[item for item in elsent2 if item not in multiplications]
+        jeff2=[item for item in elsent2 if item not in divisions]
+    if num>=4:
     j3=[item for item in elsent3 if item not in additions]
     je3=[item for item in elsent3 if item not in subtractions]
     jef3=[item for item in elsent3 if item not in multiplications]
@@ -385,7 +386,7 @@ if amount==True or sattup2==True:
                 cuatr=allist[3]
                 cuatro=float(cuatr)
                 total=total/cuatro
-
+    if 
     else:
         print("Too complicated")
 ####################################################
