@@ -1,47 +1,45 @@
 """
 Name-Suhan Gui
 Credit-Stack Overflow, Alexandru Munteanu
-
 """
 import math
 import re
-
+####################################################
 shhh=input("What is your mathematical word problem? (Spelling, grammar, and punctuation count!!)\n\nYour problem: ")
 problem=shhh.lower()
-
+####################################################
 donfail=problem.count('?')
 while donfail==0:
     print("You forgot a question mark")
     break
-
+####################################################
 folater=problem.count('$')
 problem_=''.join( c for c in problem if  c not in '$')
-
+####################################################
 deci=re.findall("\d+.\d+", problem_) #find decimals
 len_dec=len(deci)
 dci=int(len_dec) #i dunno wat dis is for
 rangedci=list(range(dci)) #oh
 word_=problem_.split()
 list0 = [item for item in word_ if item not in deci] #DESTROY THE DECIMALS!
-
+####################################################
 problem__=" ".join(list0)
-
+####################################################
 sentences = re.split(' *[\.\?!][\'"\)\]]* *', problem__) #split into sentences!
-
+####################################################
 um=len(sentences)
 num=um-1
 sentrange=list(range(0,num))
-
+####################################################
 while num > 10:
     print("\nWord problem too long!")
     break
-
 while um==0:
     print("You forgot a period somewhere")
     break
 ####################################################
 additions=['plus','added','adds','add','gains','gained','gain','sum','produces','total','more','total?','and','altogether']
-subtractions=['spent','removed','removes','subtracted','minus','subtract','take','takes','subtracts','eats','loses','loose','paid','give','gave']
+subtractions=['spent','removed','removes','subtracted','minus','subtract','take','takes','subtracts','eats','loses','loose','paid','give','gave','spends']
 multiplications=['times','multiplied','multiplies']
 divisions=['split','divided','divides','splits']
 ####################################################
@@ -80,13 +78,13 @@ jhfdh=problem.split()
 intbut=[x for x in jhfdh if x.isdigit()]
 jeru=len(intbut)
 jujer=list(range(jeru))
-
+####################################################
 if num >0 and num <=10:
     print("\nOk. Lets split your problem into statements:")
     for x in sentrange:
         wordd=sentences[x].split()
         inte_=[x for x in wordd if x.isdigit()]
-
+####################################################
         num_of_ints=len(inte_)
         rangeinte=list(range(0,num_of_ints))
         intess=int(num_of_ints)
@@ -95,7 +93,7 @@ if num >0 and num <=10:
                 list2 = [item for item in wordd if item not in inte_] #DESTROY THE INTEGERS!
         else:
             list2=wordd
-
+####################################################
         problem___=" ".join(list2)#ESTA UN PROBLEMA?
         if intess<1 or dci < 1:
             if donfail>=1:
@@ -117,7 +115,7 @@ if num >0 and num <=10:
                 questionhi=False
         else:
             questionhi=False #NAH
-
+####################################################
         if questionhi==True:
             print("\n-Sentence {0} is asking...".format(x+1))
             if sattup2 == True or amount == True:
@@ -139,7 +137,7 @@ if num >0 and num <=10:
                     else:
                         print("No numbers")
                         break
-                    
+####################################################
             if sattup2:
                 print("\nhow much the {0} costs.".format(hai))
             elif awea2:
@@ -231,25 +229,26 @@ if amount==True or sattup2==True:
     jef1=[item for item in elsent1 if item not in multiplications]
     jeff1=[item for item in elsent1 if item not in divisions]
     if num>=3:
+        print(True)
         j2=[item for item in elsent2 if item not in additions]
         je2=[item for item in elsent2 if item not in subtractions]
         jef2=[item for item in elsent2 if item not in multiplications]
         jeff2=[item for item in elsent2 if item not in divisions]
     if num>=4:
-    j3=[item for item in elsent3 if item not in additions]
-    je3=[item for item in elsent3 if item not in subtractions]
-    jef3=[item for item in elsent3 if item not in multiplications]
-    jeff3=[item for item in elsent3 if item not in divisions]
-####################################################
-    j4=[item for item in elsent4 if item not in additions]
-    je4=[item for item in elsent4 if item not in subtractions]
-    jef4=[item for item in elsent4 if item not in multiplications]
-    jeff4=[item for item in elsent4 if item not in divisions]
-####################################################
-    j5=[item for item in elsent5 if item not in additions]
-    je5=[item for item in elsent5 if item not in subtractions]
-    jef5=[item for item in elsent5 if item not in multiplications]
-    jeff5=[item for item in elsent5 if item not in divisions]
+        j3=[item for item in elsent3 if item not in additions]
+        je3=[item for item in elsent3 if item not in subtractions]
+        jef3=[item for item in elsent3 if item not in multiplications]
+        jeff3=[item for item in elsent3 if item not in divisions]
+    if num>=5:
+        j4=[item for item in elsent4 if item not in additions]
+        je4=[item for item in elsent4 if item not in subtractions]
+        jef4=[item for item in elsent4 if item not in multiplications]
+        jeff4=[item for item in elsent4 if item not in divisions]
+    if num>=6:
+        j5=[item for item in elsent5 if item not in additions]
+        je5=[item for item in elsent5 if item not in subtractions]
+        jef5=[item for item in elsent5 if item not in multiplications]
+        jeff5=[item for item in elsent5 if item not in divisions]
 ####################################################
     addonly=False
     subonly=False
@@ -317,9 +316,7 @@ if amount==True or sattup2==True:
                 cuatr=allist[3]
                 cuatro=float(cuatr)
                 total+=cuatro
-
         print("There are: {0} {1}".format(total,hai))
-
     elif subonly:
         if check>4:
             print("Too many numbers!")
@@ -340,9 +337,7 @@ if amount==True or sattup2==True:
                 cuatr=allist[3]
                 cuatro=float(cuatr)
                 total1-=cuatro
-
         print("There are: {0} {1}".format(total1,hai))
-
     elif multonly:
         if check>4:
             print("Too many numbers!")
@@ -363,9 +358,7 @@ if amount==True or sattup2==True:
                 cuatr=allist[3]
                 cuatro=float(cuatr)
                 total=cuatro*total
-
         print("There are: {0} {1}".format(total,hai))
-
     elif divionly:
         if check>4:
             print("Too many numbers!")
@@ -386,7 +379,6 @@ if amount==True or sattup2==True:
                 cuatr=allist[3]
                 cuatro=float(cuatr)
                 total=total/cuatro
-    if 
     else:
         print("Too complicated")
 ####################################################
