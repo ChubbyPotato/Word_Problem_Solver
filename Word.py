@@ -229,13 +229,11 @@ if amount==True or sattup2==True:
     jef1=[item for item in elsent1 if item not in multiplications]
     jeff1=[item for item in elsent1 if item not in divisions]
     if num>=3:
-        print(True)
         j2=[item for item in elsent2 if item not in additions]
         je2=[item for item in elsent2 if item not in subtractions]
         jef2=[item for item in elsent2 if item not in multiplications]
         jeff2=[item for item in elsent2 if item not in divisions]
     if num>=4:
-        print(False)
         j3=[item for item in elsent3 if item not in additions]
         je3=[item for item in elsent3 if item not in subtractions]
         jef3=[item for item in elsent3 if item not in multiplications]
