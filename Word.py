@@ -385,10 +385,6 @@ if amount==True or sattup2==True:
                 cuatr=allist[3]
                 cuatro=float(cuatr)
                 total=total/cuatro
-    elif addsub==True or subadd==True:
-        un=allist[0]
-        uno=in
-        print("There are: {0} {1}".format(total,hai))
 
     else:
         print("Too complicated")
