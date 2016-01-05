@@ -44,14 +44,10 @@ multiplications=['times','multiplied','multiplies']
 divisions=['split','divided','divides','splits']
 ####################################################
 AA2='how much'
-Baa='what is the area of the'
-bacch='what is the volume of the'
 new='how many'
 ####################################################
 sattup2=False
 amount=False
-awea=False
-awea2=False
 ####################################################
 monet='dollar'
 ####################################################
@@ -81,12 +77,6 @@ if num >0 and num <=10:
                 if AA2 in problem:
                     questionhi=True
                     sattup2=True
-                elif Baa in problem___:
-                    questionhi=True
-                    awea2=True
-                elif bacch in problem___:
-                    questionhi=True
-                    awea=True
                 elif new in problem___:
                     questionhi=True
                     amount=True
@@ -121,23 +111,6 @@ if num >0 and num <=10:
 ####################################################
             if sattup2:
                 print("\nhow much the {0} costs.".format(hai))
-            elif awea2:
-                if circ in problem___:
-                    hai='circle'
-                elif pie in problem___:
-                    hai='circle'
-                    print(True)
-                elif rekt in problem___:
-                    hai='rectangle'
-                elif tri in problem___:
-                    hai='triangle'
-                elif squ in problem___:
-                    hai='square'
-                elif tri in problem___:
-                    hai='triangle'
-                print("\nfor the area of a {0}.".format(hai))
-            elif awea:
-                print("\nfor the volume of a {0}.".format(hai))
             elif amount:
                 print("\nfor the number of {0}.".format(hai))
 
