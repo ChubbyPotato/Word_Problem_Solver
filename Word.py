@@ -48,29 +48,10 @@ Baa='what is the area of the'
 bacch='what is the volume of the'
 new='how many'
 ####################################################
-circ='circle'
-pie='pie'
-squ='square'
-rekt='rectangle'
-tri='triangle'
-####################################################
 sattup2=False
 amount=False
 awea=False
 awea2=False
-####################################################
-regg='regular'
-####################################################
-bade='base'
-spher='sphere'
-radii='radius'
-spheer='ball'
-cuba='cube'
-idunno='box'
-egypt='triangular pyramid'
-trueegypt='rectangular pyramid'
-longbox='rectangular prism'
-side='side'
 ####################################################
 monet='dollar'
 ####################################################
@@ -380,27 +361,5 @@ if amount==True or sattup2==True:
                 total=total/cuatro
     else:
         print("Too complicated")
-####################################################
-elif awea: #IST TEH VOLUME
-    print(hai)
-    if spheriical:
-        are=4/3*3.14*radiu*radiu*radiu
-    elif cubee:
-        are=side*side*side
-    elif cylinde:
-        are=radiu*radiu*3.14*heightt
-    elif prism:
-        if basee:
-            base=base
-        else:
-            if nsquare== True or nrekt==True:
-                base=l*w
-            elif ntri:
-                base=0.5*base*heightt
-
-    print("The volume of the {0} is {1} units cubed".format(hai,are))
-####################################################
-elif awea2: #ESTA TEH TRU AWEA
-    print("The area of the {0} is {1} units squared")
 ####################################################
 #FIN
