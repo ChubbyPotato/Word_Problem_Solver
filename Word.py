@@ -115,8 +115,8 @@ if num >0 and num <=10:
                 print("\nfor the number of {0}.".format(hai))
 
         else:
-            print("\n-Sentence {0} is saying...".format(x+1))
-#################################################### 
+            print("\n-Sentence {0} is saying...".format(x+1)) #wat is up wit dis
+####################################################
             sattup2i=False
             amounti=False
 ####################################################
@@ -326,11 +326,12 @@ if amount==True or sattup2==True:
                 cuatr=allist[3]
                 cuatro=float(cuatr)
                 total=total/cuatro
+                """
     elif je1!=elsent1:
         uno=float(allist[0])
         dos=float(allist[1])
         total=uno+dos
-        print("There are: {0} {1}".format(total,
+    elif """
     else:
         print("Too complicated")
 ####################################################
