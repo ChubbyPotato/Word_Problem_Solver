@@ -330,7 +330,7 @@ if amount==True or sattup2==True:
                 total=total/tres
             if check==4:
                 cuatr=allist[3]
-                cuatro=float(cuatr)+
+                cuatro=float(cuatr)
                 total=total/cuatro
     else:
         print("Too complicated")
