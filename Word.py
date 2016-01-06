@@ -2,7 +2,7 @@
 Name-Suhan Gui
 Credit-Stack Overflow, Alexandru Munteanu
 I have 15 cookies. Bob has 45 cookies. How many cookies are there in total?
-
+I have 45 coins. I split it amongst 5 people. How many coins are there?
 """
 import math
 import re
