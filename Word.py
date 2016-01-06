@@ -119,15 +119,9 @@ if num >0 and num <=10:
 #################################################### 
             sattup2i=False
             amounti=False
-            aweai=False
-            awea2i=False
 ####################################################
             if AA2 in problem:
                 sattup2i=True
-            elif Baa in problem:
-                awea2i=True
-            elif bacch in problem:
-                aweai=True
             elif new in problem:
                 amounti=True
 ####################################################
@@ -332,6 +326,11 @@ if amount==True or sattup2==True:
                 cuatr=allist[3]
                 cuatro=float(cuatr)
                 total=total/cuatro
+    elif je1!=elsent1:
+        uno=float(allist[0])
+        dos=float(allist[1])
+        total=uno+dos
+        print("There are: {0} {1}".format(total,
     else:
         print("Too complicated")
 ####################################################
