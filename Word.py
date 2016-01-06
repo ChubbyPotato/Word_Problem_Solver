@@ -1,6 +1,8 @@
 """
 Name-Suhan Gui
 Credit-Stack Overflow, Alexandru Munteanu
+I have 15 cookies. Bob has 45 cookies. How many cookies are there in total?
+
 """
 import math
 import re
@@ -326,6 +328,7 @@ if amount==True or sattup2==True:
                 cuatr=allist[3]
                 cuatro=float(cuatr)
                 total=total/cuatro
+            print("There are: {0} {1}".format(total,hai))
                 """
     elif je1!=elsent1:
         uno=float(allist[0])
