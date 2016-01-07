@@ -1,8 +1,10 @@
 """
 Name-Suhan Gui
 Credit-Stack Overflow, Alexandru Munteanu
+
 I have 15 cookies. Bob has 45 cookies. How many cookies are there in total?
 I have 45 coins. I split it amongst 5 people. How many coins are there?
+I have 5 cows. I get 97 more cows. How many cows are there?
 """
 import math
 import re
@@ -329,12 +331,6 @@ if amount==True or sattup2==True:
                 cuatro=float(cuatr)
                 total=total/cuatro
             print("There are: {0} {1}".format(total,hai))
-                """
-    elif je1!=elsent1:
-        uno=float(allist[0])
-        dos=float(allist[1])
-        total=uno+dos
-    elif """
     else:
         print("Too complicated")
 ####################################################
